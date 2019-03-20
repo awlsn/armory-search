@@ -46,15 +46,11 @@ class App extends Component {
     }
 
     function wildcardToRegExp(s) {
-      let re = new RegExp('^' + s.split(/\*+/).map(regExpEscape).join('.*') + '$');
+      s = s.replace(/[|\\{}()[\]^$+*?.]/g, '\\$&');
+      let re = new RegExp('^' + s.split(/\*+/).map(s).join('.*') + '$');
       //console.log(re);
       return re;
     }
-
-    function regExpEscape(s) {
-      return s.replace(/[|\\{}()[\]^$+*?.]/g, '\\$&');
-    }
-
 
     return (
       <div className="App">
