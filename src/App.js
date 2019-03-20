@@ -1,28 +1,79 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+
   render() {
+    let uniqueItems, foundUniqueItems = {};
+    let setItems, foundSetItems = {};
+    let runewordItems, foundRunewordItems = {};
+
+    fetch(`/json/uniqueItems.json`)
+      .then(blob => blob.json())
+      .then(data => uniqueItems = data);
+
+    fetch(`/json/sets.json`)
+      .then(blob => blob.json())
+      .then(data => setItems = data);
+
+    fetch(`/json/runewords.json`)
+      .then(blob => blob.json())
+      .then(data => runewordItems = data);
+
+    let doSearch = function (e) {
+      e.preventDefault();
+
+      let text = document.getElementById("searchText").value
+      //console.log(setItems);
+      //console.log(e.currentTarget);
+      findItems(uniqueItems, text)
+      //findItems(setItems, text)
+      findItems(runewordItems, text)
+    }
+
+    let findItems = function (jsonData, searchText) {
+
+      //split text and for each textPart check if the current item prop 
+
+      searchText = searchText.toLowerCase();
+
+      let result = jsonData.filter(item => item.props.some(prop => {
+        let itemMod = prop[1].toLowerCase();
+        return wildcardToRegExp(searchText).test(itemMod)
+      }));
+
+      console.log(result);
+    }
+
+    function wildcardToRegExp(s) {
+      let re = new RegExp('^' + s.split(/\*+/).map(regExpEscape).join('.*') + '$');
+      //console.log(re);
+      return re;
+    }
+
+    function regExpEscape(s) {
+      return s.replace(/[|\\{}()[\]^$+*?.]/g, '\\$&');
+    }
+
+
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+
+        <div>
+          <p />
+          <input id="searchText" type="text"></input><button type="submit" onClick={doSearch}>Search</button>
+        </div>
+        <ul><Item /></ul>
+
       </div>
     );
   }
 }
 
 export default App;
+
+class Item extends Component {
+  render() {
+    return <p>Item</p>
+  }
+}
