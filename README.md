@@ -1,3 +1,12 @@
+# armoury-search
+
+This is a flexible search for the Diablo 2 mod Resurgence's Armoury pages. You can search through all item types using * characters as wildcards.
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
