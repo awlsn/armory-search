@@ -1,12 +1,19 @@
 import React, { Component } from 'react';
-import './App.css';
+import Unique from './itemTypes/Unique';
+//import './App.css';
+
 
 class App extends Component {
+  state = {
+    foundUniqueItems: {},
+    foundRunewordItems: {}
+  };
 
   render() {
-    let uniqueItems, foundUniqueItems = {};
+    let uniqueItems = {};
     let setItems, foundSetItems = {};
-    let runewordItems, foundRunewordItems = {};
+    let runewordItems;
+    //let { foundUniqueItems } = this.state
 
     fetch(`/json/uniqueItems.json`)
       .then(blob => blob.json())
@@ -20,21 +27,18 @@ class App extends Component {
       .then(blob => blob.json())
       .then(data => runewordItems = data);
 
-    let doSearch = function (e) {
+
+    let doSearch = (e) => {
       e.preventDefault();
 
-      let text = document.getElementById("searchText").value
-      //console.log(setItems);
-      //console.log(e.currentTarget);
-      findItems(uniqueItems, text)
-      //findItems(setItems, text)
-      findItems(runewordItems, text)
+      let text = document.getElementById("searchText").value;
+      //foundUniqueItems = findItems(uniqueItems, text);
+      this.setState((state, props) => ({ foundUniqueItems: findItems(uniqueItems, text) }));
+      //console.log(foundUniqueItems)
+      this.setState((state, props) => ({ foundRunewordItems: findItems(runewordItems, text) }));
     }
 
-    let findItems = function (jsonData, searchText) {
-
-      //split text and for each textPart check if the current item prop 
-
+    function findItems(jsonData, searchText) {
       searchText = searchText.toLowerCase();
 
       let result = jsonData.filter(item => item.props.some(prop => {
@@ -42,34 +46,60 @@ class App extends Component {
         return wildcardToRegExp(searchText).test(itemMod)
       }));
 
-      console.log(result);
+      return result;
     }
 
+    /**
+  * Creates a RegExp from the given string, converting asterisks to .* expressions,
+  * and escaping all other characters.
+  */
     function wildcardToRegExp(s) {
-      s = s.replace(/[|\\{}()[\]^$+*?.]/g, '\\$&');
-      let re = new RegExp('^' + s.split(/\*+/).map(s).join('.*') + '$');
-      //console.log(re);
-      return re;
+      return new RegExp('^' + s.split(/\*+/).map(regExpEscape).join('.*') + '$');
     }
+
+    /**
+     * RegExp-escapes all characters in the given string.
+     */
+    function regExpEscape(s) {
+      return s.replace(/[|\\{}()[\]^$+*?.]/g, '\\$&');
+    }
+
+
+
+
 
     return (
       <div className="App">
 
         <div>
           <p />
-          <input id="searchText" type="text"></input><button type="submit" onClick={doSearch}>Search</button>
+          <form onSubmit={doSearch}>
+
+            <input id="searchText" type="text"></input>
+            <button type="submit">Search</button>
+
+          </form>
+          <ItemList items={this.state.foundUniqueItems} />
         </div>
-        <ul><Item /></ul>
+
 
       </div>
     );
   }
 }
 
+
+
+function ItemList(props) {
+
+  const { items } = props;
+
+  if (items.length > 0) {
+    return items.map((item) => <Unique item={item} />)
+  } else {
+    return <p>Search to find items.</p>
+  }
+
+}
 export default App;
 
-class Item extends Component {
-  render() {
-    return <p>Item</p>
-  }
-}
