@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Unique from './itemTypes/Unique';
+import Runeword from './itemTypes/Runeword';
 //import './App.css';
 
 
@@ -79,7 +80,11 @@ class App extends Component {
             <button type="submit">Search</button>
 
           </form>
-          <ItemList items={this.state.foundUniqueItems} />
+          <h2>Runewords</h2>
+          <ItemList items={this.state.foundRunewordItems} itemType="Runeword" />
+          <h2>Uniques</h2>
+          <ItemList items={this.state.foundUniqueItems} itemType="Unique" />
+
         </div>
 
 
@@ -92,10 +97,18 @@ class App extends Component {
 
 function ItemList(props) {
 
-  const { items } = props;
+  const { items, itemType } = props;
 
   if (items.length > 0) {
-    return items.map((item) => <Unique item={item} />)
+    switch (itemType) {
+      case 'Unique':
+        return items.map((item) => <Unique item={item} />)
+      case 'Runeword':
+        return items.map((item) => <Runeword item={item} />)
+      default:
+        return "";
+    }
+
   } else {
     return <p>Search to find items.</p>
   }

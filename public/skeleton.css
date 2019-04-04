@@ -711,6 +711,14 @@ ul.upgradeItems li a {
   display: table;
   clear: both; }
 
+.u-cf-ctr {
+  text-align: center; display: block;
+}
+
+.inline {
+  display:inline;
+}
+
 
 /* Media Queries
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */

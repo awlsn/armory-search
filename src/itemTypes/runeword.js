@@ -5,6 +5,7 @@ class Runeword extends Component {
 
     render() {
         let { item } = this.props
+
         return (
 
             <div className="item row">
@@ -14,25 +15,29 @@ class Runeword extends Component {
                     <div className="item-left four columns">
                         <span className="item-graphic "><img alt="" src={'/images/items/' + item.imageFile} /></span>
                         <span className="item-name diablo_unique">{item.name}</span>
-
-                        <div style="text-align: center; display: block;">
-                            <span className="diablo_white" style="display: inline;">Runes: </span>
-                            <span className="diablo_unique" style="display: inline;">El, El, El</span>
+                        <div className="u-cf-ctr">
+                            <span className="diablo_white inline;">Runes: </span>
+                            <span className="diablo_unique inline;">{item.runes.reduce((runes, thisRune) => runes + ", " + thisRune)}</span>
                         </div>
+                        <span className="diablo_white">Sockets: {item.runes.length}</span>
+                        <span className="diablo_white">cLvl Req: {item.lvlreq}</span>
 
-                        <span className="diablo_white">Sockets: 3</span>
-                        <span className="diablo_white">cLvl Req: 11</span>
-
-                        <div style="text-align: center; display: block;">
-                            <span className="diablo_white" style="display: inline;">Items: Paladin Item</span>
-                        </div>
-
-                        <div className="item-right eight columns">
-                            <ItemProperties itemProps={item.baseProps} />
-                            <ItemProperties itemProps={item.props} />
-                            <span className="no-wrap diablo_white" style="display: block; text-align: center;">Rune bonuses for: Weapon</span>
+                        <div className="u-cf-ctr">
+                            <span className="diablo_white" >Items: {item.items.reduce((items, thisItem) => items + ", " + thisItem)}</span>
                         </div>
                     </div>
+
+
+                    <div className="item-right eight columns">
+                        <ItemProperties itemProps={item.props} />
+                        {item.armorHelmProps.length > 0 && <span className="no-wrap diablo_white u-cf-ctr">Rune bonuses for: Helm</span>}
+                        <RuneProps itemProps={item.armorHelmProps} />
+                        {item.weaponProps.length > 0 && <span className="no-wrap diablo_white u-cf-ctr">Rune bonuses for: Weapon</span>}
+                        <RuneProps itemProps={item.weaponProps} />
+                        {item.shieldProps.length > 0 && <span className="no-wrap diablo_white u-cf-ctr">Rune bonuses for: Shield</span>}
+                        <RuneProps itemProps={item.shieldProps} />
+                    </div>
+
                 </div>
             </div >
 
@@ -60,7 +65,7 @@ function ItemProperties(props) {
         );
         return (propHTML)
     } else {
-        return <p>Search to find items.</p>
+        return ""
     }
 
 }
@@ -76,5 +81,23 @@ function ItemPropSet(props) {
     const psHTML = ps.map((prop) => <span className={'no-wrap diablo_' + prop.color}> {prop.text}</span>);
     return psHTML;
 }
+
+
+function RuneProps(props) {
+    const { itemProps } = props
+    console.log(itemProps);
+    if (itemProps.length > 0) {
+        let runeProps = itemProps.map((itemPropSet) =>
+            (<span className="item-property">
+                <span className='no-wrap diablo_blue'>{itemPropSet}</span>
+            </span>)
+        )
+        return (runeProps)
+    } else {
+        return "";
+    }
+}
+
+
 
 export default Runeword;
