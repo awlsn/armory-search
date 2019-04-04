@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 import Unique from './itemTypes/Unique';
 import Runeword from './itemTypes/Runeword';
+import Set from './itemTypes/Set';
 //import './App.css';
 
 
 class App extends Component {
   state = {
     foundUniqueItems: {},
-    foundRunewordItems: {}
+    foundRunewordItems: {},
+    foundSetItems: {}
   };
 
   render() {
-    let uniqueItems = {};
-    let setItems, foundSetItems = {};
-    let runewordItems;
+    let uniqueItems, setItems, runewordItems = {};
     //let { foundUniqueItems } = this.state
 
     fetch(`/json/uniqueItems.json`)
@@ -37,12 +37,30 @@ class App extends Component {
       this.setState((state, props) => ({ foundUniqueItems: findItems(uniqueItems, text) }));
       //console.log(foundUniqueItems)
       this.setState((state, props) => ({ foundRunewordItems: findItems(runewordItems, text) }));
+      this.setState((state, props) => ({ foundSetItems: findSetItems(setItems, text) }));
     }
 
     function findItems(jsonData, searchText) {
       searchText = searchText.toLowerCase();
 
       let result = jsonData.filter(item => item.props.some(prop => {
+        let itemMod = prop[1].toLowerCase();
+        return wildcardToRegExp(searchText).test(itemMod)
+      }));
+
+      return result;
+    }
+
+    function findSetItems(jsonData, searchText) {
+      searchText = searchText.toLowerCase();
+      //items.item.props
+      //console.log(jsonData)
+
+      //let setItems = jsonData.map(set => set.items);
+      //let allSetItems = setItems.concat.apply([], setItems)
+      let allSetItems = jsonData.map(set => set.items).flat(1);
+      //console.log(allSetItems);
+      let result = allSetItems.filter(item => item.props.some(prop => {
         let itemMod = prop[1].toLowerCase();
         return wildcardToRegExp(searchText).test(itemMod)
       }));
@@ -80,6 +98,8 @@ class App extends Component {
             <button type="submit">Search</button>
 
           </form>
+          <h2>Sets</h2>
+          <ItemList items={this.state.foundSetItems} itemType="Set" />
           <h2>Runewords</h2>
           <ItemList items={this.state.foundRunewordItems} itemType="Runeword" />
           <h2>Uniques</h2>
@@ -105,6 +125,8 @@ function ItemList(props) {
         return items.map((item) => <Unique item={item} />)
       case 'Runeword':
         return items.map((item) => <Runeword item={item} />)
+      case 'Set':
+        return items.map((item) => <Set item={item} />)
       default:
         return "";
     }
