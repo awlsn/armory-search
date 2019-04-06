@@ -389,10 +389,6 @@ hr {
   font-weight:normal;
   font-style:normal;}
 
-h1, h2, h3, h4, h5, h6, th {
-  font-family: 'Exocet Light';
-  font-weight: 800; }
-
   div#floating-nav-content {
     top: 0;
     width: 100%;
@@ -642,7 +638,7 @@ div#armorySubNav {
   padding: 5px;
 }
 
-div.item, div#armorySubNav {
+div.item, div.filter, div#armorySubNav {
   background-color: #111;
   box-shadow: 0px 0px 3px 0px #baa76a;
   -webkit-box-shadow: 0px 0px 3px 0px #baa76a;
@@ -654,6 +650,12 @@ div.item {
   padding-top: 25px;
   padding-bottom: 25px;  
 }
+
+div.filter {
+  margin-bottom: 20px;
+  padding: 25px;
+}
+
 /*div.item-left {float: left; }
 div.item-right {float: right; }*/
 div.item-left span, div.item-right span.item-property {
@@ -697,6 +699,16 @@ ul.upgradeItems li {
 
 ul.upgradeItems li a {
   cursor: pointer;
+}
+
+.itemSearchForm {
+  width: 100%;
+  margin: 20px 10%;
+}
+
+.itemSearch {
+  width: 80%;
+  color: #222;
 }
 
 

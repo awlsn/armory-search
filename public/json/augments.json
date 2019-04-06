@@ -1,0 +1,2636 @@
+[
+    {
+        "index": "#01",
+        "name": "Hollowed Ore",
+        "color": "yellow",
+        "imageFile": "inv_#01.png",
+        "items": [
+            "Weapon",
+            "Druid Helm"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Weapon: Melee attacks deal splash damage"
+            ],
+            [
+                "white",
+                "Druid Helm: +5% Physical Resistance"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#02",
+        "name": "Succubus Tongue",
+        "color": "yellow",
+        "imageFile": "inv_#02.png",
+        "items": [
+            "Quiver",
+            "Bone Ring"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Quiver: -25% Reduced Skill Cooldown"
+            ],
+            [
+                "white",
+                "Bone Ring: +20 to Dexterity"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Eighth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#03",
+        "name": "Shadow Essence",
+        "color": "yellow",
+        "imageFile": "inv_#03.png",
+        "items": [
+            "Claw",
+            "Opal",
+            "Garnet Ring"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Claw: 6% Reanimate as: Shadow Stalker"
+            ],
+            [
+                "white",
+                "Opal or Garnet Ring: 20% Faster Hit Recovery"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Eighth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#04",
+        "name": "Glacial Essence",
+        "color": "yellow",
+        "imageFile": "inv_#04.png",
+        "items": [
+            "Helm",
+            "Scepter"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Helm: Cannot Be Frozen"
+            ],
+            [
+                "white",
+                "Scepter: 10% Chance to gain 4 seconds of Cold Immunity on Attack"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#05",
+        "name": "Bubbling Concoction",
+        "color": "yellow",
+        "imageFile": "inv_#05.png",
+        "items": [
+            "Gloves",
+            "Gold",
+            "Silver Ring"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Gloves: 2% Life Leech"
+            ],
+            [
+                "white",
+                "Gold or Silver Ring: +10 Life gained on striking"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Eighth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#06",
+        "name": "Mysterious Concoction",
+        "color": "yellow",
+        "imageFile": "inv_#06.png",
+        "items": [
+            "Gloves",
+            "Gold",
+            "Silver Ring"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Gloves: 2% Mana Leech"
+            ],
+            [
+                "white",
+                "Gold or Silver Ring: +5 Mana gained on striking"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Eighth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#07",
+        "name": "Moser's Plume",
+        "color": "yellow",
+        "imageFile": "inv_#07.png",
+        "items": [
+            "Paladin Helm",
+            "Ruby Amulet"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Paladin Helm: 20% Increased Aura effect"
+            ],
+            [
+                "white",
+                "Ruby Amulet: Adds 150-300 Fire Damage"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Fifth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#08",
+        "name": "Emerald Tear",
+        "color": "yellow",
+        "imageFile": "inv_#08.png",
+        "items": [
+            "Jade Amulet",
+            "Dagger"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Jade Amulet: Damage pierces 10% Poison Resistance"
+            ],
+            [
+                "white",
+                "Dagger: 6% Chance to cast Level 28 Poison Nova on kill"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Fifth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#09",
+        "name": "Arreatian Ash",
+        "color": "yellow",
+        "imageFile": "inv_#09.png",
+        "items": [
+            "Barbarian Helm",
+            "Two-Handed Axe"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Barbarian Helm: +3% Maximum Fire Resistance"
+            ],
+            [
+                "white",
+                "Two-Handed Axe: Adds 500-800 Cold Damage"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Fourth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#10",
+        "name": "Westmarch Granite",
+        "color": "yellow",
+        "imageFile": "inv_#10.png",
+        "items": [
+            "Paladin Shield",
+            "Bone Ring"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Paladin Shield: Damage pierces 10% Physical Resistance"
+            ],
+            [
+                "white",
+                "Bone Ring: +20 to Strength"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#11",
+        "name": "Enriched Glass",
+        "color": "yellow",
+        "imageFile": "inv_#11.png",
+        "items": [
+            "Bow",
+            "Gloves"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Bow: Adds 1-800 Lightning Damage"
+            ],
+            [
+                "white",
+                "Gloves: +15% Lightning Absorb"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Fourth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#12",
+        "name": "Succubus Fang",
+        "color": "yellow",
+        "imageFile": "inv_#12.png",
+        "items": [
+            "Gloves",
+            "Boots"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Gloves: 15% Projectile Pierce Chance"
+            ],
+            [
+                "white",
+                "Boots: 15% Faster Run/Walk"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Seventh Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#13",
+        "name": "Nelumbium",
+        "color": "yellow",
+        "imageFile": "inv_#13.png",
+        "items": [
+            "Gloves"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Gloves: 10% Chance to cast Level 3 Amplify Damage melee attack"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#14",
+        "name": "Maiden's Cairn",
+        "color": "yellow",
+        "imageFile": "inv_#14.png",
+        "items": [
+            "Gloves"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Gloves: 10% Chance to cast Level 3 Elemental Weakness on melee attack"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#15",
+        "name": "Exalted Prism",
+        "color": "yellow",
+        "imageFile": "inv_#15.png",
+        "items": [
+            "Gloves"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Gloves: 10% Chance to cast Level 3 Hex on melee attack"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#16",
+        "name": "Shattered Sunstone",
+        "color": "yellow",
+        "imageFile": "inv_#16.png",
+        "items": [
+            "Body Armour",
+            "Belt"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Body Armour: +5% Maximum Fire Resistance"
+            ],
+            [
+                "white",
+                "Belt: 8% Chance to gain 4 seconds of Hellfire on kill"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Third Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#17",
+        "name": "Arcane Device",
+        "color": "yellow",
+        "imageFile": "inv_#17.png",
+        "items": [
+            "Body Armour",
+            "Staff"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Body Armour: +1 All Skills"
+            ],
+            [
+                "white",
+                "Staff: 30% Increased Elemental Damage"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Third Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#18",
+        "name": "Widow's Dawn",
+        "color": "yellow",
+        "imageFile": "inv_#18.png",
+        "items": [
+            "Gold",
+            "Silver Ring",
+            "Belt"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Gold or Silver Ring: +20 to Vitality"
+            ],
+            [
+                "white",
+                "Belt: 12% Chance to gain 4 seconds of Diamond Skin when struck"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Fourth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#19",
+        "name": "Occultist's Scroll",
+        "color": "yellow",
+        "imageFile": "inv_#19.png",
+        "items": [
+            "Body Armour",
+            "Shield"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Body Armour: 50% Reduced duration of Curses on you"
+            ],
+            [
+                "white",
+                "Shield: 10% Magic Absorb"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Fourth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#20",
+        "name": "Evergold",
+        "color": "yellow",
+        "imageFile": "inv_#20.png",
+        "items": [
+            "Belt",
+            "Diamond Amulet"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Belt: 50% Chance of Uninterruptable Attack"
+            ],
+            [
+                "white",
+                "Diamond Amulet: +500 to Attack Rating"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Fifth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#21",
+        "name": "Marigot's Cradle",
+        "color": "yellow",
+        "imageFile": "inv_#21.png",
+        "items": [
+            "Boots",
+            "Shield"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Boots: 6% Chance to gain 4 seconds of Grace on kill"
+            ],
+            [
+                "white",
+                "Shield: +10% Chance to Block"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Fifth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#23",
+        "name": "Phantasm",
+        "color": "yellow",
+        "imageFile": "inv_#23.png",
+        "items": [
+            "Orb",
+            "Ring"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Orb: 5% of Mana replenished on kill"
+            ],
+            [
+                "white",
+                "Ring: Damage pierces 4% Magic Resistance"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Seventh Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#24",
+        "name": "Ethereal Essence",
+        "color": "yellow",
+        "imageFile": "inv_#24.png",
+        "items": [
+            "Body Armour",
+            "Amulet"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Body Armour: +10% Magic Absorb"
+            ],
+            [
+                "white",
+                "Amulet: +5% Magic Resistance"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Eighth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#25",
+        "name": "Scintillating Globe",
+        "color": "yellow",
+        "imageFile": "inv_#25.png",
+        "items": [
+            "Body Armour",
+            "Helm",
+            "Belt"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Body Armour: +30% Elemental Resistances"
+            ],
+            [
+                "white",
+                "Helm or Belt: +15% Elemental Resistances"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#26",
+        "name": "Firebloom",
+        "color": "yellow",
+        "imageFile": "inv_#26.png",
+        "items": [
+            "Orb",
+            "Wand",
+            "Belt"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Orb or Wand: +20% Fire Absorb"
+            ],
+            [
+                "white",
+                "Belt: 10% Increased Fire Damage"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#27",
+        "name": "Radiating Concoction",
+        "color": "yellow",
+        "imageFile": "inv_#27.png",
+        "items": [
+            "Weapon",
+            "Gloves"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Weapon: 15% Increased Elemental Damage"
+            ],
+            [
+                "white",
+                "Gloves: -5% Enemy Elemental Resistances"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#28",
+        "name": "Quicksilver",
+        "color": "yellow",
+        "imageFile": "inv_#28.png",
+        "items": [
+            "Quiver",
+            "Shield"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Quiver: 10% Increased Attack Speed"
+            ],
+            [
+                "white",
+                "Shield: 15% Faster Block Rate"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Eighth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#29",
+        "name": "Lamprey Tongue",
+        "color": "yellow",
+        "imageFile": "inv_#29.png",
+        "items": [
+            "Quiver",
+            "Topaz Amulet"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Quiver: 3% Life Leech"
+            ],
+            [
+                "white",
+                "Topaz Amulet: 3% of Life replenished on kill"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Eighth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#30",
+        "name": "Ghoul Tongue",
+        "color": "yellow",
+        "imageFile": "inv_#30.png",
+        "items": [
+            "Quiver",
+            "Topaz Amulet"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Quiver: 3% Mana Leech"
+            ],
+            [
+                "white",
+                "Topaz Amulet: 3% of Mana replenished on kill"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Eighth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#31",
+        "name": "Black Crystal",
+        "color": "yellow",
+        "imageFile": "inv_#31.png",
+        "items": [
+            "Weapon",
+            "Boots"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Weapon: Attacks ignore Defense rating"
+            ],
+            [
+                "white",
+                "Boots: +5% Physical Resistance"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Fourth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#32",
+        "name": "Everice",
+        "color": "yellow",
+        "imageFile": "inv_#32.png",
+        "items": [
+            "Shield",
+            "Sapphire Amulet"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Shield: Cannot Be Frozen"
+            ],
+            [
+                "white",
+                "Sapphire Amulet: +3% Maximum Cold Resistance"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Fourth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#33",
+        "name": "Bramblelock",
+        "color": "yellow",
+        "imageFile": "inv_#33.png",
+        "items": [
+            "Weapon",
+            "Ring"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Weapon: 10% Chance of Crushing Blow"
+            ],
+            [
+                "white",
+                "Ring: +3% Physical Resistance"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Fifth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#34",
+        "name": "Acsiove",
+        "color": "yellow",
+        "imageFile": "inv_#34.png",
+        "items": [
+            "Quiver",
+            "Shield"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Quiver: 20% Increased Attack Speed"
+            ],
+            [
+                "white",
+                "Shield: 25% Faster Block Rate"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#35",
+        "name": "Grey Star",
+        "color": "yellow",
+        "imageFile": "inv_#35.png",
+        "items": [
+            "Weapon",
+            "Body Armour"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Weapon: 50% Enhanced Damage"
+            ],
+            [
+                "white",
+                "Body Armour: 50% Enhanced Defense"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Fifth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#36",
+        "name": "Bitterweed",
+        "color": "yellow",
+        "imageFile": "inv_#36.png",
+        "items": [
+            "Amazon Weapon",
+            "Amazon Gloves"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Amazon Weapon: 6% Chance to gain 4 seconds of Haste on kill"
+            ],
+            [
+                "white",
+                "Amazon Gloves: 10% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#37",
+        "name": "Thundergod's Fury",
+        "color": "yellow",
+        "imageFile": "inv_#37.png",
+        "items": [
+            "Body Armour",
+            "Shield"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Body Armour: +5% Maximum Lightning Resistance"
+            ],
+            [
+                "white",
+                "Shield: +2 to Lightning Skills"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Second Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#38",
+        "name": "Undertaker's Ire",
+        "color": "yellow",
+        "imageFile": "inv_#38.png",
+        "items": [
+            "Necromancer Body Armour",
+            "Bone Ring"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Necromancer Body Armour: 40% Increased Minion Damage"
+            ],
+            [
+                "white",
+                "Bone Ring: 15% Increased Minion Damage"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Fourth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#39",
+        "name": "Oakshale",
+        "color": "yellow",
+        "imageFile": "inv_#39.png",
+        "items": [
+            "Shield",
+            "Jade Amulet"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Shield: +15 Physical Damage reduction"
+            ],
+            [
+                "white",
+                "Jade Amulet: +40 to Life"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Seventh Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#40",
+        "name": "Ethereal Brand",
+        "color": "yellow",
+        "imageFile": "inv_#40.png",
+        "items": [
+            "Paladin Shield",
+            "Sapphire Amulet"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Paladin Shield: Damage pierces 10% Magic Resistance"
+            ],
+            [
+                "white",
+                "Sapphire Amulet: +2 to Magic Skills"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Third Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#41",
+        "name": "First Frost",
+        "color": "yellow",
+        "imageFile": "inv_#41.png",
+        "items": [
+            "Belt",
+            "Assassin Boots"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Belt: +1 to Cold Skills"
+            ],
+            [
+                "white",
+                "Assassin Boots: Cannot Be Frozen"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Fourth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#42",
+        "name": "Chimera Talon",
+        "color": "yellow",
+        "imageFile": "inv_#42.png",
+        "items": [
+            "Gloves",
+            "Druid Helm"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Gloves: 3% Chance to gain 4 seconds of Haste on kill"
+            ],
+            [
+                "white",
+                "Druid Helm: 20% Faster Cast Rate"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#43",
+        "name": "Chieftain's Totem",
+        "color": "yellow",
+        "imageFile": "inv_#43.png",
+        "items": [
+            "Barbarian Helm",
+            "Garnet Ring"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Barbarian Helm: 10% Increased Warcry effect"
+            ],
+            [
+                "white",
+                "Garnet Ring: +250 to Attack Rating"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Fourth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#44",
+        "name": "Tomb Viper Extract",
+        "color": "yellow",
+        "imageFile": "inv_#44.png",
+        "items": [
+            "Spear",
+            "Necromancer Shield"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Spear: Damage pierces 30% Poison Resistance"
+            ],
+            [
+                "white",
+                "Necromancer Shield: +4% Maximum Poison Resistance"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Fifth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#45",
+        "name": "Vibrant Soul",
+        "color": "yellow",
+        "imageFile": "inv_#45.png",
+        "items": [
+            "Assassin Boots",
+            "Sorceress Ring"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Assassin Boots: Adds 200-400 Magic Damage"
+            ],
+            [
+                "white",
+                "Sorceress Ring: +40 Energy"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Fifth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#46",
+        "name": "Resonant Gyre",
+        "color": "yellow",
+        "imageFile": "inv_#46.png",
+        "items": [
+            "Weapon",
+            "Topaz Amulet"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Weapon: 20% Increased Attack Speed"
+            ],
+            [
+                "white",
+                "Topaz Amulet: 15% Chance to cast level 30 Nova when struck"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Fifth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#47",
+        "name": "Wizard's Bauble",
+        "color": "yellow",
+        "imageFile": "inv_#47.png",
+        "items": [
+            "Body Armour",
+            "Sorceress Ring"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Body Armour: 25% Faster Cast Rate"
+            ],
+            [
+                "white",
+                "Sorceress Ring: 10% Faster Cast Rate"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#48",
+        "name": "Stoneheart",
+        "color": "yellow",
+        "imageFile": "inv_#48.png",
+        "items": [
+            "Shield",
+            "Silver Ring"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Shield: 8% Chance to gain 4 seconds of Aegis when struck"
+            ],
+            [
+                "white",
+                "Silver Ring: +300 Defense"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#49",
+        "name": "Ice Maiden's Embrace",
+        "color": "yellow",
+        "imageFile": "inv_#49.png",
+        "items": [
+            "Mace",
+            "Necromancer Body Armour"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Mace: Damage pierces 15% Cold Resistance"
+            ],
+            [
+                "white",
+                "Necromancer Body Armour: 20% Cold Absorb"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#50",
+        "name": "Dead Reckoning",
+        "color": "yellow",
+        "imageFile": "inv_#50.png",
+        "items": [
+            "Opal Ring",
+            "Necromancer Shield"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Opal Ring: 10% Increased Curse effect"
+            ],
+            [
+                "white",
+                "Necromancer Shield: Adds 100-200 Damage"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Fourth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#51",
+        "name": "Brilliant Scales",
+        "color": "yellow",
+        "imageFile": "inv_#51.png",
+        "items": [
+            "Shield",
+            "Amazon Gloves"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Shield: +4% Maximum Cold Resistance"
+            ],
+            [
+                "white",
+                "Amazon Gloves: +2% Maximum Elemental Resistances"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Third Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#52",
+        "name": "Knight's Resolve",
+        "color": "yellow",
+        "imageFile": "inv_#52.png",
+        "items": [
+            "One-Handed Sword",
+            "Boots"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "One-Handed Sword: 4% of Life Replenished on kill"
+            ],
+            [
+                "white",
+                "Boots: 1% Life Regenerated per Second"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Seventh Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#53",
+        "name": "Alyarev",
+        "color": "yellow",
+        "imageFile": "inv_#53.png",
+        "items": [
+            "Gold Ring"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Gold Ring: +1 All Skills"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Third Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#54",
+        "name": "Moonmother's Fury",
+        "color": "yellow",
+        "imageFile": "inv_#54.png",
+        "items": [
+            "Flail Weapon",
+            "Helm"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Flail Weapon: Damage pierces 10% Physical Resistance"
+            ],
+            [
+                "white",
+                "Helm: 50% Faster Hit Recovery"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Fourth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#55",
+        "name": "Embers of Hell",
+        "color": "yellow",
+        "imageFile": "inv_#55.png",
+        "items": [
+            "Barbarian Weapon",
+            "Ruby Amulet"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Barbarian Weapon: Damage pierces 25% Fire Resistance"
+            ],
+            [
+                "white",
+                "Ruby Amulet: 6% Chance to cast level 44 Meteor on kill"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Third Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#56",
+        "name": "The Nexus",
+        "color": "yellow",
+        "imageFile": "inv_#56.png",
+        "items": [
+            "Diamond Amulet"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Diamond Amulet: +1 oSkill (random)"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: First Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#57",
+        "name": "Razorfletch",
+        "color": "yellow",
+        "imageFile": "inv_#57.png",
+        "items": [
+            "Body Armour",
+            "Crossbow"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Body Armour: 15% Projectile Pierce Chance"
+            ],
+            [
+                "white",
+                "Crossbow: 20% Chance of Crushing Blow"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Seventh Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#58",
+        "name": "Dreamweave",
+        "color": "yellow",
+        "imageFile": "inv_#58.png",
+        "items": [
+            "Light Body Armour",
+            "Boots"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Light Body Armour: 10% chance to gain 4 seconds of Haste when struck"
+            ],
+            [
+                "white",
+                "Boots: +25 Magic and Elemental Damage reduction"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Seventh Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#59",
+        "name": "Conjurer's Will",
+        "color": "yellow",
+        "imageFile": "inv_#59.png",
+        "items": [
+            "Helm",
+            "Boots"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Helm: -10% Reduced Skill cooldown"
+            ],
+            [
+                "white",
+                "Boots: +20% Magic Find"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Eighth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#60",
+        "name": "Martyr's Cross",
+        "color": "yellow",
+        "imageFile": "inv_#60.png",
+        "items": [
+            "Paladin Helm",
+            "Boots"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Paladin Helm: -30% Target Defense"
+            ],
+            [
+                "white",
+                "Boots: 25% Chance of Open Wounds"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#61",
+        "name": "Watcher Venom",
+        "color": "yellow",
+        "imageFile": "inv_#61.png",
+        "items": [
+            "Gloves",
+            "Throwing Weapon"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Gloves: +1 to Poison Skills"
+            ],
+            [
+                "white",
+                "Throwing Weapon: Prevent Monster Heal"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Seventh Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#62",
+        "name": "Vibranium",
+        "color": "yellow",
+        "imageFile": "inv_#62.png",
+        "items": [
+            "Polearm",
+            "Druid Weapon"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Polearm: Melee attacks stun enemies +15"
+            ],
+            [
+                "white",
+                "Druid Weapon: Attacks slow enemies by 25%"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Fourth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#63",
+        "name": "Arvaadian Wool",
+        "color": "yellow",
+        "imageFile": "inv_#63.png",
+        "items": [
+            "Heavy Armour",
+            "Belt"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Heavy Armour: +10% Physical Resistance"
+            ],
+            [
+                "white",
+                "Belt: 30% Faster Block Rate"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Fifth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#64",
+        "name": "Gargantua Heart",
+        "color": "yellow",
+        "imageFile": "inv_#64.png",
+        "items": [
+            "Weapon",
+            "Belt"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Weapon: Gain Fortify on melee Attack"
+            ],
+            [
+                "white",
+                "Belt: +10 Physical Damage reduction"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "#70",
+        "name": "Rune of Cleaving",
+        "color": "white",
+        "imageFile": "inv_#70.png",
+        "items": [
+            "Weapon"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Magic or Rare item"
+            ],
+            [
+                "white",
+                "Weapon: Melee attacks deal splash damage"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Requires: Normal Gem"
+            ],
+            [
+                "blue",
+                "Cannot be used on Exceptional or Elite items"
+            ]
+        ]
+    },
+    {
+        "index": "#71",
+        "name": "Rune of Health",
+        "color": "white",
+        "imageFile": "inv_#71.png",
+        "items": [
+            "Body Armour"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Magic or Rare item"
+            ],
+            [
+                "white",
+                "Body Armour: +40 to Life"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Requires: Normal Gem"
+            ],
+            [
+                "blue",
+                "Cannot be used on Exceptional or Elite items"
+            ]
+        ]
+    },
+    {
+        "index": "#72",
+        "name": "Rune of Remedy",
+        "color": "white",
+        "imageFile": "inv_#72.png",
+        "items": [
+            "Helm"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Magic or Rare item"
+            ],
+            [
+                "white",
+                "Helm: Poison Length reduced by 50%"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Requires: Flawed Gem"
+            ],
+            [
+                "blue",
+                "Cannot be used on Exceptional or Elite items"
+            ]
+        ]
+    },
+    {
+        "index": "#73",
+        "name": "Rune of Haste",
+        "color": "white",
+        "imageFile": "inv_#73.png",
+        "items": [
+            "Boots"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Magic or Rare item"
+            ],
+            [
+                "white",
+                "Boots: 15% Faster Run/Walk"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Requires: Flawed Gem"
+            ],
+            [
+                "blue",
+                "Cannot be used on Exceptional or Elite items"
+            ]
+        ]
+    },
+    {
+        "index": "#74",
+        "name": "Rune of Negation",
+        "color": "white",
+        "imageFile": "inv_#74.png",
+        "items": [
+            "Shield"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Magic or Rare item"
+            ],
+            [
+                "white",
+                "Shield: +10 Physical Damage reduction"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Requires: Normal Gem"
+            ],
+            [
+                "blue",
+                "Cannot be used on Exceptional or Elite items"
+            ]
+        ]
+    },
+    {
+        "index": "#75",
+        "name": "Rune of Warding",
+        "color": "white",
+        "imageFile": "inv_#75.png",
+        "items": [
+            "Shield"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Magic or Rare item"
+            ],
+            [
+                "white",
+                "Shield: +15 Magic and Elemental Damage reduction"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Requires: Normal Gem"
+            ],
+            [
+                "blue",
+                "Cannot be used on Exceptional or Elite items"
+            ]
+        ]
+    },
+    {
+        "index": "#76",
+        "name": "Rune of Rejuvination",
+        "color": "white",
+        "imageFile": "inv_#76.png",
+        "items": [
+            "Belt",
+            "Belt"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Magic or Rare item"
+            ],
+            [
+                "white",
+                "Belt: +3 Life gained on kill"
+            ],
+            [
+                "white",
+                "Belt: +3 Mana gained on kill"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Requires: Flawed Gem"
+            ],
+            [
+                "blue",
+                "Cannot be used on Exceptional or Elite items"
+            ]
+        ]
+    },
+    {
+        "index": "#77",
+        "name": "Rune of Thawing",
+        "color": "white",
+        "imageFile": "inv_#77.png",
+        "items": [
+            "Ring"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Magic item"
+            ],
+            [
+                "white",
+                "Ring: Cannot be Frozen"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Requires: Flawed Gem"
+            ]
+        ]
+    },
+    {
+        "index": "#78",
+        "name": "Rune of Osmosis",
+        "color": "white",
+        "imageFile": "inv_#78.png",
+        "items": [
+            "Amulet"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Magic Item"
+            ],
+            [
+                "white",
+                "Amulet: 5% of Mana Replenished on Kill"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Requires: Flawed Gem"
+            ]
+        ]
+    },
+    {
+        "index": "#79",
+        "name": "Rune of Brilliance",
+        "color": "white",
+        "imageFile": "inv_#79.png",
+        "items": [
+            "Weapon"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Magic or Rare item"
+            ],
+            [
+                "white",
+                "Weapon: 30% Faster Cast Rate"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Requires: Normal Gem"
+            ],
+            [
+                "blue",
+                "Cannot be used on Exceptional or Elite items"
+            ]
+        ]
+    },
+    {
+        "index": "#80",
+        "name": "Freezing Oil",
+        "color": "gold",
+        "imageFile": "inv_#80.png",
+        "items": [
+            "Sword"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Sword: 6% Chance to cast level 24 Frostbite on striking"
+            ]
+        ]
+    },
+    {
+        "index": "#81",
+        "name": "Chilled Hide",
+        "color": "gold",
+        "imageFile": "inv_#81.png",
+        "items": [
+            "Boots"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Boots: +3% Maximum Cold Resistance"
+            ]
+        ]
+    },
+    {
+        "index": "#82",
+        "name": "Frostheart",
+        "color": "gold",
+        "imageFile": "inv_#82.png",
+        "items": [
+            "Body Armour"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Body Armour: 30% Increased Cold Damage"
+            ]
+        ]
+    },
+    {
+        "index": "#83",
+        "name": "Barghest Claw",
+        "color": "gold",
+        "imageFile": "inv_#83.png",
+        "items": [
+            "Ring"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Ring: 5% Increased Attack Speed"
+            ]
+        ]
+    },
+    {
+        "index": "#84",
+        "name": "Barghest Fang",
+        "color": "gold",
+        "imageFile": "inv_#84.png",
+        "items": [
+            "Dagger"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Dagger: 40% Increased Fire Damage"
+            ]
+        ]
+    },
+    {
+        "index": "#85",
+        "name": "Barghest Skull",
+        "color": "gold",
+        "imageFile": "inv_#85.png",
+        "items": [
+            "Helm"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Helm: 20% Chance of Crushing Blow"
+            ]
+        ]
+    },
+    {
+        "index": "#86",
+        "name": "Shaman Tooth",
+        "color": "gold",
+        "imageFile": "inv_#86.png",
+        "items": [
+            "Gloves"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Gloves: Damage pierces 5% Magic Resistance"
+            ]
+        ]
+    },
+    {
+        "index": "#87",
+        "name": "Shaman Trophy",
+        "color": "gold",
+        "imageFile": "inv_#87.png",
+        "items": [
+            "Helm"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Helm: 20% Faster Cast Rate"
+            ]
+        ]
+    },
+    {
+        "index": "#88",
+        "name": "Shaman Orb",
+        "color": "gold",
+        "imageFile": "inv_#88.png",
+        "items": [
+            "Body Armour"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Body Armour: +2 to Magic Skills"
+            ]
+        ]
+    },
+    {
+        "index": "#89",
+        "name": "Marrow Oil",
+        "color": "gold",
+        "imageFile": "inv_#89.png",
+        "items": [
+            "Quiver"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Quiver: Knockback"
+            ]
+        ]
+    },
+    {
+        "index": "#90",
+        "name": "Tomb Dust",
+        "color": "gold",
+        "imageFile": "inv_#90.png",
+        "items": [
+            "Ranged Weapon"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Ranged Weapon: Damage pierces 10% Physical Resistance"
+            ]
+        ]
+    },
+    {
+        "index": "#91",
+        "name": "Jewel of the Grave",
+        "color": "gold",
+        "imageFile": "inv_#91.png",
+        "items": [
+            "Amulet"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Amulet: Damage pierces 10% Fire Resistance"
+            ]
+        ]
+    },
+    {
+        "index": "#92",
+        "name": "Fraxina",
+        "color": "gold",
+        "imageFile": "inv_#92.png",
+        "items": [
+            "Polearm"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Polearm: 5% Chance to cast level 12 Slow Missiles on striking"
+            ]
+        ]
+    },
+    {
+        "index": "#93",
+        "name": "Lifesprig",
+        "color": "gold",
+        "imageFile": "inv_#93.png",
+        "items": [
+            "Belt"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Belt: 1% Life Regeneration per second"
+            ]
+        ]
+    },
+    {
+        "index": "#94",
+        "name": "Eternal Oak",
+        "color": "gold",
+        "imageFile": "inv_#94.png",
+        "items": [
+            "Shield"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Augments a Crafted or Rare item"
+            ],
+            [
+                "white",
+                "Shield: +20% Physical Resistance"
+            ]
+        ]
+    },
+    {
+        "index": "#95",
+        "name": "Orb of Anu",
+        "color": "gold",
+        "imageFile": "inv-#95.png",
+        "items": [],
+        "props": [
+            [
+                "amber",
+                "Transmogrify Reagent"
+            ],
+            [
+                "white",
+                "Creates an ÿc;Ethereal ÿc0copy of a Rare or Crafted item"
+            ]
+        ]
+    },
+    {
+        "index": "#96",
+        "name": "Magus Orb",
+        "color": "gold",
+        "imageFile": "inv-#96.png",
+        "items": [
+            "with the following Possession",
+            "Amulet"
+        ],
+        "props": [
+            [
+                "yellow",
+                "Creates a randomly rolled Rare item"
+            ],
+            [
+                "yellow",
+                "with the following Possession:"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "white",
+                "Amulet: Has additional Caster properties"
+            ]
+        ]
+    }
+]

@@ -85,7 +85,7 @@ function ItemPropSet(props) {
 
 function RuneProps(props) {
     const { itemProps } = props
-    console.log(itemProps);
+    //console.log(itemProps);
     if (itemProps.length > 0) {
         let runeProps = itemProps.map((itemPropSet) =>
             (<span className="item-property">
