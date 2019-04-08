@@ -29,6 +29,7 @@ class App extends Component {
     foundCharmItems: {},
 
     baseItems: {},
+    filteredBaseItems: {},
     foundBaseItems: {},
 
     magicItems: {},
@@ -72,30 +73,31 @@ class App extends Component {
   updateSelectedFilters() {
     console.log("updating");
     let selectedFilters = [];
-    if (this.state.filterHelms) selectedFilters.push("Helm")
-    if (this.state.filterArmor) selectedFilters.push("Armor")
-    if (this.state.filterGloves) selectedFilters.push("Gloves")
-    if (this.state.filterBoots) selectedFilters.push("Boots")
-    if (this.state.filterBelts) selectedFilters.push("Belt")
+    if (!this.state.filterHelms) selectedFilters.push("Helm")
+    if (!this.state.filterArmor) selectedFilters.push("Armor")
+    if (!this.state.filterGloves) selectedFilters.push("Gloves")
+    if (!this.state.filterBoots) selectedFilters.push("Boots")
+    if (!this.state.filterBelts) selectedFilters.push("Belt")
     //if (this.state.filterRings) selectedFilters.push("Rings")
     //if (this.state.filterAmulets) selectedFilters.push("Amulets")
-    this.setState({ selectedFilters })
+    this.setState({ selectedFilters }, this.updateFilteredBaseItems)
   }
 
-  getFilteredBaseItems = () => {
+  updateFilteredBaseItems = () => {
     let match = false;
-    const cat = this.getSelectedFilters();
-    const { baseItems } = this.state;
+    //const cat = this.getSelectedFilters();
+    const { baseItems, selectedFilters } = this.state;
 
-    const catItems = baseItems.filter((item) => {
+    const filteredBaseItems = baseItems.filter((item) => {
       match = false;
-      cat.forEach((category) => {
+      selectedFilters.forEach((category) => {
         if (item.category === category) match = true;
         if (item.subCategories.includes(category)) match = true;
       });
       return match;
     });
-    return catItems;
+    //return catItems;
+    this.setState({ filteredBaseItems });
   }
 
   componentDidMount() {
@@ -133,8 +135,10 @@ class App extends Component {
       .then(blob => blob.json())
       .then(data => {
         baseItems = data
-        this.setState((state, props) => ({ baseItems }))
+        this.setState((state, props) => ({ baseItems }), this.updateSelectedFilters);
       });
+
+
   }
 
 
@@ -143,7 +147,11 @@ class App extends Component {
 
     let doSearch = (e) => {
       e.preventDefault();
+
       this.updateSelectedFilters();
+      //let filteredBaseItems = this.getFilteredBaseItems();
+      //this.setState({ filteredBaseItems })
+
       let text = document.getElementById("searchText").value;
       let { uniqueItems, runewordItems, setItems, augmentItems } = this.state;
 
@@ -154,29 +162,6 @@ class App extends Component {
 
       //console.log(this.getFilteredBaseItems());
     }
-
-    function checkCatMatch(cat, itemName) {
-      let catMatch, itemMatch = false;
-      const { baseItems } = this.state;
-      //filter the list of baseItems to the categories passed to the function
-      const catItems = baseItems.filter((item) => {
-        catMatch = false;
-        cat.forEach((category) => {
-          if (item.category === category) catMatch = true;
-          if (item.subCategories.includes(category)) catMatch = true;
-        });
-        return catMatch;
-      });
-
-      //check each of the filtered list items to see if the itemName we passed exists in the list
-      catItems.forEach((item) => {
-        if (item.name === itemName) itemMatch = true;
-      });
-
-      return itemMatch;
-    }
-
-
 
     function findItems(jsonData, searchText) {
       searchText = searchText.toLowerCase();
@@ -262,11 +247,10 @@ class App extends Component {
           />
         </div>
         <div className="eight columns">
-
-          <CategoryDisplay title="Sets" getFilteredBaseItems={this.state.filteredBaseItems} show={this.state.showSets} found={this.state.foundSetItems} />
-          <CategoryDisplay title="Runewords" getFilteredBaseItems={this.state.filteredBaseItems} show={this.state.showRunewords} found={this.state.foundRunewordItems} />
-          <CategoryDisplay title="Uniques" getFilteredBaseItems={this.state.filteredBaseItems} show={this.state.showUniques} found={this.state.foundUniqueItems} />
-          <CategoryDisplay title="Augments" getFilteredBaseItems={this.state.filteredBaseItems} show={this.state.showAugments} found={this.state.foundAugmentItems} />
+          <CategoryDisplay title="Uniques" selectedFilters={this.state.selectedFilters} filteredBaseItems={this.state.filteredBaseItems} show={this.state.showUniques} found={this.state.foundUniqueItems} />
+          <CategoryDisplay title="Sets" filteredBaseItems={this.state.filteredBaseItems} show={this.state.showSets} found={this.state.foundSetItems} />
+          <CategoryDisplay title="Runewords" filteredBaseItems={this.state.filteredBaseItems} show={this.state.showRunewords} found={this.state.foundRunewordItems} />
+          <CategoryDisplay title="Augments" filteredBaseItems={this.state.filteredBaseItems} show={this.state.showAugments} found={this.state.foundAugmentItems} />
 
         </div>
       </div>
@@ -280,7 +264,7 @@ function CategoryDisplay(props) {
     return (
       <span>
         <h2>{props.title}</h2>
-        <ItemList getFilteredBaseItems={props.filteredBaseItems} items={props.found} itemType={props.title} />
+        <ItemList filteredBaseItems={props.filteredBaseItems} selectedFilters={props.selectedFilters} items={props.found} itemType={props.title} />
       </span>
     )
   } else {
@@ -340,14 +324,38 @@ function ItemList(props) {
   //catItems.forEach((item) => {
   // if (item.name === itemName) itemMatch = true;
   //});
-  const { items, itemType, getFilteredBaseItems } = props;
+  const { items, itemType, filteredBaseItems, selectedFilters } = props;
 
-  let filteredBases = getFilteredBaseItems;
+  let itemMatch = false;
+
 
   if (items.length > 0) {
+
     switch (itemType) {
       case 'Uniques':
-        return items.map((item) => <Unique item={item} />)
+        const filteredItems = items.filter((item) => {
+
+          if (item.category) {
+            selectedFilters.forEach((filter) => {
+              if (filter === item.category) { itemMatch = true; return; }
+              if (item.subCategories) {
+                item.subCategories.forEach((subCat) => {
+                  if (filter === item.subCat) { itemMatch = true; return; }
+                })
+              }
+            })
+          }
+          /*
+          filteredBaseItems.forEach((baseItem) => {
+            //console.log(baseItem.name, item.item)
+            if (baseItem.name === item.item) itemMatch = true;
+          })*/
+          if (itemMatch) return false;
+          else return true;
+        });
+
+        //console.log(filteredItems);
+        return filteredItems.map((item) => <Unique item={item} />)
       case 'Runewords':
         return items.map((item) => <Runeword item={item} />)
       case 'Sets':

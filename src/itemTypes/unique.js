@@ -41,10 +41,10 @@ function ItemProperties(props) {
         const propHTML = (
 
             itemProps.map((itemPropSet) =>
-            <span className="item-property">
-                <ItemPropSet propSet = { itemPropSet} />      
-            </span> 
-            
+                <span className="item-property">
+                    <ItemPropSet propSet={itemPropSet} />
+                </span>
+
             )
 
         );
@@ -58,13 +58,13 @@ function ItemProperties(props) {
 function ItemPropSet(props) {
     const { propSet } = props;
     let ps = [];
-    
-    for (let i = 0; i < propSet.length; i += 2) {
-            ps.push({ color: propSet[i], text: propSet[i + 1] })
-        }
 
-    const psHTML = ps.map((prop) =><span className={'no-wrap diablo_' + prop.color}> {prop.text}</span>);
-        return psHTML;  
+    for (let i = 0; i < propSet.length; i += 2) {
+        ps.push({ color: propSet[i], text: propSet[i + 1] })
+    }
+
+    const psHTML = ps.map((prop) => <span className={'no-wrap diablo_' + prop.color}> {prop.text}</span>);
+    return psHTML;
 }
 
 export default Unique;
