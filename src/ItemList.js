@@ -36,14 +36,14 @@ function ItemList(props) {
                 });
                 return addToList;
             });
-            console.log(filteredItems);
-            return filteredItems.map((item) => <Unique key={item.index} item={item} />)
+            //console.log(filteredItems);
+            return filteredItems.map((item, i) => <Unique key={item.index + i} item={item} />)
         case 'Sets':
-            return items.map((item) => <Set key={item.index} item={item} />)
+            return items.map((item, i) => <Set key={item.index + i} item={item} />)
         case 'Augments':
-            return items.map((item) => <Augment key={item.index} item={item} />)
+            return items.map((item, i) => <Augment key={item.index + i} item={item} />)
         case 'Runewords':
-            return items.map((item) => <Runeword key={item.index} item={item} />)
+            return items.map((item, i) => <Runeword key={item.index + i} item={item} />)
 
         default:
             return "";

@@ -55,8 +55,8 @@ class SearchBar extends React.Component {
 
         return (
             <div className="row">
-                <form className="itemSearchForm" onSubmit={doSearch}>
-                    <input id="searchText" className="itemSearch" placeholder="Search to filter items by their properties, * are wild" type="text"></input>
+                <form className="itemSearchForm u-full-width" onSubmit={doSearch}>
+                    <input id="searchText" className="itemSearch" placeholder="Search items by their properties, * are wild" type="text"></input>
                     <button type="submit">Search</button>
                 </form>
             </div>

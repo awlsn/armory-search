@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import Results from './Results'
 import SearchBar from './SearchBar';
-import FilterList from './FilterList';
+import FilterBar from './FilterBar';
 
 class App extends Component {
   state = {
     masterItemList: {},
     matchedItemList: {},
-    filters: []
+    filters: [],
+    showFilters: false
   };
 
   toggleFilterCheckbox = (e) => {
@@ -45,6 +46,12 @@ class App extends Component {
     });
     //return catItems;
     this.setState({ filteredBaseItems });
+  }
+
+  toggleFilterBar = (e) => {
+    //console.log(e.target.name);
+    const showFilters = this.state.showFilters;
+    this.setState({ showFilters: !showFilters })
   }
 
   componentWillMount() {
@@ -119,17 +126,18 @@ class App extends Component {
   render() {
     return (
 
-
       <div className="row">
-        <SearchBar masterItemList={this.state.masterItemList} setMatchedItemList={this.setMatchedItemList} />
-
-        <div className="four columns">
-          <h2>Filters</h2>
-          <FilterList filters={this.state.filters} toggleCheckboxState={this.toggleFilterCheckbox} />
+        <div className="row">
+          <SearchBar masterItemList={this.state.masterItemList} setMatchedItemList={this.setMatchedItemList} />
         </div>
 
-        <Results matchedItemList={this.state.matchedItemList} filters={this.state.filters} />
+        <div className="row">
+          <FilterBar filters={this.state.filters} showFilters={this.state.showFilters} toggleFilterCheckbox={this.toggleFilterCheckbox} toggleFilterBar={this.toggleFilterBar} />
+        </div>
 
+        <div className="row">
+          <Results matchedItemList={this.state.matchedItemList} filters={this.state.filters} />
+        </div>
       </div>
     );
   }

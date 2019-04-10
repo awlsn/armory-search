@@ -702,12 +702,11 @@ ul.upgradeItems li a {
 }
 
 .itemSearchForm {
-  width: 100%;
   margin: 20px 10%;
 }
 
 .itemSearch {
-  width: 80%;
+  width: 60%;
   color: #222;
 }
 

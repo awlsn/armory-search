@@ -26,7 +26,7 @@ function Results(props) {
     //if object is not empty... maybe refactor again?
     if (Object.keys(matchedItemList).length > 0) {
         return (
-            <div className="seven columns">
+            <div>
                 <CategoryDisplay title="Uniques" show={isFiltered('uniques')} found={matchedItemList.uniqueItems} filters={filters} />
                 <CategoryDisplay title="Sets" show={isFiltered('sets')} found={matchedItemList.setItems} filters={filters} />
                 <CategoryDisplay title="Runewords" show={isFiltered('runewords')} found={matchedItemList.runewordItems} filters={filters} />
