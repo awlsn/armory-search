@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
+import ItemProperties from './ItemProperties'
 class Generic extends Component {
-
-
 
     render() {
         let { item } = this.props
@@ -18,7 +17,7 @@ class Generic extends Component {
                     </div>
 
                     <div className="item-right eight columns">
-                        <ItemProperties itemProps={item.props} />
+                        <ItemProperties key="generic-props" itemProps={item.props} />
 
 
                     </div>
@@ -29,41 +28,6 @@ class Generic extends Component {
         )
     }
 
-}
-
-
-function ItemProperties(props) {
-
-    const { itemProps } = props;
-
-    if (itemProps.length > 0) {
-        const propHTML = (
-
-            itemProps.map((itemPropSet) =>
-                <span className="item-property">
-                    <ItemPropSet propSet={itemPropSet} />
-                </span>
-
-            )
-
-        );
-        return (propHTML)
-    } else {
-        return <p>Search to find items.</p>
-    }
-
-}
-
-function ItemPropSet(props) {
-    const { propSet } = props;
-    let ps = [];
-
-    for (let i = 0; i < propSet.length; i += 2) {
-        ps.push({ color: propSet[i], text: propSet[i + 1] })
-    }
-
-    const psHTML = ps.map((prop) => <span className={'no-wrap diablo_' + prop.color}> {prop.text}</span>);
-    return psHTML;
 }
 
 export default Generic;

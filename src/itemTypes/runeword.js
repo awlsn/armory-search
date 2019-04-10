@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import ItemProperties from './ItemProperties'
+import SimpleProperties from './SimpleProperties'
+
 class Runeword extends Component {
 
 
@@ -31,11 +34,11 @@ class Runeword extends Component {
                     <div className="item-right eight columns">
                         <ItemProperties itemProps={item.props} />
                         {item.armorHelmProps.length > 0 && <span className="no-wrap diablo_white u-cf-ctr">Rune bonuses for: Helm</span>}
-                        <RuneProps itemProps={item.armorHelmProps} />
+                        <SimpleProperties itemProps={item.armorHelmProps} />
                         {item.weaponProps.length > 0 && <span className="no-wrap diablo_white u-cf-ctr">Rune bonuses for: Weapon</span>}
-                        <RuneProps itemProps={item.weaponProps} />
+                        <SimpleProperties itemProps={item.weaponProps} />
                         {item.shieldProps.length > 0 && <span className="no-wrap diablo_white u-cf-ctr">Rune bonuses for: Shield</span>}
-                        <RuneProps itemProps={item.shieldProps} />
+                        <SimpleProperties itemProps={item.shieldProps} />
                     </div>
 
                 </div>
@@ -45,57 +48,6 @@ class Runeword extends Component {
         )
     }
 
-}
-
-
-function ItemProperties(props) {
-
-    const { itemProps } = props;
-
-    if (itemProps.length > 0) {
-        const propHTML = (
-
-            itemProps.map((itemPropSet) =>
-                <span className="item-property">
-                    <ItemPropSet propSet={itemPropSet} />
-                </span>
-
-            )
-
-        );
-        return (propHTML)
-    } else {
-        return ""
-    }
-
-}
-
-function ItemPropSet(props) {
-    const { propSet } = props;
-    let ps = [];
-
-    for (let i = 0; i < propSet.length; i += 2) {
-        ps.push({ color: propSet[i], text: propSet[i + 1] })
-    }
-
-    const psHTML = ps.map((prop) => <span className={'no-wrap diablo_' + prop.color}> {prop.text}</span>);
-    return psHTML;
-}
-
-
-function RuneProps(props) {
-    const { itemProps } = props
-    //console.log(itemProps);
-    if (itemProps.length > 0) {
-        let runeProps = itemProps.map((itemPropSet) =>
-            (<span className="item-property">
-                <span className='no-wrap diablo_blue'>{itemPropSet}</span>
-            </span>)
-        )
-        return (runeProps)
-    } else {
-        return "";
-    }
 }
 
 
