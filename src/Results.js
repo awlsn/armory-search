@@ -8,7 +8,7 @@ function Results(props) {
     //console.log(matchedItemList);
 
     function CategoryDisplay(props) {
-        if (props.show) {
+        if (props.show && props.found.length > 0) {
             return (
                 <span>
                     <h2>{props.title}</h2>
@@ -28,9 +28,12 @@ function Results(props) {
         return (
             <div>
                 <CategoryDisplay title="Uniques" show={isFiltered('uniques')} found={matchedItemList.uniqueItems} filters={filters} />
-                <CategoryDisplay title="Sets" show={isFiltered('sets')} found={matchedItemList.setItems} filters={filters} />
+                <CategoryDisplay title="Full Sets" show={isFiltered('sets')} found={matchedItemList.fullSetItems} filters={filters} />
+                <CategoryDisplay title="Set Items" show={isFiltered('sets')} found={matchedItemList.setItems} filters={filters} />
                 <CategoryDisplay title="Runewords" show={isFiltered('runewords')} found={matchedItemList.runewordItems} filters={filters} />
                 <CategoryDisplay title="Augments" show={isFiltered('augments')} found={matchedItemList.augmentItems} filters={filters} />
+                <CategoryDisplay title="Bases" show={isFiltered('bases')} found={matchedItemList.baseItems} filters={filters} />
+                <CategoryDisplay title="Charm Components" show={isFiltered('charms')} found={matchedItemList.charmComponents} filters={filters} />
             </div>
         )
     } else return ""

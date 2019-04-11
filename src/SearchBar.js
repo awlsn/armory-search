@@ -1,4 +1,5 @@
 import React from 'react'
+import Results from './Results';
 
 class SearchBar extends React.Component {
     render() {
@@ -14,7 +15,10 @@ class SearchBar extends React.Component {
             matchedItemList.uniqueItems = findItems(masterItemList.uniqueItems, text);
             matchedItemList.runewordItems = findItems(masterItemList.runewordItems, text);
             matchedItemList.setItems = findSetItems(masterItemList.setItems, text);
+            matchedItemList.fullSetItems = findFullSetItems(masterItemList.setItems, text)
             matchedItemList.augmentItems = findItems(masterItemList.augmentItems, text);
+            matchedItemList.baseItems = findBaseItems(masterItemList.baseItems, text);
+            matchedItemList.charmComponents = findItems(masterItemList.charmComponents, text);
             setMatchedItemList(matchedItemList);
         }
 
@@ -25,6 +29,37 @@ class SearchBar extends React.Component {
                 let itemMod = prop[1].toLowerCase();
                 return wildcardToRegExp(searchText).test(itemMod)
             }));
+
+            return result;
+        }
+
+        function findBaseItems(items, searchText) {
+            searchText = searchText.toLowerCase();
+
+            let result = items.filter(item => item.props.some(prop => {
+                let itemMod = prop.toLowerCase();
+                return wildcardToRegExp(searchText).test(itemMod)
+            }));
+
+            return result;
+        }
+
+        function findFullSetItems(items, searchText) {
+            searchText = searchText.toLowerCase();
+
+            let result = items.filter(item => {
+                let fullPropResult = item.fullProps.some(prop => {
+                    let itemMod = prop.toLowerCase();
+                    return wildcardToRegExp(searchText).test(itemMod);
+                });
+
+                let partialSetResult = item.partialProps.some(prop => {
+                    let itemMod = prop.toLowerCase();
+                    return wildcardToRegExp(searchText).test(itemMod);
+                });
+
+                return fullPropResult || partialSetResult;
+            });
 
             return result;
         }
@@ -42,6 +77,10 @@ class SearchBar extends React.Component {
 
             return result;
         }
+
+
+
+
 
         //via donmccurdy : https://gist.github.com/donmccurdy/6d073ce2c6f3951312dfa45da14a420f
         //Creates a RegExp from the given string, converting asterisks to .* expressions, and escaping all other characters.

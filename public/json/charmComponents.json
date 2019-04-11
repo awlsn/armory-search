@@ -1,0 +1,2448 @@
+[
+    {
+        "index": "zab",
+        "name": "Glyph of the Bear",
+        "color": "blue",
+        "imageFile": "inv_zab.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+16-20 Life"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Tenth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zac",
+        "name": "Glyph of the Mammoth",
+        "color": "yellow",
+        "imageFile": "inv_zac.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+20-25 Life"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Ninth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zad",
+        "name": "Heart of the Beast",
+        "color": "gold",
+        "imageFile": "inv_zad.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "3-4% Increased Maximum Life"
+            ]
+        ]
+    },
+    {
+        "index": "zaf",
+        "name": "Glyph of the Wyrm",
+        "color": "blue",
+        "imageFile": "inv_zaf.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+16-20 Mana"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Tenth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zag",
+        "name": "Glyph of the Drake",
+        "color": "yellow",
+        "imageFile": "inv_zag.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+21-25 Mana"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Ninth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zah",
+        "name": "Soul of the Beauty",
+        "color": "gold",
+        "imageFile": "inv_zah.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "3-4% Increased Maximum Mana"
+            ]
+        ]
+    },
+    {
+        "index": "zai",
+        "name": "Garnet Glyph",
+        "color": "blue",
+        "imageFile": "inv_zai.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "4-7% Fire Resistance"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Tenth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zaj",
+        "name": "Ruby Glyph",
+        "color": "yellow",
+        "imageFile": "inv_zaj.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "10-13% Fire Resistance"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Eighth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zak",
+        "name": "Cobalt Glyph",
+        "color": "blue",
+        "imageFile": "inv_zak.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "4-7% Cold Resistance"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Tenth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zal",
+        "name": "Sapphire Glyph",
+        "color": "yellow",
+        "imageFile": "inv_zal.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "10-13% Cold Resistance"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Eighth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zam",
+        "name": "Coral Glyph",
+        "color": "blue",
+        "imageFile": "inv_zam.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "4-7% Lightning Resistance"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Tenth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zan",
+        "name": "Amber Glyph",
+        "color": "yellow",
+        "imageFile": "inv_zan.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "10-13% Lightning Resistance"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Eighth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zao",
+        "name": "Jade Glyph",
+        "color": "blue",
+        "imageFile": "inv_zao.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "4-7% Poison Resistance"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Tenth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zap",
+        "name": "Emerald Glyph",
+        "color": "yellow",
+        "imageFile": "inv_zap.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "10-13% Poison Resistance"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Eighth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zaq",
+        "name": "Glyph of the Brute",
+        "color": "blue",
+        "imageFile": "inv_zaq.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "15-20% Enhanced Damage"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Ninth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zar",
+        "name": "Obsidian",
+        "color": "gold",
+        "imageFile": "inv_zar.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "30-40% Enhanced Damage"
+            ]
+        ]
+    },
+    {
+        "index": "zas",
+        "name": "Glyph of Lava",
+        "color": "blue",
+        "imageFile": "inv_zas.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "3-4% Increased Fire Damage"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Ninth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zat",
+        "name": "Pyromancer's Glyph",
+        "color": "yellow",
+        "imageFile": "inv_zat.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "5-6% Increased Fire Damage"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Seventh Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zau",
+        "name": "Glyph of Frost",
+        "color": "blue",
+        "imageFile": "inv_zau.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "3-4% Increased Cold Damage"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Ninth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zav",
+        "name": "Ice Queen's Glyph",
+        "color": "yellow",
+        "imageFile": "inv_zav.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "5-6% Increased Cold Damage"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Seventh Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zaw",
+        "name": "Glyph of Shock",
+        "color": "blue",
+        "imageFile": "inv_zaw.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "3-4% Increased Lightning Damage"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Ninth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zax",
+        "name": "Thundergod's Glyph",
+        "color": "yellow",
+        "imageFile": "inv_zax.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "5-6% Increased Lightning Damage"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Seventh Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zay",
+        "name": "Glyph of Poison",
+        "color": "blue",
+        "imageFile": "inv_zay.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "3-4% Increased Poison Damage"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Ninth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zaz",
+        "name": "Witch Doctor's Glyph",
+        "color": "yellow",
+        "imageFile": "inv_zaz.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "5-6% Increased Poison Damage"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Seventh Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zbb",
+        "name": "Sturdy Glyph",
+        "color": "blue",
+        "imageFile": "inv_zbb.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+50-80 Defense"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Tenth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zbc",
+        "name": "Strong Glyph",
+        "color": "yellow",
+        "imageFile": "inv_zbc.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+100-120 Defense"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Ninth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zbd",
+        "name": "Gargantua Skin",
+        "color": "gold",
+        "imageFile": "inv_zbd.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "20-25% Enhanced Defense"
+            ]
+        ]
+    },
+    {
+        "index": "zbf",
+        "name": "Gold Glyph",
+        "color": "blue",
+        "imageFile": "inv_zbf.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+80-100 Attack Rating"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Tenth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zbg",
+        "name": "Platinum Glyph",
+        "color": "yellow",
+        "imageFile": "inv_zbg.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+150-200 Attack Rating"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Eighth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zbh",
+        "name": "Adamantine",
+        "color": "gold",
+        "imageFile": "inv_zbh.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "3-5% Physical Resistance"
+            ]
+        ]
+    },
+    {
+        "index": "zbi",
+        "name": "Ethereal Glyph",
+        "color": "yellow",
+        "imageFile": "inv_zbi.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "2-3% Magic Resistance"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zbj",
+        "name": "Scorching Sigil",
+        "color": "blue",
+        "imageFile": "inv_zbj.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "Adds 24-36 Fire Damage"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Ninth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zbk",
+        "name": "Incinerating Sigil",
+        "color": "yellow",
+        "imageFile": "inv_zbk.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "Adds 48-72 Fire Damage"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Seventh Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zbl",
+        "name": "Infernal Eye",
+        "color": "gold",
+        "imageFile": "inv_zbl.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "+100-160 Fire Damage"
+            ]
+        ]
+    },
+    {
+        "index": "zbm",
+        "name": "Cooling Sigil",
+        "color": "blue",
+        "imageFile": "inv_zbm.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "Adds 18-24 Cold Damage"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Ninth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zbn",
+        "name": "Freezing Sigil",
+        "color": "yellow",
+        "imageFile": "inv_zbn.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "Adds 36-48 Cold Damage"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Seventh Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zbo",
+        "name": "Evigfryse Ore",
+        "color": "gold",
+        "imageFile": "inv_zbo.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "+80-100 Cold Damage"
+            ]
+        ]
+    },
+    {
+        "index": "zbp",
+        "name": "Shocking Sigil",
+        "color": "blue",
+        "imageFile": "inv_zbp.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "Adds 1-75 Lightning Damage"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Ninth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zbq",
+        "name": "Eletrocuting Sigil",
+        "color": "yellow",
+        "imageFile": "inv_zbq.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "Adds 1-150 Lightning Damage"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Seventh Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zbr",
+        "name": "Fragment of Thunder",
+        "color": "gold",
+        "imageFile": "inv_zbr.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "+1-300 Lightning Damage"
+            ]
+        ]
+    },
+    {
+        "index": "zbs",
+        "name": "Poisonous Sigil",
+        "color": "blue",
+        "imageFile": "inv_zbs.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "Adds 100 Poison Damage over 4 seconds"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Ninth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zbt",
+        "name": "Noxious Sigil",
+        "color": "yellow",
+        "imageFile": "inv_zbt.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "Adds 200 Poison Damage over 4 seconds"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Seventh Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zbu",
+        "name": "Pulsating Ooze",
+        "color": "gold",
+        "imageFile": "inv_zbu.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "+600 Poison Damage over 4 seconds"
+            ]
+        ]
+    },
+    {
+        "index": "zbv",
+        "name": "Sigil of Alacrity",
+        "color": "blue",
+        "imageFile": "inv_zbv.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "3-4% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Eighth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zbw",
+        "name": "Sigil of Quickness",
+        "color": "yellow",
+        "imageFile": "inv_zbw.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "4-5% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zbx",
+        "name": "Magus' Sigil",
+        "color": "yellow",
+        "imageFile": "inv_zbx.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "4-5% Faster Cast Rate"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Seventh Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zby",
+        "name": "Apprentice's Sigil",
+        "color": "blue",
+        "imageFile": "inv_zby.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "2-3% Faster Cast Rate"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Ninth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zca",
+        "name": "Sigil of Reflexes",
+        "color": "blue",
+        "imageFile": "inv_zca.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "8% Faster Hit Recovery"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Tenth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zcb",
+        "name": "Sigil of Awareness",
+        "color": "yellow",
+        "imageFile": "inv_zcb.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "12% Faster Hit Recovery"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Ninth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zcc",
+        "name": "Sigil of Flammability",
+        "color": "blue",
+        "imageFile": "inv_zcc.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "Damage pierces (1-2)% Fire Resistance"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zcd",
+        "name": "Sigil of Frostbite",
+        "color": "blue",
+        "imageFile": "inv_zcd.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "Damage pierces (1-2)% Cold Resistance"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zce",
+        "name": "Sigil of Conductivity",
+        "color": "blue",
+        "imageFile": "inv_zce.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "Damage pierces (1-2)% Lightning Resistance"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zcf",
+        "name": "Sigil of Toxicity",
+        "color": "blue",
+        "imageFile": "inv_zcf.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "Damage pierces (1-2)% Poison Resistance"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zcg",
+        "name": "Sigil of Chance",
+        "color": "blue",
+        "imageFile": "inv_zcg.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "+10-15% Magic Find"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Ninth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zch",
+        "name": "Sigil of Good Luck",
+        "color": "yellow",
+        "imageFile": "inv_zch.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "+16-20% Magic Find"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Eighth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zci",
+        "name": "Gheed's Fortune",
+        "color": "gold",
+        "imageFile": "inv_zci.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "35% Better Chance of Finding Magical Items"
+            ]
+        ]
+    },
+    {
+        "index": "zcj",
+        "name": "Silver Sigil",
+        "color": "blue",
+        "imageFile": "inv_zcj.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "+25% Gold Find"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Tenth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zcm",
+        "name": "Sigil of the Hare",
+        "color": "blue",
+        "imageFile": "inv_zcm.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "3% Faster Run/Walk"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Ninth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zcn",
+        "name": "Sigil of the Cheetah",
+        "color": "yellow",
+        "imageFile": "inv_zcn.png",
+        "slot": "Secondary",
+        "props": [
+            [
+                "amber",
+                "Secondary Charm Component"
+            ],
+            [
+                "white",
+                "5% Faster Run/Walk"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Seventh Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zco",
+        "name": "Ankh of Piercing",
+        "color": "blue",
+        "imageFile": "inv_zco.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "3% Projectile Pierce Chance"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Ninth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zcp",
+        "name": "Ankh of Puncture",
+        "color": "yellow",
+        "imageFile": "inv_zcp.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "5% Projectile Pierce Chance"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Eighth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zcq",
+        "name": "Ankh of Cruelty",
+        "color": "blue",
+        "imageFile": "inv_zcq.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "2% Chance of Crushing Blow"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Ninth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zcr",
+        "name": "Ankh of Savagery",
+        "color": "yellow",
+        "imageFile": "inv_zcr.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "5% Chance of Crushing Blow"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zcs",
+        "name": "Ankh of Terror",
+        "color": "blue",
+        "imageFile": "inv_zcs.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "4% Chance to cast level 20 Terror on striking"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Eighth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zct",
+        "name": "Ankh of the Lich",
+        "color": "yellow",
+        "imageFile": "inv_zct.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "10% Chance to cast level 5 Hex on melee attack"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Seventh Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zcu",
+        "name": "Ankh of Mayhem",
+        "color": "yellow",
+        "imageFile": "inv_zcu.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "4% Chance to cast level 8 Confuse on striking"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Seventh Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zcv",
+        "name": "Ankh of Inferno",
+        "color": "blue",
+        "imageFile": "inv_zcv.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "3% Chance to gain 4 seconds of Hellfire on striking"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zcw",
+        "name": "Ankh of Icefall",
+        "color": "blue",
+        "imageFile": "inv_zcw.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "3% Chance to gain 4 seconds of Avalanche on striking"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zcx",
+        "name": "Ankh of the Conduit",
+        "color": "blue",
+        "imageFile": "inv_zcx.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "3% Chance to gain 4 seconds of Conduction on striking"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zcy",
+        "name": "Ankh of Phasing",
+        "color": "yellow",
+        "imageFile": "inv_zcy.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "3% Chance to gain 4 seconds of Haste on kill"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Sixth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zcz",
+        "name": "Void Innoculation",
+        "color": "gold",
+        "imageFile": "inv_zcz.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "3% Chance to gain 4 seconds of Empower on Kill"
+            ]
+        ]
+    },
+    {
+        "index": "zda",
+        "name": "Heart of Ankara",
+        "color": "gold",
+        "imageFile": "inv_zda.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "1% Life Regenerated per second"
+            ]
+        ]
+    },
+    {
+        "index": "zdb",
+        "name": "Ankh of Clarity",
+        "color": "blue",
+        "imageFile": "inv_zdb.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "10% Increased Mana Regeneration"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Eighth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zdc",
+        "name": "Ankh of Accuracy",
+        "color": "blue",
+        "imageFile": "inv_zdc.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "2% Deadly Strike"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Tenth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zdd",
+        "name": "Ankh of Precision",
+        "color": "yellow",
+        "imageFile": "inv_zdd.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "5% Deadly Strike"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Eighth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zde",
+        "name": "Ankh of the Lamprey",
+        "color": "blue",
+        "imageFile": "inv_zde.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "2% Life Leech"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Eighth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zdf",
+        "name": "Ankh of the Wraith",
+        "color": "blue",
+        "imageFile": "inv_zdf.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "2% Mana Leech"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Eighth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zdg",
+        "name": "Living Lava",
+        "color": "gold",
+        "imageFile": "inv_zdg.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "+1% Maximum Fire Resistance"
+            ]
+        ]
+    },
+    {
+        "index": "zdh",
+        "name": "Core of Winter",
+        "color": "gold",
+        "imageFile": "inv_zdh.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "+1% Maximum Cold Resistance"
+            ]
+        ]
+    },
+    {
+        "index": "zdi",
+        "name": "Static Essence",
+        "color": "gold",
+        "imageFile": "inv_zdi.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "+1% Maximum Lightning Resistance"
+            ]
+        ]
+    },
+    {
+        "index": "zdj",
+        "name": "Corrupted Blood",
+        "color": "gold",
+        "imageFile": "inv_zdj.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "+1% Maximum Poison Resistance"
+            ]
+        ]
+    },
+    {
+        "index": "zdk",
+        "name": "Ankh of Protection",
+        "color": "blue",
+        "imageFile": "inv_zdk.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "+4% Chance to Block"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Eighth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zdl",
+        "name": "Ankh of Shelter",
+        "color": "yellow",
+        "imageFile": "inv_zdl.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "+6% Chance to Block"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Seventh Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zdm",
+        "name": "Ankh of the Aegis",
+        "color": "blue",
+        "imageFile": "inv_zdm.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "12% Faster Block Rate"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Tenth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zdn",
+        "name": "Ankh of Absorption",
+        "color": "blue",
+        "imageFile": "inv_zdn.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "+5 Physical Damage reduction"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Seventh Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zdo",
+        "name": "Ankh of Warding",
+        "color": "blue",
+        "imageFile": "inv_zdo.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "+25 Magic and Elemental Damage reduction"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Seventh Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zdp",
+        "name": "Touch of Rime",
+        "color": "gold",
+        "imageFile": "inv_zdp.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "Freezes Target +3"
+            ]
+        ]
+    },
+    {
+        "index": "zdq",
+        "name": "Ankh of the Vampire",
+        "color": "blue",
+        "imageFile": "inv_zdq.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "+8 Life gained on kill"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Ninth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zdr",
+        "name": "Ankh of the Apparition",
+        "color": "blue",
+        "imageFile": "inv_zdr.png",
+        "slot": "Tertiary",
+        "props": [
+            [
+                "amber",
+                "Tertiary Charm Component"
+            ],
+            [
+                "white",
+                "+4 Mana gained on kill"
+            ],
+            [
+                "blue",
+                ""
+            ],
+            [
+                "blue",
+                "Also requires: Ninth Essence"
+            ]
+        ]
+    },
+    {
+        "index": "zds",
+        "name": "Fletcher's Glyph",
+        "color": "gold",
+        "imageFile": "inv_gtemp.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+1 Bow And Crossbow Skills (Amazon Only)"
+            ]
+        ]
+    },
+    {
+        "index": "zdt",
+        "name": "Acrobat's Glyph",
+        "color": "gold",
+        "imageFile": "inv_gtemp.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+1 Passive And Magic Skills (Amazon Only)"
+            ]
+        ]
+    },
+    {
+        "index": "zdu",
+        "name": "Harpoonist's Glyph",
+        "color": "gold",
+        "imageFile": "inv_gtemp.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+1 Javelin And Spear Skills (Amazon Only)"
+            ]
+        ]
+    },
+    {
+        "index": "zdv",
+        "name": "Burning Glyph",
+        "color": "gold",
+        "imageFile": "inv_gtemp.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+1 Fire Skills (Sorceress Only)"
+            ]
+        ]
+    },
+    {
+        "index": "zdx",
+        "name": "Sparking Glyph",
+        "color": "gold",
+        "imageFile": "inv_gtemp.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+1 Lightning Skills (Sorceress Only)"
+            ]
+        ]
+    },
+    {
+        "index": "zdy",
+        "name": "Chilling Glyph",
+        "color": "gold",
+        "imageFile": "inv_gtemp.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+1 Cold Skills (Sorceress Only)"
+            ]
+        ]
+    },
+    {
+        "index": "zdz",
+        "name": "Hexing Glyph",
+        "color": "gold",
+        "imageFile": "inv_gtemp.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+1 Curses (Necromancer Only)"
+            ]
+        ]
+    },
+    {
+        "index": "zea",
+        "name": "Fungal Glyph",
+        "color": "gold",
+        "imageFile": "inv_gtemp.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+1 Poison And Bone Skills (Necromancer Only)"
+            ]
+        ]
+    },
+    {
+        "index": "zeb",
+        "name": "Graverobber's Glyph",
+        "color": "gold",
+        "imageFile": "inv_gtemp.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+1 Summoning Skills (Necromancer Only)"
+            ]
+        ]
+    },
+    {
+        "index": "zec",
+        "name": "Lion Branded Glyph",
+        "color": "gold",
+        "imageFile": "inv_gtemp.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+1 Combat Skills (Paladin Only)"
+            ]
+        ]
+    },
+    {
+        "index": "zed",
+        "name": "Captain's Glyph",
+        "color": "gold",
+        "imageFile": "inv_gtemp.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+1 Offensive Auras (Paladin Only)"
+            ]
+        ]
+    },
+    {
+        "index": "zee",
+        "name": "Preserver's Glyph",
+        "color": "gold",
+        "imageFile": "inv_gtemp.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+1 Defensive Auras (Paladin Only)"
+            ]
+        ]
+    },
+    {
+        "index": "zef",
+        "name": "Expert's Glyph",
+        "color": "gold",
+        "imageFile": "inv_gtemp.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+1 Combat Masteries (Barbarian Only)"
+            ]
+        ]
+    },
+    {
+        "index": "zeg",
+        "name": "Fanatic Glyph",
+        "color": "gold",
+        "imageFile": "inv_gtemp.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+1 Combat Skills (Barbarian Only)"
+            ]
+        ]
+    },
+    {
+        "index": "zeh",
+        "name": "Sounding Glyph",
+        "color": "gold",
+        "imageFile": "inv_gtemp.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+1 Warcries (Barbarian Only)"
+            ]
+        ]
+    },
+    {
+        "index": "zei",
+        "name": "Trainer's Glyph",
+        "color": "gold",
+        "imageFile": "inv_gtemp.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+1 Summoning Skills (Druid Only)"
+            ]
+        ]
+    },
+    {
+        "index": "zej",
+        "name": "Spiritual Glyph",
+        "color": "gold",
+        "imageFile": "inv_gtemp.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+1 Shape Shifting Skills (Druid Only)"
+            ]
+        ]
+    },
+    {
+        "index": "zek",
+        "name": "Nature's Glyph",
+        "color": "gold",
+        "imageFile": "inv_gtemp.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+1 Elemental Skills (Druid Only)"
+            ]
+        ]
+    },
+    {
+        "index": "zel",
+        "name": "Entrapping Glyph",
+        "color": "gold",
+        "imageFile": "inv_gtemp.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+1 Traps (Assassin Only)"
+            ]
+        ]
+    },
+    {
+        "index": "zem",
+        "name": "Mentalist's Glyph",
+        "color": "gold",
+        "imageFile": "inv_gtemp.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+1 Shadow Disciplines (Assassin Only)"
+            ]
+        ]
+    },
+    {
+        "index": "zen",
+        "name": "Shogukusha's Glyph",
+        "color": "gold",
+        "imageFile": "inv_gtemp.png",
+        "slot": "Primary",
+        "props": [
+            [
+                "amber",
+                "Primary Charm Component"
+            ],
+            [
+                "white",
+                "+1 Martial Arts (Assassin Only)"
+            ]
+        ]
+    }
+]

@@ -62,10 +62,6 @@ class App extends Component {
         let masterItemList = { ...this.state.masterItemList }
         masterItemList.uniqueItems = data;
         this.setState({ masterItemList })
-
-        //let matchedItemList = { ...this.state.matchedItemList }
-        //matchedItemList.uniqueItems = data
-        //this.setState({ matchedItemList })
       });
 
     fetch(`/json/sets.json`)
@@ -100,11 +96,21 @@ class App extends Component {
         this.setState({ masterItemList });
       });
 
+    fetch(`/json/charmComponents.json`)
+      .then(blob => blob.json())
+      .then(data => {
+        let masterItemList = { ...this.state.masterItemList };
+        masterItemList.charmComponents = data;
+        this.setState({ masterItemList });
+      });
+
     let filters = [...this.state.filters];
     filters.push({ type: 'quality', name: 'uniques', label: 'Uniques', checked: true });
     filters.push({ type: 'quality', name: 'sets', label: 'Sets', checked: true });
     filters.push({ type: 'quality', name: 'runewords', label: 'Runewords', checked: true });
     filters.push({ type: 'quality', name: 'augments', label: 'Augments', checked: true });
+    filters.push({ type: 'quality', name: 'bases', label: 'Bases', checked: true });
+    filters.push({ type: 'quality', name: 'charms', label: 'Charm Components', checked: true });
 
     filters.push({ type: 'category', name: 'weapons', label: 'Weapons', checked: true });
     filters.push({ type: 'category', name: 'quivers', label: 'Quivers', checked: true });
@@ -119,7 +125,7 @@ class App extends Component {
     filters.push({ type: 'category', name: 'rings', label: 'Rings', checked: true });
     filters.push({ type: 'category', name: 'amulets', label: 'Amulets', checked: true });
     filters.push({ type: 'category', name: 'jewels', label: 'Jewels', checked: true });
-    filters.push({ type: 'category', name: 'charms', label: 'Charms', checked: false });
+    filters.push({ type: 'category', name: 'charms', label: 'Charms', checked: true });
     this.setState({ filters });
   }
   //

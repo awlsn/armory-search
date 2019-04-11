@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import ItemProperties from './ItemProperties'
-
-class Set extends Component {
-
-
+import SimpleProperties from './SimpleProperties'
+class Generic extends Component {
 
     render() {
         let { item } = this.props
@@ -11,7 +8,7 @@ class Set extends Component {
 
             <div className="item row">
 
-                <div className="row" id={item.index}>
+                <div className="row" id="{item.index}">
 
                     <div className="item-left four columns">
                         <span className="item-graphic "><img alt="" src={'/images/items/' + item.imageFile} /></span>
@@ -20,8 +17,10 @@ class Set extends Component {
                     </div>
 
                     <div className="item-right eight columns">
-                        <ItemProperties itemProps={item.baseProps} />
-                        <ItemProperties itemProps={item.props} />
+                        <SimpleProperties key="generic-baseProps" color="white" itemProps={item.baseProps} />
+                        <SimpleProperties key="generic-props" color="blue" itemProps={item.props} />
+
+
                     </div>
                 </div>
             </div >
@@ -32,5 +31,4 @@ class Set extends Component {
 
 }
 
-
-export default Set;
+export default Generic;

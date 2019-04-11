@@ -1,5 +1,4 @@
 import React from 'react'
-import UUID from '../UUID'
 
 function ItemPropSet(props) {
     const { propSet } = props;
@@ -9,7 +8,7 @@ function ItemPropSet(props) {
         ps.push({ color: propSet[i], text: propSet[i + 1] })
     }
 
-    return ps.map((prop, i) => <span key={UUID()} className={'no-wrap diablo_' + prop.color}> {prop.text}</span>);
+    return ps.map((prop, i) => <span key={i} className={'no-wrap diablo_' + prop.color}> {prop.text}</span>);
 
 }
 
