@@ -90,21 +90,25 @@ class SearchBar extends React.Component {
         function wildcardToRegExp(s) {
             return new RegExp('^' + s.split(/\*+/).map(regExpEscape).join('.*') + '$');
         }
-        function poundToRegExp(s) {
-            //console.log(s.split(/#+/).map(regExpEscape).join('\\d+'));
-            return new RegExp(s.split(/#+/).map(regExpEscape).join('\\d+'));
-        }
         //RegExp-escapes all characters in the given string.
         function regExpEscape(s) {
             return s.replace(/[|\\{}()[\]^$+*?.]/g, '\\$&');
         }
-
+        function poundToRegExp(s) {
+            return new RegExp(s.split(/#+/).map(regExpEscape).join('\\d+'));
+        }
+        //<label><input type="checkbox" /> Enable full regex</label>
         return (
             <div className="row">
                 <form className="itemSearchForm u-full-width" onSubmit={doSearch}>
-                    <input id="searchText" className="itemSearch" placeholder="Search items by their properties, * are wild" type="text"></input>
+                    <input id="searchText" className="itemSearch" placeholder="Search items by their properties" type="text"></input>
                     <button type="submit">Search</button>
+                    <p>
+                        Search items by their properties - * are wildcards and # will match any number.
+                    </p>
+
                 </form>
+
             </div>
         );
     }
