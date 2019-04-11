@@ -16,7 +16,6 @@ class Runeword extends Component {
                 <div className="row" id="{item.index}">
 
                     <div className="item-left four columns">
-                        <span className="item-graphic "><img alt="" src={'/images/items/' + item.imageFile} /></span>
                         <span className="item-name diablo_unique">{item.name}</span>
                         <div className="u-cf-ctr">
                             <span className="diablo_white inline;">Runes: </span>

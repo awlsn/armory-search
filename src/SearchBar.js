@@ -104,7 +104,7 @@ class SearchBar extends React.Component {
                     <input id="searchText" className="itemSearch" placeholder="Search items by their properties" type="text"></input>
                     <button type="submit">Search</button>
                     <p>
-                        Search items by their properties - * are wildcards and # will match any number.
+                        Search items by their properties: * are wildcards and # will match any number.
                     </p>
 
                 </form>
