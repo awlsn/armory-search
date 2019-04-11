@@ -12,13 +12,13 @@ class FullSet extends Component {
 
             <div className="item row">
 
-                <div className="row  u-cf-ctr" id={item.index}>
+                <div className="row u-cf-ctr" id={item.index}>
 
                     <h5 className="diablo_green">{item.name}</h5>
                     <span className="item-property  b block">Partial Set Bonus</span>
-                    <SimpleProperties color="green" itemProps={item.partialProps} />
+                    <SimpleProperties key="partial-set-props" color="green" itemProps={item.partialProps} />
                     <span className="item-property b block m-top-10" >Complete Set Bonus</span>
-                    <SimpleProperties color="gold" itemProps={item.fullProps} />
+                    <SimpleProperties key="full-set-props" color="gold" itemProps={item.fullProps} />
 
                 </div>
             </div >

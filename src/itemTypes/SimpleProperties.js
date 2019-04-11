@@ -4,8 +4,8 @@ function SimpleProperties(props) {
     const { itemProps, color } = props
     //console.log(itemProps);
     if (itemProps.length > 0) {
-        let runeProps = itemProps.map((itemPropSet) =>
-            (<span className="item-property">
+        let runeProps = itemProps.map((itemPropSet, i) =>
+            (<span key={i} className="item-property">
                 <div className={"no-wrap diablo_" + color}>{itemPropSet}</div>
             </span>)
         )

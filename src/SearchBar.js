@@ -27,7 +27,10 @@ class SearchBar extends React.Component {
 
             let result = items.filter(item => item.props.some(prop => {
                 let itemMod = prop[1].toLowerCase();
-                return wildcardToRegExp(searchText).test(itemMod)
+
+                searchText = searchText.toLowerCase();
+                //return new RegExp(searchText).test(itemMod);
+                return poundToRegExp(searchText).test(itemMod) || wildcardToRegExp(searchText).test(itemMod)
             }));
 
             return result;
@@ -38,7 +41,7 @@ class SearchBar extends React.Component {
 
             let result = items.filter(item => item.props.some(prop => {
                 let itemMod = prop.toLowerCase();
-                return wildcardToRegExp(searchText).test(itemMod)
+                return poundToRegExp(searchText).test(itemMod) || wildcardToRegExp(searchText).test(itemMod)
             }));
 
             return result;
@@ -50,12 +53,12 @@ class SearchBar extends React.Component {
             let result = items.filter(item => {
                 let fullPropResult = item.fullProps.some(prop => {
                     let itemMod = prop.toLowerCase();
-                    return wildcardToRegExp(searchText).test(itemMod);
+                    return poundToRegExp(searchText).test(itemMod) || wildcardToRegExp(searchText).test(itemMod)
                 });
 
                 let partialSetResult = item.partialProps.some(prop => {
                     let itemMod = prop.toLowerCase();
-                    return wildcardToRegExp(searchText).test(itemMod);
+                    return poundToRegExp(searchText).test(itemMod) || wildcardToRegExp(searchText).test(itemMod)
                 });
 
                 return fullPropResult || partialSetResult;
@@ -72,7 +75,7 @@ class SearchBar extends React.Component {
 
             let result = allSetItems.filter(item => item.props.some(prop => {
                 let itemMod = prop[1].toLowerCase();
-                return wildcardToRegExp(searchText).test(itemMod)
+                return poundToRegExp(searchText).test(itemMod) || wildcardToRegExp(searchText).test(itemMod)
             }));
 
             return result;
@@ -86,6 +89,10 @@ class SearchBar extends React.Component {
         //Creates a RegExp from the given string, converting asterisks to .* expressions, and escaping all other characters.
         function wildcardToRegExp(s) {
             return new RegExp('^' + s.split(/\*+/).map(regExpEscape).join('.*') + '$');
+        }
+        function poundToRegExp(s) {
+            //console.log(s.split(/#+/).map(regExpEscape).join('\\d+'));
+            return new RegExp(s.split(/#+/).map(regExpEscape).join('\\d+'));
         }
         //RegExp-escapes all characters in the given string.
         function regExpEscape(s) {
