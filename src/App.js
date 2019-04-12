@@ -104,6 +104,22 @@ class App extends Component {
         this.setState({ masterItemList });
       });
 
+    fetch(`/json/crafting.json`)
+      .then(blob => blob.json())
+      .then(data => {
+        let masterItemList = { ...this.state.masterItemList };
+        masterItemList.crafting = data;
+        this.setState({ masterItemList });
+      });
+
+    fetch(`/json/affixes.json`)
+      .then(blob => blob.json())
+      .then(data => {
+        let masterItemList = { ...this.state.masterItemList };
+        masterItemList.affixes = data;
+        this.setState({ masterItemList });
+      });
+
     let filters = [...this.state.filters];
     filters.push({ type: 'quality', name: 'uniques', label: 'Uniques', checked: true });
     filters.push({ type: 'quality', name: 'sets', label: 'Sets', checked: true });
@@ -111,6 +127,8 @@ class App extends Component {
     filters.push({ type: 'quality', name: 'augments', label: 'Augments', checked: true });
     filters.push({ type: 'quality', name: 'bases', label: 'Bases', checked: true });
     filters.push({ type: 'quality', name: 'charms', label: 'Charm Components', checked: true });
+    filters.push({ type: 'quality', name: 'crafting', label: 'Crafting Recipes', checked: true });
+    filters.push({ type: 'quality', name: 'affixes', label: 'Magic Prefixes/Suffixes', checked: true });
 
     filters.push({ type: 'category', name: 'weapons', label: 'Weapons', checked: true });
     filters.push({ type: 'category', name: 'quivers', label: 'Quivers', checked: true });

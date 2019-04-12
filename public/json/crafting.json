@@ -1,0 +1,751 @@
+[
+    {
+        "index": "weapon-Wrath",
+        "imageFile": "images/perfectruby.gif",
+        "type": "weapon",
+        "name": "Wrath",
+        "props": [
+            "-(4-5)% to Enemy Physical Resistance",
+            "(2-3)% Life leech",
+            "+(15-20) to Strength"
+        ]
+    },
+    {
+        "index": "weapon-Agility",
+        "imageFile": "images/perfectemerald.gif",
+        "type": "weapon",
+        "name": "Agility",
+        "props": [
+            "(12-16)% Increased Attack Speed",
+            "(20-25)%Increased Attack Rating",
+            "+(15-20) to Dexterity"
+        ]
+    },
+    {
+        "index": "weapon-Wisdom",
+        "imageFile": "images/perfectsaphire.gif",
+        "type": "weapon",
+        "name": "Wisdom",
+        "props": [
+            "(10-14)% Faster Cast Rate",
+            "(6-8)% Increased Elemental Damage",
+            "+(15-20) to Energy"
+        ]
+    },
+    {
+        "index": "weapon-Vigor",
+        "imageFile": "images/perfectamethyst.gif",
+        "type": "weapon",
+        "name": "Vigor",
+        "props": [
+            "+(6-10) Life Gained on Hit",
+            "Slows Target by (6-8)%",
+            "+(15-20) to Vitality"
+        ]
+    },
+    {
+        "index": "weapon-Bliss",
+        "imageFile": "images/perfecttopaz.gif",
+        "type": "weapon",
+        "name": "Bliss",
+        "props": [
+            "+5 Maximum Lightning Damage per Energy",
+            "(2-3)% Mana leech",
+            "(7-10)% Deadly Strike"
+        ]
+    },
+    {
+        "index": "weapon-Unity",
+        "imageFile": "images/perfectdiamond.gif",
+        "type": "weapon",
+        "name": "Unity",
+        "props": [
+            "+1 to All Skills",
+            "+(10-15)% Elemental Resistances",
+            "+(3-4)% Magic Resistance"
+        ]
+    },
+    {
+        "index": "weapon-Death",
+        "imageFile": "images/perfectskull.gif",
+        "type": "weapon",
+        "name": "Death",
+        "props": [
+            "4% Crushing Blow per 100 Strength",
+            "-(8-10)% Enemy Defense",
+            "Stuns Target +8"
+        ]
+    },
+    {
+        "index": "armor-Wrath",
+        "imageFile": "images/perfectruby.gif",
+        "type": "armor",
+        "name": "Wrath",
+        "props": [
+            "2% of Life Replenished on Kill",
+            "8% Increased Attack Speed per 100 Strength",
+            "+(15-20) to Strength"
+        ]
+    },
+    {
+        "index": "armor-Agility",
+        "imageFile": "images/perfectemerald.gif",
+        "type": "armor",
+        "name": "Agility",
+        "props": [
+            "(5-10)% Faster Run/Walk",
+            "10% Faster Hit Recovery per 100 Dexterity",
+            "+(15-20) to Dexterity"
+        ]
+    },
+    {
+        "index": "armor-Wisdom",
+        "imageFile": "images/perfectsaphire.gif",
+        "type": "armor",
+        "name": "Wisdom",
+        "props": [
+            "+(10-15)% Elemental Resistances",
+            "(16-20)% Increased Mana Regeneration",
+            "+(15-20) to Energy"
+        ]
+    },
+    {
+        "index": "armor-Vigor",
+        "imageFile": "images/perfectamethyst.gif",
+        "type": "armor",
+        "name": "Vigor",
+        "props": [
+            "(40-50)% Enhanced Defense",
+            "+(2-3)% Physical Resistance",
+            "+(15-20) to Vitality"
+        ]
+    },
+    {
+        "index": "armor-Bliss",
+        "imageFile": "images/perfecttopaz.gif",
+        "type": "armor",
+        "name": "Bliss",
+        "props": [
+            "1% Life Regeneration per second",
+            "Poison Length Reduced by (20-25)%",
+            "(5-7)% Lightning Absorb"
+        ]
+    },
+    {
+        "index": "armor-Unity",
+        "imageFile": "images/perfectdiamond.gif",
+        "type": "armor",
+        "name": "Unity",
+        "props": [
+            "+(7-10) Magic and Elemental Damage Reduction",
+            "+(3-4)% Magic Resistances",
+            "+(8-10) to All Attributes"
+        ]
+    },
+    {
+        "index": "armor-Death",
+        "imageFile": "images/perfectskull.gif",
+        "type": "armor",
+        "name": "Death",
+        "props": [
+            "+(6-8) Physical Damage Reduction",
+            "+(4-5)% Increased Maximum Life",
+            "Half Freeze Duration"
+        ]
+    },
+    {
+        "index": "helm-Wrath",
+        "imageFile": "images/perfectruby.gif",
+        "type": "helm",
+        "name": "Wrath",
+        "props": [
+            "(2-3)% Life Leech",
+            "(15-20)% Enhanced Damage",
+            "(3-4)% Fire Absorb"
+        ]
+    },
+    {
+        "index": "helm-Agility",
+        "imageFile": "images/perfectemerald.gif",
+        "type": "helm",
+        "name": "Agility",
+        "props": [
+            "(3-4)% Faster Run/Walk",
+            "(12-16)% Faster Hit Recovery",
+            "+(60-80) to Attack Rating"
+        ]
+    },
+    {
+        "index": "helm-Wisdom",
+        "imageFile": "images/perfectsaphire.gif",
+        "type": "helm",
+        "name": "Wisdom",
+        "props": [
+            "-(2-3)% to Enemy Elemental Resistances",
+            "+(2-3) Mana gained on kill",
+            "+(20-25) to Mana"
+        ]
+    },
+    {
+        "index": "helm-Vigor",
+        "imageFile": "images/perfectamethyst.gif",
+        "type": "helm",
+        "name": "Vigor",
+        "props": [
+            "+(40-50)% Enhanced Defense",
+            "+(4-5) Life gained on Kill",
+            "+(20-25) to Life"
+        ]
+    },
+    {
+        "index": "helm-Bliss",
+        "imageFile": "images/perfecttopaz.gif",
+        "type": "helm",
+        "name": "Bliss",
+        "props": [
+            "+(3-4) Life gained when struck",
+            "+(6-8)% Projectile Pierce Chance",
+            "+(15-20)% Magic Find"
+        ]
+    },
+    {
+        "index": "helm-Unity",
+        "imageFile": "images/perfectdiamond.gif",
+        "type": "helm",
+        "name": "Unity",
+        "props": [
+            "+(5-6) Magic and Elemental Damage Reduction",
+            "+(6-10) Magic Absorb",
+            "+(4-5) to All Attributes"
+        ]
+    },
+    {
+        "index": "helm-Death",
+        "imageFile": "images/perfectskull.gif",
+        "type": "helm",
+        "name": "Death",
+        "props": [
+            "+(3-4) Physical Damage Reduction",
+            "-(4-5)% Enemy Defense",
+            "Prevent Monster Heal"
+        ]
+    },
+    {
+        "index": "shield-Wrath",
+        "imageFile": "images/perfectruby.gif",
+        "type": "shield",
+        "name": "Wrath",
+        "props": [
+            "+(25-30)% Fire Resistance",
+            "+(4-5) Life Gained on Striking",
+            "(4-5)% Increased Strength"
+        ]
+    },
+    {
+        "index": "shield-Agility",
+        "imageFile": "images/perfectemerald.gif",
+        "type": "shield",
+        "name": "Agility",
+        "props": [
+            "+(25-30)% Poison Resistance",
+            "(22-26)% Faster Hit Recovery",
+            "(4-5)% Increased Dexterity"
+        ]
+    },
+    {
+        "index": "shield-Wisdom",
+        "imageFile": "images/perfectsaphire.gif",
+        "type": "shield",
+        "name": "Wisdom",
+        "props": [
+            "+(25-30)% Cold Resistance",
+            "+(2-3) Mana Gained on Striking",
+            "(4-5)% Increased Energy"
+        ]
+    },
+    {
+        "index": "shield-Vigor",
+        "imageFile": "images/perfectamethyst.gif",
+        "type": "shield",
+        "name": "Vigor",
+        "props": [
+            "+5% Chance to Block",
+            "+(10-15) Life gained when struck",
+            "(4-5)% Increased Vitality"
+        ]
+    },
+    {
+        "index": "shield-Bliss",
+        "imageFile": "images/perfecttopaz.gif",
+        "type": "shield",
+        "name": "Bliss",
+        "props": [
+            "+(25-30)% Lightning Resistance",
+            "-(6-8)% to Enemy Lightning Resistance",
+            "+(25-30)% Magic Find"
+        ]
+    },
+    {
+        "index": "shield-Unity",
+        "imageFile": "images/perfectdiamond.gif",
+        "type": "shield",
+        "name": "Unity",
+        "props": [
+            "+1 to All Skills",
+            "+(5-6)% Magic Resistance",
+            "-(3-4)% to Enemy Magic Resistance"
+        ]
+    },
+    {
+        "index": "shield-Death",
+        "imageFile": "images/perfectskull.gif",
+        "type": "shield",
+        "name": "Death",
+        "props": [
+            "+(8-10) Physical Damage Reduction",
+            "(8-10)% Reduced Duration of Curses on You",
+            "-(3-4)% to Enemy Physical Resistance"
+        ]
+    },
+    {
+        "index": "belt-Wrath",
+        "imageFile": "images/perfectruby.gif",
+        "type": "belt",
+        "name": "Wrath",
+        "props": [
+            "(2-3)% Crushing Blow",
+            "+(8-12) Fire Absorb",
+            "(15-20)% Enhanced Damage"
+        ]
+    },
+    {
+        "index": "belt-Agility",
+        "imageFile": "images/perfectemerald.gif",
+        "type": "belt",
+        "name": "Agility",
+        "props": [
+            "(3-4)% Faster Run/Walk",
+            "(4-5)% Deadly Strike",
+            "+(50-60) to Attack Rating"
+        ]
+    },
+    {
+        "index": "belt-Wisdom",
+        "imageFile": "images/perfectsaphire.gif",
+        "type": "belt",
+        "name": "Wisdom",
+        "props": [
+            "(5-8)% Faster Cast Rate",
+            "(10-15)% Increased Mana Regeneration",
+            "(2-3)% Increased Maximum Mana"
+        ]
+    },
+    {
+        "index": "belt-Vigor",
+        "imageFile": "images/perfectamethyst.gif",
+        "type": "belt",
+        "name": "Vigor",
+        "props": [
+            "(10-15)% Faster Block Rate",
+            "+4% Physical Resistance per 100 Energy",
+            "(2-3)% Increased Maximum Life"
+        ]
+    },
+    {
+        "index": "belt-Bliss",
+        "imageFile": "images/perfecttopaz.gif",
+        "type": "belt",
+        "name": "Bliss",
+        "props": [
+            "(10-15)% Increased Potion Effect",
+            "Half Freeze Duration",
+            "+1 to Lightning Skills"
+        ]
+    },
+    {
+        "index": "belt-Unity",
+        "imageFile": "images/perfectdiamond.gif",
+        "type": "belt",
+        "name": "Unity",
+        "props": [
+            "(3-4)% Increased Elemental Damage",
+            "+(6-8)% Elemental Resistances",
+            "+(4-5) to All Attributes"
+        ]
+    },
+    {
+        "index": "belt-Death",
+        "imageFile": "images/perfectskull.gif",
+        "type": "belt",
+        "name": "Death",
+        "props": [
+            "-(3-4)% to Enemy Poison Resistance",
+            "-(3-4)% to Enemy Physical Resistance",
+            "(10-14)% Increased Minion Damage"
+        ]
+    },
+    {
+        "index": "glove-Wrath",
+        "imageFile": "images/perfectruby.gif",
+        "type": "glove",
+        "name": "Wrath",
+        "props": [
+            "-(3-4)% to Enemy Fire Resistance",
+            "Knockback",
+            "+(20-25) to Life"
+        ]
+    },
+    {
+        "index": "glove-Agility",
+        "imageFile": "images/perfectemerald.gif",
+        "type": "glove",
+        "name": "Agility",
+        "props": [
+            "(4-5)% Increased Attack Speed",
+            "(6-8)% Faster Hit Recovery",
+            "(15-20)% Increased Attack Rating"
+        ]
+    },
+    {
+        "index": "glove-Wisdom",
+        "imageFile": "images/perfectsaphire.gif",
+        "type": "glove",
+        "name": "Wisdom",
+        "props": [
+            "Freezes Target +2",
+            "-4% to Enemy Cold Resistance per 100 Dexterity",
+            "+(20-25) to Mana"
+        ]
+    },
+    {
+        "index": "glove-Vigor",
+        "imageFile": "images/perfectamethyst.gif",
+        "type": "glove",
+        "name": "Vigor",
+        "props": [
+            "Adds 10-20 Damage",
+            "+(2-3) Life Gained on Striking",
+            "+(4-5) Physical Damage Reduction"
+        ]
+    },
+    {
+        "index": "glove-Bliss",
+        "imageFile": "images/perfecttopaz.gif",
+        "type": "glove",
+        "name": "Bliss",
+        "props": [
+            "(2-3)% Life Leech",
+            "Poison Length Reduced By (5- 10)%",
+            "Slows Target by (4-5)%"
+        ]
+    },
+    {
+        "index": "glove-Unity",
+        "imageFile": "images/perfectdiamond.gif",
+        "type": "glove",
+        "name": "Unity",
+        "props": [
+            "+1 to Magic Skills",
+            "-5% Reduced Skill Cooldown Per 100 Strength",
+            "(2-3)% Magic Absorb"
+        ]
+    },
+    {
+        "index": "glove-Death",
+        "imageFile": "images/perfectskull.gif",
+        "type": "glove",
+        "name": "Death",
+        "props": [
+            "(4-5)% Crushing Blow",
+            "+(5-6)% Increased Poison Damage",
+            "Stuns Target +2"
+        ]
+    },
+    {
+        "index": "boot-Wrath",
+        "imageFile": "images/perfectruby.gif",
+        "type": "boot",
+        "name": "Wrath",
+        "props": [
+            "+(15-20)% Fire Resistance",
+            "2% of Life Replenished on Kill",
+            "+(10-15) to Strength"
+        ]
+    },
+    {
+        "index": "boot-Agility",
+        "imageFile": "images/perfectemerald.gif",
+        "type": "boot",
+        "name": "Agility",
+        "props": [
+            "+(15-20)% Poison Resistance",
+            "(6-8)% Faster Run/Walk",
+            "+(10-15) to Dexterity"
+        ]
+    },
+    {
+        "index": "boot-Wisdom",
+        "imageFile": "images/perfectsaphire.gif",
+        "type": "boot",
+        "name": "Wisdom",
+        "props": [
+            "+(15-20)% Cold Resistance",
+            "2% of Mana Replenished on Kill",
+            "+(10-15) to Energy"
+        ]
+    },
+    {
+        "index": "boot-Vigor",
+        "imageFile": "images/perfectamethyst.gif",
+        "type": "boot",
+        "name": "Vigor",
+        "props": [
+            "+(2-3)% Physical Resistance",
+            "+(4-5) Life gained when Struck",
+            "+(10-15) to Vitality"
+        ]
+    },
+    {
+        "index": "boot-Bliss",
+        "imageFile": "images/perfecttopaz.gif",
+        "type": "boot",
+        "name": "Bliss",
+        "props": [
+            "+(15-20)% Lightning Resistance",
+            "+(5-6)% Increased Lightning Damagey",
+            "+(15-20)% Magic Find"
+        ]
+    },
+    {
+        "index": "boot-Unity",
+        "imageFile": "images/perfectdiamond.gif",
+        "type": "boot",
+        "name": "Unity",
+        "props": [
+            "-(4-5)% Reduced Skill Cooldown",
+            "-(2-3)% to Enemy Magic Resistance",
+            "+(4-5) to All Attributes"
+        ]
+    },
+    {
+        "index": "boot-Death",
+        "imageFile": "images/perfectskull.gif",
+        "type": "boot",
+        "name": "Death",
+        "props": [
+            "(10-15)% Enhanced Damage",
+            "-(4-5)% Enemy Defense",
+            "(8-10)% Increased Minion Damage"
+        ]
+    },
+    {
+        "index": "ring-Wrath",
+        "imageFile": "images/perfectruby.gif",
+        "type": "ring",
+        "name": "Wrath",
+        "props": [
+            "+1 Maximum Fire Damage Per Energy",
+            "+(15-20) to Strength"
+        ]
+    },
+    {
+        "index": "ring-Agility",
+        "imageFile": "images/perfectemerald.gif",
+        "type": "ring",
+        "name": "Agility",
+        "props": [
+            "(10-15)% Increased Attack Rating",
+            "+(15-20) to Dexterity"
+        ]
+    },
+    {
+        "index": "ring-Wisdom",
+        "imageFile": "images/perfectsaphire.gif",
+        "type": "ring",
+        "name": "Wisdom",
+        "props": [
+            "(5-6)% Faster Cast Rate",
+            "+(15-20) to Energy"
+        ]
+    },
+    {
+        "index": "ring-Vigor",
+        "imageFile": "images/perfectamethyst.gif",
+        "type": "ring",
+        "name": "Vigor",
+        "props": [
+            "+2 to Defense per Character Level",
+            "+(15-20) to Vitality"
+        ]
+    },
+    {
+        "index": "ring-Bliss",
+        "imageFile": "images/perfecttopaz.gif",
+        "type": "ring",
+        "name": "Bliss",
+        "props": [
+            "-(2-3)% to Enemy Lightning Resistance",
+            "+(10-15)% Magic Find"
+        ]
+    },
+    {
+        "index": "ring-Unity",
+        "imageFile": "images/perfectdiamond.gif",
+        "type": "ring",
+        "name": "Unity",
+        "props": [
+            "+(6-8)% Elemental Resistances",
+            "+(5-6) to All Attributes"
+        ]
+    },
+    {
+        "index": "ring-Death",
+        "imageFile": "images/perfectskull.gif",
+        "type": "ring",
+        "name": "Death",
+        "props": [
+            "(4-6)% Reduced Duration of Curses on You",
+            "3% Chance of Crushing Blow"
+        ]
+    },
+    {
+        "index": "amulet-Wrath",
+        "imageFile": "images/perfectruby.gif",
+        "type": "amulet",
+        "name": "Wrath",
+        "props": [
+            "(20-25)% Enhanced Damage",
+            "(3-4)% Life Leech"
+        ]
+    },
+    {
+        "index": "amulet-Agility",
+        "imageFile": "images/perfectemerald.gif",
+        "type": "amulet",
+        "name": "Agility",
+        "props": [
+            "(4-5)% Increased Attack Speed",
+            "(12-15)% Faster Hit Recovery"
+        ]
+    },
+    {
+        "index": "amulet-Wisdom",
+        "imageFile": "images/perfectsaphire.gif",
+        "type": "amulet",
+        "name": "Wisdom",
+        "props": [
+            "(20-25)% Increased Mana Regeneration",
+            "(4-5)% Cold Absorb"
+        ]
+    },
+    {
+        "index": "amulet-Vigor",
+        "imageFile": "images/perfectamethyst.gif",
+        "type": "amulet",
+        "name": "Vigor",
+        "props": [
+            "+(3-4)% Physical Resistance",
+            "+(6-8) Physical Damage Reduction"
+        ]
+    },
+    {
+        "index": "amulet-Bliss",
+        "imageFile": "images/perfecttopaz.gif",
+        "type": "amulet",
+        "name": "Bliss",
+        "props": [
+            "1% Life Regeneration per second",
+            "Half Freeze Duration"
+        ]
+    },
+    {
+        "index": "amulet-Unity",
+        "imageFile": "images/perfectdiamond.gif",
+        "type": "amulet",
+        "name": "Unity",
+        "props": [
+            "+4% Magic Resistance per 100 Energy",
+            "-(8-10)% Reduced Skill Cooldown"
+        ]
+    },
+    {
+        "index": "amulet-Death",
+        "imageFile": "images/perfectskull.gif",
+        "type": "amulet",
+        "name": "Death",
+        "props": [
+            "(5-6)% Chance of Crushing Blow",
+            "Stuns Target +4"
+        ]
+    },
+    {
+        "index": "quiver-Wrath",
+        "imageFile": "images/perfectruby.gif",
+        "type": "quiver",
+        "name": "Wrath",
+        "props": [
+            "(6-8)% Increased Fire Damage",
+            "2% Life Replenished on Kill"
+        ]
+    },
+    {
+        "index": "quiver-Agility",
+        "imageFile": "images/perfectemerald.gif",
+        "type": "quiver",
+        "name": "Agility",
+        "props": [
+            "-6% to Enemy Poison Resistance per 100 Energy",
+            "(6-8)% Increased Attack Speed"
+        ]
+    },
+    {
+        "index": "quiver-Wisdom",
+        "imageFile": "images/perfectsaphire.gif",
+        "type": "quiver",
+        "name": "Wisdom",
+        "props": [
+            "+1 to Cold Skills",
+            "(3-4)% Mana Leech"
+        ]
+    },
+    {
+        "index": "quiver-Vigor",
+        "imageFile": "images/perfectamethyst.gif",
+        "type": "quiver",
+        "name": "Vigor",
+        "props": [
+            "Adds 10-20 Damage",
+            "(12-16)% Faster Hit Recovery"
+        ]
+    },
+    {
+        "index": "quiver-Bliss",
+        "imageFile": "images/perfecttopaz.gif",
+        "type": "quiver",
+        "name": "Bliss",
+        "props": [
+            "+(16-20)% Increased Potion Effect",
+            "+(8-10)% Projectile Pierce Chance"
+        ]
+    },
+    {
+        "index": "quiver-Unity",
+        "imageFile": "images/perfectdiamond.gif",
+        "type": "quiver",
+        "name": "Unity",
+        "props": [
+            "+1 to All Skills",
+            "-(3-4)% to Enemy Magic Resistance"
+        ]
+    },
+    {
+        "index": "quiver-Death",
+        "imageFile": "images/perfectskull.gif",
+        "type": "quiver",
+        "name": "Death",
+        "props": [
+            "-4% to Enemy Physical Resistance per 100 Strength",
+            "+(3-4) Life Gained on Striking"
+        ]
+    }
+]

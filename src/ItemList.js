@@ -7,6 +7,8 @@ import Set from './itemTypes/Set';
 import Augment from './itemTypes/Generic';
 import Charm from './itemTypes/Generic'
 import Base from './itemTypes/SimpleGeneric'
+import Crafting from './itemTypes/Crafting'
+import Affixes from './itemTypes/Affixes'
 
 function ItemList(props) {
     //catItems.forEach((item) => {
@@ -51,7 +53,10 @@ function ItemList(props) {
             return items.map((item, i) => <Base key={item.index + i} item={item} />)
         case 'Charm Components':
             return items.map((item, i) => <Charm key={item.index + i} item={item} />)
-
+        case 'Crafting Recipes':
+            return items.map((item, i) => <Crafting key={item.index + i} item={item} />)
+        case 'Magic Prefixes/Suffixes':
+            return items.map((item, i) => <Affixes key={item.index + i} item={item} />)
         default:
             return "";
     }

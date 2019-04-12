@@ -19,6 +19,8 @@ class SearchBar extends React.Component {
             matchedItemList.augmentItems = findItems(masterItemList.augmentItems, text);
             matchedItemList.baseItems = findBaseItems(masterItemList.baseItems, text);
             matchedItemList.charmComponents = findItems(masterItemList.charmComponents, text);
+            matchedItemList.crafting = findBaseItems(masterItemList.crafting, text);
+            matchedItemList.affixes = findBaseItems(masterItemList.affixes, text);
             setMatchedItemList(matchedItemList);
         }
 
@@ -35,6 +37,8 @@ class SearchBar extends React.Component {
 
             return result;
         }
+
+
 
         function findBaseItems(items, searchText) {
             searchText = searchText.toLowerCase();
