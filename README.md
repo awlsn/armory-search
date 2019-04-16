@@ -1,6 +1,6 @@
-# armoury-search
+# armory-search
 
-This is a flexible search for the Diablo 2 mod Resurgence's Armoury pages. You can search through all item types using * characters as wildcards.
+This is a flexible search for the Diablo 2 mod Resurgence's Armory pages. You can search through all item types using * characters as wildcards.
 
 
 
