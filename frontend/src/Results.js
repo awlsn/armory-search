@@ -15,7 +15,7 @@ function Results(props) {
                 return (
                     <>
                         <h2>{props.title}</h2>
-                        <table class="five columns">
+                        <table className="five columns">
                             <thead>
                                 <tr>
                                     <th>Name</th>
@@ -28,7 +28,7 @@ function Results(props) {
                             </tbody>
                         </table>
 
-                        <table class="five columns">
+                        <table className="five columns">
                             <thead>
                                 <tr>
                                     <th>Name</th>
@@ -40,8 +40,6 @@ function Results(props) {
                                 <ItemList items={suffixes} itemType={props.title} filters={props.filters} />
                             </tbody>
                         </table>
-
-
                     </>
                 )
             }
@@ -61,6 +59,7 @@ function Results(props) {
 
     //if object is not empty... maybe refactor again?
     if (Object.keys(matchedItemList).length > 0) {
+
         return (
             <div>
                 <CategoryDisplay title="Uniques" show={isFiltered('uniques')} found={matchedItemList.uniqueItems} filters={filters} />

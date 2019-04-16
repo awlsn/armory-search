@@ -11,6 +11,8 @@ class SearchBar extends React.Component {
 
             let text = document.getElementById("searchText").value;
 
+            [...new Set(masterItemList.runewordItems)].forEach((item) => console.log(item.items));
+
             let matchedItemList = {};
             matchedItemList.uniqueItems = findItems(masterItemList.uniqueItems, text);
             matchedItemList.runewordItems = findItems(masterItemList.runewordItems, text);
@@ -31,6 +33,8 @@ class SearchBar extends React.Component {
                 let itemMod = prop[1].toLowerCase();
 
                 searchText = searchText.toLowerCase();
+                //parseWildCards(searchText);
+                //return parseWildCards(searchText).test(itemMod);
                 //return new RegExp(searchText).test(itemMod);
                 return poundToRegExp(searchText).test(itemMod) || wildcardToRegExp(searchText).test(itemMod)
             }));
@@ -87,19 +91,29 @@ class SearchBar extends React.Component {
 
 
 
-
+        function parseWildCards(s) {
+            let parsedString = s.split(/#+/).join('\d+');
+            //'^' + s.split(/\*+/).map(regExpEscape).join('.*') + '$'
+            parsedString = '^' + parsedString.split(/\*+/).map(regExpEscape).join('.*') + '$';
+            //console.log("broken", parsedString);
+            //return new RegExp(parsedString);
+        }
 
         //via donmccurdy : https://gist.github.com/donmccurdy/6d073ce2c6f3951312dfa45da14a420f
         //Creates a RegExp from the given string, converting asterisks to .* expressions, and escaping all other characters.
         function wildcardToRegExp(s) {
-            return new RegExp('^' + s.split(/\*+/).map(regExpEscape).join('.*') + '$');
+            let parsedString = '^' + s.split(/\*+/).map(regExpEscape).join('.*') + '$';
+            //console.log(parsedString)
+            return new RegExp(parsedString);
         }
         //RegExp-escapes all characters in the given string.
         function regExpEscape(s) {
             return s.replace(/[|\\{}()[\]^$+*?.]/g, '\\$&');
         }
         function poundToRegExp(s) {
-            return new RegExp(s.split(/#+/).map(regExpEscape).join('\\d+'));
+            let parsedString = s.split(/#+/).map(regExpEscape).join('\\d+');
+            //console.log(parsedString)
+            return new RegExp(parsedString);
         }
         //<label><input type="checkbox" /> Enable full regex</label>
         return (
@@ -108,7 +122,7 @@ class SearchBar extends React.Component {
                     <input id="searchText" className="itemSearch" placeholder="Search items by their properties" type="text"></input>
                     <button type="submit">Search</button>
                     <p>
-                        Search items by their properties: * are wildcards and # will match any number.
+                        Search items by their properties: * are wildcards or # will match any number.
                     </p>
 
                 </form>

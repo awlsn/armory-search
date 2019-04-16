@@ -8,12 +8,14 @@ function FilterList(props) {
         const { filters, type, toggleCheckboxState } = props;
         let checkBoxList = filters.map((filter) => <label key={filter.name}><input type="checkbox" name={filter.name} checked={filter.checked} onChange={toggleCheckboxState} /> {filter.label}</label>)
         if (type === "category") {
-            return <div className="filter ten columns"><h5 className="item-name diablo_unique">Unique Item Filters</h5>{checkBoxList}</div>
+            return <div className="filter three columns"><h5 className="item-name diablo_unique">Unique Item Filters</h5>{checkBoxList}</div>
         } if (type === "quality") {
-            return <div className="filter ten columns"><h5 className="item-name diablo_unique">Item Quality Filters</h5>{checkBoxList}</div>
+            return <div className="filter three columns"><h5 className="item-name diablo_unique">Item Types</h5>{checkBoxList}</div>
+        } if (type === "ilvl") {
+            return <div className="filter three columns"><h5 className="item-name diablo_unique">Item Level Filter</h5>{checkBoxList}</div>
         }
 
-        else return <div className="filter ten columns">{checkBoxList}</div>
+        else return <div className="filter three columns">{checkBoxList}</div>
     }
 
     function getTypes() {

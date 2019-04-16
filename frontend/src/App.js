@@ -94,6 +94,7 @@ class App extends Component {
         let masterItemList = { ...this.state.masterItemList };
         masterItemList.baseItems = data;
         this.setState({ masterItemList });
+        masterItemList.baseItems.forEach((item) => item.itemType);
       });
 
     fetch(`/json/charmComponents.json`)
@@ -144,6 +145,7 @@ class App extends Component {
     filters.push({ type: 'category', name: 'amulets', label: 'Amulets', checked: true });
     filters.push({ type: 'category', name: 'jewels', label: 'Jewels', checked: true });
     filters.push({ type: 'category', name: 'charms', label: 'Charms', checked: true });
+
     this.setState({ filters });
   }
   //

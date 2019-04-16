@@ -7,7 +7,7 @@ function FilterBar(props) {
     const buttonText = showFilters ? "Hide Filters" : "Show Filters"
     return (
         <>
-            <button onClick={toggleFilterBar}>{buttonText}</button>
+            <p><button onClick={toggleFilterBar}>{buttonText}</button></p>
             {showFilters &&
                 <FilterList filters={filters} toggleCheckboxState={toggleFilterCheckbox} />
             }

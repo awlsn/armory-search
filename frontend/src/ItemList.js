@@ -16,33 +16,40 @@ function ItemList(props) {
     //});
     const { items, itemType, filters } = props;
 
+    let filteredItems = items.filter((item) => {
+        let addToList = true;
+        filters.forEach((filter) => {
+            if (!filter.checked) {
+                //console.log(filter.name);
+                if (filter.label === item.category || filter.label.slice(0, -1) === item.category) {
+                    addToList = false;
+                    return;
+                }
+                if (item.subCategories) {
+                    item.subCategories.forEach((subCat) => {
+                        if (filter.label === subCat || filter.label.slice(0, -1) === subCat) {
+                            addToList = false
+                            return;
+                        }
+                    });
+                }
+
+
+            }
+
+        });
+        return addToList;
+    });
+
     switch (itemType) {
         case 'Uniques':
             //take items, remove any items that match selected filters
 
-            let filteredItems = items.filter((item) => {
-                let addToList = true;
-                filters.forEach((filter) => {
-                    if (!filter.checked) {
-                        if (filter.label === item.category || filter.label.slice(0, -1) === item.category) {
-                            addToList = false;
-                            return;
-                        }
-                        item.subCategories.forEach((subCat) => {
-                            if (filter.label === subCat || filter.label.slice(0, -1) === subCat) {
-                                addToList = false
-                                return;
-                            }
-                        });
-                    }
 
-                });
-                return addToList;
-            });
             //console.log(filteredItems);
             return filteredItems.map((item, i) => <Unique key={item.index + i} item={item} />)
         case 'Set Items':
-            return items.map((item, i) => <Set key={item.index + i} item={item} />)
+            return filteredItems.map((item, i) => <Set key={item.index + i} item={item} />)
         case 'Full Sets':
             return items.map((item, i) => <FullSet key={item.index + i} item={item} />)
         case 'Augments':
@@ -56,7 +63,7 @@ function ItemList(props) {
         case 'Crafting Recipes':
             return items.map((item, i) => <Crafting key={item.index + i} item={item} />)
         case 'Magic Prefixes/Suffixes':
-            return items.map((item, i) => <Affixes key={item.index + i} item={item} />)
+            return filteredItems.map((item, i) => <Affixes key={item.index + i} item={item} />)
         default:
             return "";
     }
