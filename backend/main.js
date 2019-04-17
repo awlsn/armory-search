@@ -15,13 +15,63 @@ function getCategoryItems(category, itemList) {
 function getItemDataByName(name, itemList) {
   let itemData = {};
   itemList.forEach((item) => {
-    if (item.item === name) {
+    if (item.name === name) {
       itemData = item;
     }
   });
   return itemData;
 }
 
+function itemHasCategory(checkCat, itemData) {
+  let match = false;
+  if (checkCat === itemData.category || checkCat.slice(0, -1) === itemData.category) {
+    match = true;
+  }
+  if (itemData.subCategories) {
+    itemData.subCategories.forEach((subCat) => {
+      if (checkCat === subCat || checkCat.slice(0, -1) === subCat) {
+        match = true;
+      }
+    });
+  }
+  return match;
+}
+
+
+function getItemSlot(itemList, slotType) {
+  return itemList.filter(item => itemHasCategory(slotType, item));
+}
+
+function findItemSlotType(itemData) {
+  // first check if baseProps has 1h or 2h
+  let itemSlotType = '';
+  // console.log(JSON.stringify(itemData));
+  if (!itemData.baseProps) {
+    console.log(JSON.stringify(itemData));
+    return itemSlotType;
+  }
+  itemData.baseProps.forEach((prop) => {
+    // sometimes prop contains an array and sometimes it's just a value (depending on the dataset)
+    const thisProp = (Array.isArray(prop)) ? prop[1] : prop;
+    if (thisProp.substr(0, 8) === 'One-Hand') {
+      itemSlotType = 'One-Hand';
+    }
+    // Two-Hand is always after One-Hand in props - will reassign when both values are present in props
+    if (thisProp.substr(0, 8) === 'Two-Hand') {
+      itemSlotType = 'Two-Hand';
+    }
+  });
+
+  if (itemSlotType !== '') return itemSlotType;
+
+  const slotTypes = ['Helm', 'Amulet', 'Armor', 'Gloves', 'Ring', 'Belt', 'Boots', 'Quivers', 'Any Shield', 'Charm', 'Jewel'];
+  slotTypes.forEach((slotType) => {
+    if (itemHasCategory(slotType, itemData)) {
+      itemSlotType = slotType;
+    }
+  });
+  return itemSlotType;
+}
 
 async function updateJson() {
   let url = '';
@@ -35,62 +85,49 @@ async function updateJson() {
   url = 'http://resurgence.slashgaming.net/js/baseItems.json';
   // url = './backend/output/baseItems.json';
   const baseItems = await loadJson(url);
-  console.log('LOADED');
 
-  // console.log(getCategoryItems('Gloves', uniqueItems));
-  const slotTypes = {
-    helm: [], amulet: [], oneHand: [], twoHand: [], armor: [], gloves: [], ring: [], belt: [], boots: [],
-  };
+  console.log('Creating master item list');
   // loop through through uniques to get item names
-  const allItems = uniqueItems.map(item => ({ name: item.item, baseProps: item.baseProps }));
-  // If there is anything in baseItems missing, add it
+  const allItems = uniqueItems.map(item => ({
+    name: item.item, baseProps: item.baseProps, category: item.category, subCategories: item.subCategories,
+  }));
+  // If there is anything in baseItems missing from the list, add it
   baseItems.forEach((baseItem) => {
     if (!allItems.map(item => item.name).includes(baseItem.name)) {
-      allItems.push({ name: baseItem.name, baseProps: baseItem.baseProps });
+      allItems.push({
+        name: baseItem.name, baseProps: baseItem.baseProps, category: baseItem.category, subCategories: baseItem.subCategories,
+      });
     }
   });
   // filter so we only have unique item names
-  const uniqueAllItems = [];
+  const masterItemList = [];
   allItems.forEach((item) => {
-    if (!uniqueAllItems.map(uniqueItem => uniqueItem.name).includes(item.name)) {
-      uniqueAllItems.push(item);
+    if (!masterItemList.map(uniqueItem => uniqueItem.name).includes(item.name)) {
+      masterItemList.push(item);
     }
   });
-  // TODO: check baseprops on allItems for weapon, then two hand, then one hand?
+  // TODO:  we are missing the special item types in the set "Remnants of the Tribune" ...
 
-  // filter for two hand weapons: just check the baseProps
-  const twoH = uniqueAllItems.filter((item) => {
-    let match = false;
-    item.baseProps.forEach((prop) => {
-      if (prop[1].substr(0, 8) === 'Two-Hand') {
-        match = true;
-      }
-    });
-    return match;
-  });
-
-  console.log(twoH);
-
-  const twoHandItems = {};
-
-  const updatedSetItems = [];
   setItems.forEach((set) => {
-    // const newSetData = set;
     set.items.forEach((item) => {
-      const thisItemData = getItemDataByName(item.item, uniqueItems);
+      const thisItemData = getItemDataByName(item.item, masterItemList);
       item.category = thisItemData.category;
       item.subCategories = thisItemData.subCategories;
       item.tier = thisItemData.tier;
-      // console.log(thisItemData.category);
+      item.slot = findItemSlotType(thisItemData);
     });
   });
-
   saveJson(setItems, './backend/output/setItems.json');
-  // slotTypes.ring.push([...new Set(getCategoryItems('Ring', uniqueItems))]);
-  // console.log(JSON.stringify(slotTypes.ring));
-  // create an algorithm to form an object where each slotType
-  // has a list of any potential match when searching vs item or item cat?
-  // created by parsing basic and unique items etc.
+
+  uniqueItems.forEach((item) => {
+    item.slot = findItemSlotType(item);
+  });
+  saveJson(uniqueItems, './backend/output/uniqueItems.json');
+
+  baseItems.forEach((item) => {
+    item.slot = findItemSlotType(item);
+  });
+  saveJson(baseItems, './backend/output/baseItems.json');
 }
 
 // load json data
