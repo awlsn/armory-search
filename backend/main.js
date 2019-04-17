@@ -41,7 +41,7 @@ async function updateJson() {
   const slotTypes = {
     helm: [], amulet: [], oneHand: [], twoHand: [], armor: [], gloves: [], ring: [], belt: [], boots: [],
   };
-    // loop through through uniques to get item names
+  // loop through through uniques to get item names
   const allItems = uniqueItems.map(item => ({ name: item.item, baseProps: item.baseProps }));
   // If there is anything in baseItems missing, add it
   baseItems.forEach((baseItem) => {
@@ -56,11 +56,21 @@ async function updateJson() {
       uniqueAllItems.push(item);
     }
   });
+  // TODO: check baseprops on allItems for weapon, then two hand, then one hand?
 
-  const twoH = uniqueAllItems.filter(item => item.baseProps.forEach(prop => console.log(prop)));
+  // filter for two hand weapons: just check the baseProps
+  const twoH = uniqueAllItems.filter((item) => {
+    let match = false;
+    item.baseProps.forEach((prop) => {
+      if (prop[1].substr(0, 8) === 'Two-Hand') {
+        match = true;
+      }
+    });
+    return match;
+  });
 
   console.log(twoH);
-  // check baseprops on allItems for weapon, then two hand, then one hand?
+
   const twoHandItems = {};
 
   const updatedSetItems = [];
