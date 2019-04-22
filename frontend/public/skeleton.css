@@ -654,6 +654,7 @@ div.item {
 div.filter {
   margin-bottom: 20px;
   padding: 25px;
+  min-width: 220px;
 }
 
 /*div.item-left {float: left; }
@@ -726,6 +727,151 @@ ul.upgradeItems li a {
   text-transform: capitalize;
 }
 
+div.inventory-filter {
+  position:relative;
+  height: 160px;
+  width: 200px;
+  margin: auto;
+}
+
+.item-filter {
+  display: inline-block;
+  padding: 1rem;
+  margin: 0;
+  text-decoration: none;
+  border: 1px solid rgb(46, 46, 46);
+  border-radius: 0;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.helm-filter {
+  height: 40px;
+  min-width: 40px;
+  background-image: url("/images/itemfilter/helm.jpg");
+  background-size: 40px 40px;
+  position: absolute;
+  top: 0;
+  left: 66px;
+}
+
+.amulet-filter {
+  height: 20px;
+  min-width: 20px;
+  background-image: url("/images/itemfilter/amulet.jpg");
+  background-size: 20px 20px;
+  position: absolute;
+  top: 18px;
+  left: 108px;
+}
+
+.weapon-left-filter {
+    height: 80px;
+    min-width: 40px;
+    background-image: url("/images/itemfilter/weapon.jpg");
+    background-size: 41px 81px ;
+    background-position: -1px 0;
+    position: absolute;
+    top: 22px;
+    left: 0px;
+}
+
+.weapon-right-filter {
+  height: 80px;
+  min-width: 40px;
+  background-image: url("/images/itemfilter/weapon.jpg");
+  background-size: 41px 81px ;
+  background-position: -1px 0;
+  position: absolute;
+  top: 22px;
+  left: 132px;
+}
+
+.armor-filter {
+  height: 60px;
+  min-width: 40px;
+  background-image: url("/images/itemfilter/armor.jpg");
+  background-size: 42px 62px;
+  position: absolute;
+  top: 42px;
+  left: 66px;
+
+}
+
+.belt-filter {
+  height: 20px;
+  min-width: 40px;
+  background-image: url("/images/itemfilter/belt.jpg");
+  background-size: 40px 20px ;
+  position: absolute;
+  top: 104px;
+  left: 66px;
+}
+
+.gloves-filter {
+  height: 40px;
+  min-width: 40px;
+  background-image: url("/images/itemfilter/gloves.jpg");
+  background-size: 40px 40px ;
+  position: absolute;
+  left: 0px;
+  top: 104px;
+}
+
+.boots-filter {
+  height: 40px;
+  min-width: 40px;
+  background-image: url("/images/itemfilter/boots.jpg");
+  background-size: 40px 40px ;
+  position: absolute;
+  top: 104px;
+  left: 132px;
+}
+
+.ring-left-filter {
+  height: 20px;
+  min-width: 20px;
+  background-image: url("/images/itemfilter/ring.jpg");
+  background-size: 20px 20px ;
+  position: absolute;
+  top: 104px;
+  left: 42px;
+}
+
+.ring-right-filter {
+  height: 20px;
+  min-width: 20px;
+  background-image: url("/images/itemfilter/ring.jpg");
+  background-size: 20px 20px ;
+  position: absolute;
+  top: 104px;
+  left: 108px;
+}
+
+
+
+.item-filter-selected,
+.item-filter:hover,
+.item-filter:focus {
+  -webkit-filter: sepia(100%) brightness(200%);
+  filter: sepia(100%) brightness(200%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.item-filter:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+.item-filter:active {
+    transform: scale(0.99);
+}
 
 /* Clearing
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */

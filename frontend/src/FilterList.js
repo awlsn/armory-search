@@ -1,22 +1,27 @@
 import React from 'react'
+import FilterInventorySlot from './FilterInventorySlot'
 
 function FilterList(props) {
 
-    const { filters, toggleCheckboxState } = props;
+    const { filters, toggleCheckboxState, toggleWeaponClick } = props;
 
     function FilterBox(props) {
         const { filters, type, toggleCheckboxState } = props;
         let checkBoxList = filters.map((filter) => <label key={filter.name}><input type="checkbox" name={filter.name} checked={filter.checked} onChange={toggleCheckboxState} /> {filter.label}</label>)
         if (type === "category") {
-            return <div className="filter three columns"><h5 className="item-name diablo_unique">Unique Item Filters</h5>{checkBoxList}</div>
+            return <div></div>
+            //return <div className="filter three columns"><h5 className="item-name diablo_unique">Unique Item Filters</h5>{checkBoxList}</div>
         } if (type === "quality") {
             return <div className="filter three columns"><h5 className="item-name diablo_unique">Item Types</h5>{checkBoxList}</div>
-        } if (type === "ilvl") {
-            return <div className="filter three columns"><h5 className="item-name diablo_unique">Item Level Filter</h5>{checkBoxList}</div>
-        }
+        } if (type === "slot") {
 
+            return <FilterInventorySlot toggleCheckboxState={toggleCheckboxState} filters={filters} toggleWeaponClick={toggleWeaponClick} />
+        }
         else return <div className="filter three columns">{checkBoxList}</div>
     }
+
+
+
 
     function getTypes() {
         let uniqueFilterTypes = [];
@@ -33,11 +38,18 @@ function FilterList(props) {
     // filter list to that type
     // output a filterBox
 
-    return getTypes().map((type) => {
+    let filterBoxes = getTypes().map((type) => {
         let theseFilters = filters.filter((filter) => filter.type === type);
-        return <FilterBox key={type} type={type} filters={theseFilters} toggleCheckboxState={toggleCheckboxState} />
+        return <FilterBox key={type} type={type} filters={theseFilters} toggleCheckboxState={toggleCheckboxState} toggleWeaponClick={toggleWeaponClick} />
 
-    });
+    })
+    return (
+        <>
+            {filterBoxes}
+
+        </>
+    )
+
     //return filters.map((filter) => <label key={filter.name}><input type="checkbox" name={filter.name} checked={filter.checked} onChange={toggleCheckboxState} /> {filter.label}</label>)
 }
 

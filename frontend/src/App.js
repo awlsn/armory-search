@@ -16,10 +16,54 @@ class App extends Component {
     //get the index
     const index = filters.findIndex((filter) => filter.name === e.target.name);
     //update the index
-    filters[index].checked = e.target.checked
+    filters[index].checked = !filters[index].checked
+
+    if (e.target.name === 'ring-left') {
+      const ringIndex = filters.findIndex((filter) => filter.name === "ring-right");
+      filters[ringIndex].checked = !filters[ringIndex].checked
+    }
+    if (e.target.name === 'ring-right') {
+      const ringIndex = filters.findIndex((filter) => filter.name === "ring-left");
+      filters[ringIndex].checked = !filters[ringIndex].checked
+    }
+
     //set state
     this.setState({ filters });
   }
+
+  toggleWeaponClick = (e) => {
+    //do a regular toggle to update UI
+    this.toggleFilterCheckbox(e);
+
+    let filters = [...this.state.filters]
+    //get both left and right hand weapon states
+    const lHand = filters[filters.findIndex((filter) => filter.name === 'weapon-left')];
+    const rHand = filters[filters.findIndex((filter) => filter.name === 'weapon-right')];
+    const oneHand = filters[filters.findIndex((filter) => filter.name === 'one-hand')];
+    const twoHand = filters[filters.findIndex((filter) => filter.name === 'two-hand')];
+    //if neither
+    if (!lHand.checked && !rHand.checked) {
+      oneHand.checked = false
+      twoHand.checked = false
+    }
+    //if one -> one
+    if (lHand.checked && !rHand.checked) {
+      oneHand.checked = true
+      twoHand.checked = false
+    }
+    if (!lHand.checked && rHand.checked) {
+      oneHand.checked = true
+      twoHand.checked = false
+    }
+    //if both -> two
+    if (lHand.checked && rHand.checked) {
+      oneHand.checked = true
+      twoHand.checked = true
+    }
+    this.setState({ filters })
+  }
+
+
 
   getIsTypeFilterChecked = (name) => {
     let typeFilters = [...this.state.typeFilters];
@@ -54,6 +98,17 @@ class App extends Component {
     this.setState({ showFilters: !showFilters })
   }
 
+
+
+
+
+
+
+
+
+
+
+
   componentWillMount() {
     //setup initial data and state
     fetch(`/json/uniqueItems.json`)
@@ -64,7 +119,7 @@ class App extends Component {
         this.setState({ masterItemList })
       });
 
-    fetch(`/json/sets.json`)
+    fetch(`/json/setItems.json`)
       .then(blob => blob.json())
       .then(data => {
         let masterItemList = { ...this.state.masterItemList };
@@ -131,6 +186,21 @@ class App extends Component {
     filters.push({ type: 'quality', name: 'crafting', label: 'Crafting Recipes', checked: true });
     filters.push({ type: 'quality', name: 'affixes', label: 'Magic Prefixes/Suffixes', checked: true });
 
+    filters.push({ type: 'slot', name: 'helm', label: 'Helm', checked: true });
+    filters.push({ type: 'slot', name: 'amulet', label: 'Amulet', checked: true });
+    filters.push({ type: 'slot', name: 'armor', label: 'Armor', checked: true });
+    filters.push({ type: 'slot', name: 'weapon-left', label: 'Left Hand', checked: true });
+    filters.push({ type: 'slot', name: 'weapon-right', label: 'Right Hand', checked: true });
+    filters.push({ type: 'slot', name: 'belt', label: 'Belt', checked: true });
+    filters.push({ type: 'slot', name: 'ring-left', label: 'Ring', checked: true });
+    filters.push({ type: 'slot', name: 'ring-right', label: 'Ring', checked: true });
+    filters.push({ type: 'slot', name: 'gloves', label: 'Gloves', checked: true });
+    filters.push({ type: 'slot', name: 'boots', label: 'Boots', checked: true });
+
+    //filters.push({ type: 'slot', name: 'ring', label: 'Ring', checked: true });
+    filters.push({ type: 'slot', name: 'one-hand', label: 'One-Hand', checked: true });
+    filters.push({ type: 'slot', name: 'two-hand', label: 'Two-Hand', checked: true });
+
     filters.push({ type: 'category', name: 'weapons', label: 'Weapons', checked: true });
     filters.push({ type: 'category', name: 'quivers', label: 'Quivers', checked: true });
     filters.push({ type: 'category', name: 'armors', label: 'Armors', checked: true });
@@ -158,7 +228,7 @@ class App extends Component {
         </div>
 
         <div className="row">
-          <FilterBar filters={this.state.filters} showFilters={this.state.showFilters} toggleFilterCheckbox={this.toggleFilterCheckbox} toggleFilterBar={this.toggleFilterBar} />
+          <FilterBar filters={this.state.filters} showFilters={this.state.showFilters} toggleFilterCheckbox={this.toggleFilterCheckbox} toggleFilterBar={this.toggleFilterBar} toggleWeaponClick={this.toggleWeaponClick} />
         </div>
 
         <div className="row">

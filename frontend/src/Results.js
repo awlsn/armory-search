@@ -14,7 +14,7 @@ function Results(props) {
                 const suffixes = props.found.filter((item) => item.affType === 'suffix');
                 return (
                     <>
-                        <h2>{props.title}</h2>
+                        <h2>{props.title} ({props.found.length})</h2>
                         <table className="five columns">
                             <thead>
                                 <tr>
@@ -45,7 +45,7 @@ function Results(props) {
             }
             return (
                 <span>
-                    <h2>{props.title}</h2>
+                    <h2>{props.title} ({props.found.length})</h2>
                     <ItemList items={props.found} itemType={props.title} filters={props.filters} />
                 </span>
             )

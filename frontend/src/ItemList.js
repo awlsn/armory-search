@@ -20,6 +20,14 @@ function ItemList(props) {
         let addToList = true;
         filters.forEach((filter) => {
             if (!filter.checked) {
+                if (filter.name === 'weapon-left') { }
+                if (filter.label === item.slot) {
+                    addToList = false
+                    return;
+                }
+                //filters.push({ type: 'slot', name: 'weapon-left', label: 'Left Hand', checked: true });
+                //filters.push({ type: 'slot', name: 'weapon-right', label: 'Right Hand', checked: true });
+
                 //console.log(filter.name);
                 if (filter.label === item.category || filter.label.slice(0, -1) === item.category) {
                     addToList = false;
