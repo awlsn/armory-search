@@ -43,6 +43,8 @@ function ItemList(props) {
                 }
 
 
+
+
             }
 
         });
@@ -59,13 +61,13 @@ function ItemList(props) {
         case 'Set Items':
             return filteredItems.map((item, i) => <Set key={item.index + i} item={item} />)
         case 'Full Sets':
-            return items.map((item, i) => <FullSet key={item.index + i} item={item} />)
+            return filteredItems.map((item, i) => <FullSet key={item.index + i} item={item} />)
         case 'Augments':
             return items.map((item, i) => <Augment key={item.index + i} item={item} />)
         case 'Runewords':
             return items.map((item, i) => <Runeword key={item.index + i} item={item} />)
         case 'Bases':
-            return items.map((item, i) => <Base key={item.index + i} item={item} />)
+            return filteredItems.map((item, i) => <Base key={item.index + i} item={item} />)
         case 'Charm Components':
             return items.map((item, i) => <Charm key={item.index + i} item={item} />)
         case 'Crafting Recipes':

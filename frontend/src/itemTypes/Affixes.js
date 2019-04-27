@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import SimpleProperties from './SimpleProperties'
-import ItemList from '../ItemList';
 
 class Affixes extends Component {
 

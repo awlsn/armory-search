@@ -19,9 +19,6 @@ function FilterInventorySlot(props) {
         return <button onClick={toggleCheckboxState} key={filter.name} name={filter.name} className={classes}></button>
     });
 
-    const handleRingClick = () => {
-        //if either ring is clicked toggle both slots and setData for a ring filter
-    }
 
 
 

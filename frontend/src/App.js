@@ -216,6 +216,19 @@ class App extends Component {
     filters.push({ type: 'category', name: 'jewels', label: 'Jewels', checked: true });
     filters.push({ type: 'category', name: 'charms', label: 'Charms', checked: true });
 
+    filters.push({ type: 'subcategory', name: 'Barbarian Item', label: 'Barbarian Items', checked: true });
+    filters.push({ type: 'subcategory', name: 'Paladin Item', label: 'Paladin Items', checked: true });
+    filters.push({ type: 'subcategory', name: 'Necromancer Item', label: 'Necromancer Items', checked: true });
+    filters.push({ type: 'subcategory', name: 'Assassin Item', label: 'Assassin Items', checked: true });
+    filters.push({ type: 'subcategory', name: 'Druid Item', label: 'Druid Items', checked: true });
+    filters.push({ type: 'subcategory', name: 'Amazon Item', label: 'Amazon Items', checked: true });
+    filters.push({ type: 'subcategory', name: 'Sorceress Item', label: 'Sorceress Items', checked: true });
+
+    filters.push({ type: 'subcategory', name: 'Missile Weapon', label: 'Missile Weapons', checked: true });
+    filters.push({ type: 'subcategory', name: 'Caster Weapon', label: 'Caster Weapons', checked: true });
+    filters.push({ type: 'subcategory', name: 'Melee Weapon', label: 'Melee Weapons', checked: true });
+    filters.push({ type: 'subcategory', name: 'Shields', label: 'Any Shield', checked: true });
+
     this.setState({ filters });
   }
   //

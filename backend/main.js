@@ -15,7 +15,7 @@ function getCategoryItems(category, itemList) {
 function getItemDataByName(name, itemList) {
   let itemData = {};
   itemList.forEach((item) => {
-    if (item.name === name) {
+    if (item.item === name) {
       itemData = item;
     }
   });
@@ -105,14 +105,14 @@ function getCategoryListForCategory(catName, itemList) {
   // this list will be used to create data filters?
 
   itemList.forEach((item) => {
-    if (!catList.includes(item.category) && item.category === catName) {
+    /* if (!catList.includes(item.category) && item.category === catName) {
       catList.push(item.category);
-    }
+    } */
     item.subCategories.forEach((cat) => {
       if (cat === catName) {
-        if (!catList.includes(cat)) {
-          catList.push(item.subCategories);
-        }
+        item.subCategories.forEach((matchCat) => {
+          if (!catList.includes(matchCat)) { catList.push(matchCat); }
+        });
       }
     });
   });
@@ -139,31 +139,43 @@ async function updateJson() {
   // "Vile Aegis","Obsidian Plate","Demonic Halo"
 
   setItems.forEach((set) => {
+    // console.log(JSON.stringify(set));
     set.items.forEach((item) => {
       // set is missing a lot of data we need so we will get itemData for that item
       // from a complete list and assign it to the set item
+      // console.log(item);
       const thisItemData = getItemDataByName(item.item, masterItemList);
+      // console.log(thisItemData);
       item.category = thisItemData.category;
       item.subCategories = thisItemData.subCategories;
       item.tier = thisItemData.tier;
       item.slot = findItemSlotType(thisItemData);
     });
   });
-  saveJson(setItems, './output/setItems.json');
+  saveJson(setItems, './backend/output/setItems.json');
 
   uniqueItems.forEach((item) => {
     item.slot = findItemSlotType(item);
   });
-  saveJson(uniqueItems, './output/uniqueItems.json');
+  saveJson(uniqueItems, './backend/output/uniqueItems.json');
 
   baseItems.forEach((item) => {
     item.slot = findItemSlotType(item);
   });
-  saveJson(baseItems, './output/baseItems.json');
+  saveJson(baseItems, './backend/output/baseItems.json');
 
   // get all possible cats around each slot type? these would be good filter options...
-  const catList = getCategoryListForCategory('Boots', masterItemList);
-  console.log(catList);
+
+  const catList = [];
+  catList.push({ name: 'Boots', items: getCategoryListForCategory('Boots', masterItemList) });
+  catList.push({ name: 'Helm', items: getCategoryListForCategory('Helm', masterItemList) });
+  catList.push({ name: 'Gloves', items: getCategoryListForCategory('Gloves', masterItemList) });
+  catList.push({ name: 'Ring', items: getCategoryListForCategory('Ring', masterItemList) });
+  catList.push({ name: 'Amulet', items: getCategoryListForCategory('Amulet', masterItemList) });
+  catList.push({ name: 'Armor', items: getCategoryListForCategory('Armor', masterItemList) });
+  catList.push({ name: 'Weapon', items: getCategoryListForCategory('Weapon', masterItemList) });
+  // console.log(catList);
+  saveJson(catList, './backend/output/slotFilters.json');
 
   // runeword and affixes? need to have a check on .items to determine slot type...
   let itemTypeList = [];

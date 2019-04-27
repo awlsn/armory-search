@@ -1,5 +1,4 @@
 import React from 'react'
-import Results from './Results';
 
 class SearchBar extends React.Component {
     render() {
@@ -11,7 +10,8 @@ class SearchBar extends React.Component {
 
             let text = document.getElementById("searchText").value;
 
-            [...new Set(masterItemList.runewordItems)].forEach((item) => console.log(item.items));
+
+            //[...new Set(masterItemList.runewordItems)].forEach((item) => console.log(item.items));
 
             let matchedItemList = {};
             matchedItemList.uniqueItems = findItems(masterItemList.uniqueItems, text);
@@ -90,14 +90,6 @@ class SearchBar extends React.Component {
         }
 
 
-
-        function parseWildCards(s) {
-            let parsedString = s.split(/#+/).join('\d+');
-            //'^' + s.split(/\*+/).map(regExpEscape).join('.*') + '$'
-            parsedString = '^' + parsedString.split(/\*+/).map(regExpEscape).join('.*') + '$';
-            //console.log("broken", parsedString);
-            //return new RegExp(parsedString);
-        }
 
         //via donmccurdy : https://gist.github.com/donmccurdy/6d073ce2c6f3951312dfa45da14a420f
         //Creates a RegExp from the given string, converting asterisks to .* expressions, and escaping all other characters.
