@@ -138,6 +138,24 @@ async function updateJson() {
   // There is no data for the special item types in the set "Remnants of the Tribune" ...
   // "Vile Aegis","Obsidian Plate","Demonic Halo"
 
+  /* uniqueItems.forEach((unique) => {
+    const newProps = [];
+    unique.props.forEach((itemProp) => {
+      for (let i = 0; i < itemProp.length; i += 2) {
+        newProps.push({ color: itemProp[i], text: itemProp[i + 1] });
+      }
+    });
+    unique.props = newProps;
+    const newBaseProps = [];
+    unique.baseProps.forEach((itemProp) => {
+      for (let i = 0; i < itemProp.length; i += 2) {
+        newBaseProps.push({ color: itemProp[i], text: itemProp[i + 1] });
+      }
+      unique.baseProps = newBaseProps;
+    });
+
+  }); */
+
   setItems.forEach((set) => {
     // console.log(JSON.stringify(set));
     set.items.forEach((item) => {
@@ -157,7 +175,7 @@ async function updateJson() {
   uniqueItems.forEach((item) => {
     item.slot = findItemSlotType(item);
   });
-  saveJson(uniqueItems, './backend/output/uniqueItems.json');
+  saveJson(uniqueItems, './backend/output/uniqueItems-mod.json');
 
   baseItems.forEach((item) => {
     item.slot = findItemSlotType(item);

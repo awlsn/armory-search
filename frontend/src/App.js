@@ -111,7 +111,7 @@ class App extends Component {
 
   componentWillMount() {
     //setup initial data and state
-    fetch(`/json/uniqueItems.json`)
+    fetch(`./json/uniqueItems.json`)
       .then(blob => blob.json())
       .then(data => {
         let masterItemList = { ...this.state.masterItemList }
@@ -119,7 +119,7 @@ class App extends Component {
         this.setState({ masterItemList })
       });
 
-    fetch(`/json/setItems.json`)
+    fetch(`./json/setItems.json`)
       .then(blob => blob.json())
       .then(data => {
         let masterItemList = { ...this.state.masterItemList };
@@ -127,7 +127,7 @@ class App extends Component {
         this.setState({ masterItemList });
       });
 
-    fetch(`/json/runewords.json`)
+    fetch(`./json/runewords.json`)
       .then(blob => blob.json())
       .then(data => {
         let masterItemList = { ...this.state.masterItemList };
@@ -135,7 +135,7 @@ class App extends Component {
         this.setState({ masterItemList });
       });
 
-    fetch(`/json/augments.json`)
+    fetch(`./json/augments.json`)
       .then(blob => blob.json())
       .then(data => {
         let masterItemList = { ...this.state.masterItemList };
@@ -143,7 +143,7 @@ class App extends Component {
         this.setState({ masterItemList });
       });
 
-    fetch(`/json/baseItems.json`)
+    fetch(`./json/baseItems.json`)
       .then(blob => blob.json())
       .then(data => {
         let masterItemList = { ...this.state.masterItemList };
@@ -152,7 +152,7 @@ class App extends Component {
         masterItemList.baseItems.forEach((item) => item.itemType);
       });
 
-    fetch(`/json/charmComponents.json`)
+    fetch(`./json/charmComponents.json`)
       .then(blob => blob.json())
       .then(data => {
         let masterItemList = { ...this.state.masterItemList };
@@ -160,7 +160,7 @@ class App extends Component {
         this.setState({ masterItemList });
       });
 
-    fetch(`/json/crafting.json`)
+    fetch(`./json/crafting.json`)
       .then(blob => blob.json())
       .then(data => {
         let masterItemList = { ...this.state.masterItemList };
@@ -168,7 +168,7 @@ class App extends Component {
         this.setState({ masterItemList });
       });
 
-    fetch(`/json/affixes.json`)
+    fetch(`./json/affixes.json`)
       .then(blob => blob.json())
       .then(data => {
         let masterItemList = { ...this.state.masterItemList };

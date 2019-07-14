@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="formulas.js"></script>
+    <style>
+        .breakpoint-calculator {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+
+
+        }
+
+        section {
+            border: 1px solid red;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="breakpoint-calculator">
+        <section class="ias-form">
+            <form>
+                <select class="select" name="char">
+                    <option value="0" selected>Amazon</option>
+                    <option value="1">Assassin</option>
+                    <option value="2">Barbarian</option>
+                    <option value="3">Druid</option>
+                    <option value="4">Necromancer</option>
+                    <option value="5">Paladin</option>
+                    <option value="6">Sorceress</option>
+                    <option value="7">Merc - Rogue</option>tion&gt;
+                    <option value="8">Merc - Town Guard</option>/option&gt;
+                    <option value="9">Merc - Barbarian</option>
+                </select>
+
+                <select name="weapon1">
+                    <option value="0">[unarmed]</option>
+                    <option value="1">Ancient Axe</option>
+                    <option value="2">Ancient Sword</option>
+                    <option value="3">Arbalest</option>
+                    <option value="4">Archon Staff</option>
+                    <option value="6">Ataghan</option>
+                    <option value="7">Axe</option>
+                    <option value="8">Balanced Axe</option>
+                    <option value="9">Balanced Knife</option>
+                    <option value="10">Ballista</option>
+                    <option value="11">Balrog Blade</option>
+                    <option value="12">Balrog Spear</option>
+                    <option value="13">Barbed Club</option>
+                    <option value="14">Bardiche</option>
+                    <option value="15">Bastard Sword</option>
+                    <option value="16">Battle Axe</option>
+                    <option value="18">Battle Dart</option>
+                    <option value="19">Battle Hammer</option>
+                    <option value="20">Battle Scythe</option>
+                    <option value="21">Battle Staff</option>
+                    <option value="22">Battle Sword</option>
+                    <option value="23">Bearded Axe</option>
+                    <option value="24">Bec-de-Corbin</option>
+                    <option value="25">Berserker Axe</option>
+                    <option value="26">Bill</option>
+                    <option value="27">Blade Bow</option>
+                    <option value="29">Blade</option>
+                    <option value="30">Bone Knife</option>
+                    <option value="31">Bone Wand</option>
+                    <option value="32">Brandistock</option>
+                    <option value="33">Broad Axe</option>
+                    <option value="34">Broad Sword</option>
+                    <option value="35">Burnt Wand</option>
+                    <option value="36">Caduceus</option>
+                    <option value="37">Cedar Bow</option>
+                    <option value="38">Cedar Staff</option>
+                    <option value="44">Champion Axe</option>
+                    <option value="45">Champion Sword</option>
+                    <option value="46">Chu-Ko-Nu</option>
+                    <option value="47">Cinquedeas</option>
+                    <option value="50">Claymore</option>
+                    <option value="51">Cleaver</option>
+                    <option value="53">Club</option>
+                    <option value="54">Colossus Blade</option>
+                    <option value="55">Colossus Crossbow</option>
+                    <option value="56">Colossus Sword</option>
+                    <option value="57">Colossus Voulge</option>
+                    <option value="58">Composite Bow</option>
+                    <option value="59">Conquest Sword</option>
+                    <option value="60">Crossbow</option>
+                    <option value="61">Crowbill</option>
+                    <option value="62">Crusader Bow</option>
+                    <option value="63">Cryptic Axe</option>
+                    <option value="64">Cryptic Sword</option>
+                    <option value="65">Crystal Sword</option>
+                    <option value="67">Cudgel</option>
+                    <option value="68">Cutlass</option>
+                    <option value="69">Dacian Falx</option>
+                    <option value="70">Dagger</option>
+                    <option value="71">Decapitator</option>
+                    <option value="72">Demon Crossbow</option>
+                    <option value="74">Devil Star</option>
+                    <option value="75">Diamond Bow</option>
+                    <option value="76">Dimensional Blade</option>
+                    <option value="78">Dirk</option>
+                    <option value="79">Divine Scepter</option>
+                    <option value="80">Double Axe</option>
+                    <option value="81">Double Bow</option>
+                    <option value="83">Edge Bow</option>
+                    <option value="84">Elder Staff</option>
+                    <option value="86">Elegant Blade</option>
+                    <option value="87">Espandon</option>
+                    <option value="88">Ettin Axe</option>
+                    <option value="89">Executioner Sword</option>
+                    <option value="90">Falcata</option>
+                    <option value="91">Falchion</option>
+                    <option value="92">Fanged Knife</option>
+                    <option value="94">Feral Axe</option>
+                    <option value="96">Flail</option>
+                    <option value="97">Flamberge</option>
+                    <option value="98">Flanged Mace</option>
+                    <option value="99">Flying Axe</option>
+                    <option value="100">Francisca</option>
+                    <option value="101">Fuscina</option>
+                    <option value="102">Ghost Glaive</option>
+                    <option value="103">Ghost Spear</option>
+                    <option value="104">Ghost Wand</option>
+                    <option value="105">Giant Axe</option>
+                    <option value="106">Giant Sword</option>
+                    <option value="107">Giant Thresher</option>
+                    <option value="108">Gladius</option>
+                    <option value="109">Glaive</option>
+                    <option value="110">Glorious Axe</option>
+                    <option value="112">Gnarled Staff</option>
+                    <option value="113">Gorgon Crossbow</option>
+                    <option value="114">Gothic Axe</option>
+                    <option value="115">Gothic Bow</option>
+                    <option value="116">Gothic Staff</option>
+                    <option value="117">Gothic Sword</option>
+                    <option value="119">Grand Scepter</option>
+                    <option value="120">Grave Wand</option>
+                    <option value="121">Great Axe</option>
+                    <option value="122">Great Bow</option>
+                    <option value="123">Great Maul</option>
+                    <option value="124">Great Pilum</option>
+                    <option value="125">Great Poleaxe</option>
+                    <option value="126">Great Sword</option>
+                    <option value="129">Grim Scythe</option>
+                    <option value="130">Grim Wand</option>
+                    <option value="131">Halberd</option>
+                    <option value="132">Hand Axe</option>
+                    <option value="134">Harpoon</option>
+                    <option value="136">Hatchet</option>
+                    <option value="138">Heavy Crossbow</option>
+                    <option value="139">Highland Blade</option>
+                    <option value="140">Holy Water Sprinkler</option>
+                    <option value="141">Hunter's Bow</option>
+                    <option value="142">Hurlbat</option>
+                    <option value="143">Hydra Bow</option>
+                    <option value="144">Hydra Edge</option>
+                    <option value="145">Hyperion Javelin</option>
+                    <option value="146">Hyperion Spear</option>
+                    <option value="147">Jagged Star</option>
+                    <option value="149">Javelin</option>
+                    <option value="150">Jo Staff</option>
+                    <option value="152">Knout</option>
+                    <option value="153">Kris</option>
+                    <option value="154">Lance</option>
+                    <option value="155">Large Axe</option>
+                    <option value="156">Large Siege Bow</option>
+                    <option value="157">Legend Spike</option>
+                    <option value="158">Legend Sword</option>
+                    <option value="159">Legendary Mallet</option>
+                    <option value="160">Lich Wand</option>
+                    <option value="161">Light Crossbow</option>
+                    <option value="162">Lochaber Axe</option>
+                    <option value="163">Long Battle Bow</option>
+                    <option value="164">Long Bow</option>
+                    <option value="165">Long Staff</option>
+                    <option value="166">Long Sword</option>
+                    <option value="167">Long War Bow</option>
+                    <option value="168">Mace</option>
+                    <option value="172">Mancatcher</option>
+                    <option value="173">Martel de Fer</option>
+                    <option value="178">Maul</option>
+                    <option value="179">Mighty Scepter</option>
+                    <option value="180">Military Axe</option>
+                    <option value="181">Military Pick</option>
+                    <option value="182">Mithril Point</option>
+                    <option value="183">Morning Star</option>
+                    <option value="184">Mythical Sword</option>
+                    <option value="185">Naga</option>
+                    <option value="186">Ogre Axe</option>
+                    <option value="187">Ogre Maul</option>
+                    <option value="188">Partizan</option>
+                    <option value="189">Pellet Bow</option>
+                    <option value="190">Petrified Wand</option>
+                    <option value="191">Phaseblade</option>
+                    <option value="192">Pike</option>
+                    <option value="193">Pilum</option>
+                    <option value="194">Poignard</option>
+                    <option value="195">Poleaxe</option>
+                    <option value="196">Polished Wand</option>
+                    <option value="197">Quarterstaff</option>
+                    <option value="199">Razor Bow</option>
+                    <option value="201">Reinforced Mace</option>
+                    <option value="202">Repeating Crossbow</option>
+                    <option value="203">Rondel</option>
+                    <option value="204">Rune Bow</option>
+                    <option value="205">Rune Scepter</option>
+                    <option value="206">Rune Staff</option>
+                    <option value="207">Rune Sword</option>
+                    <option value="209">Sabre</option>
+                    <option value="211">Scepter</option>
+                    <option value="212">Scimitar</option>
+                    <option value="216">Scourge</option>
+                    <option value="217">Scythe</option>
+                    <option value="218">Seraph Rod</option>
+                    <option value="219">Shadow Bow</option>
+                    <option value="220">Shamshir</option>
+                    <option value="221">Shillelagh</option>
+                    <option value="222">Short Battle Bow</option>
+                    <option value="223">Short Bow</option>
+                    <option value="224">Short Siege Bow</option>
+                    <option value="225">Short Spear</option>
+                    <option value="226">Short Staff</option>
+                    <option value="227">Short Sword</option>
+                    <option value="228">Short War Bow</option>
+                    <option value="229">Siege Crossbow</option>
+                    <option value="230">Silver-edged Axe</option>
+                    <option value="231">Simbilan</option>
+                    <option value="232">Small Crescent</option>
+                    <option value="235">Spear</option>
+                    <option value="236">Spetum</option>
+                    <option value="237">Spiculum</option>
+                    <option value="238">Spider Bow</option>
+                    <option value="239">Spiked Club</option>
+                    <option value="241">Stalagmite</option>
+                    <option value="242">Stiletto</option>
+                    <option value="243">Stygian Pike</option>
+                    <option value="244">Stygian Pilum</option>
+                    <option value="247">Tabar</option>
+                    <option value="248">Thresher</option>
+                    <option value="249">Throwing Axe</option>
+                    <option value="250">Throwing Knife</option>
+                    <option value="251">Throwing Spear</option>
+                    <option value="252">Thunder Maul</option>
+                    <option value="253">Tomahawk</option>
+                    <option value="254">Tomb Wand</option>
+                    <option value="255">Trident</option>
+                    <option value="256">Truncheon</option>
+                    <option value="257">Tulwar</option>
+                    <option value="258">Tusk Sword</option>
+                    <option value="259">Twin Axe</option>
+                    <option value="260">Two-Handed Sword</option>
+                    <option value="261">Tyrant Club</option>
+                    <option value="262">Unearthed Wand</option>
+                    <option value="264">Voulge</option>
+                    <option value="265">Walking Stick</option>
+                    <option value="266">Wand</option>
+                    <option value="267">War Axe</option>
+                    <option value="268">War Club</option>
+                    <option value="269">War Dart</option>
+                    <option value="271">War Fork</option>
+                    <option value="272">War Hammer</option>
+                    <option value="273">War Javelin</option>
+                    <option value="274">War Pike</option>
+                    <option value="275">War Scepter</option>
+                    <option value="276">War Scythe</option>
+                    <option value="277">War Spear</option>
+                    <option value="278">War Spike</option>
+                    <option value="279">War Staff</option>
+                    <option value="280">War Sword</option>
+                    <option value="281">Ward Bow</option>
+                    <option value="282">Winged Axe</option>
+                    <option value="283">Winged Harpoon</option>
+                    <option value="284">Winged Knife</option>
+                    <option value="288">Yari</option>
+                    <option value="289">Yew Wand</option>
+                    <option value="290">Zweihander</option>
+                </select>
+                <label for="weapon1IAS">Weapon IAS: </label><input name="weapon1IAS" type="number" />
+
+
+
+                <label for="gearIAS">IAS: </label><input name="gearIAS" type="number" />
+
+                <button name="submit" type="submit">Submit</button>
+            </form>
+        </section>
+        <section>
+            <h2>Results</h2>
+        </section>
+        <section>
+            Other bps?
+        </section>
+    </div>
+
+
+
+    <script>
+        let charValue, skillValue, weaponValue, IASValue, weapon1IAS, weapon2IAS;
+
+        let barbSwordValue, charFormValue, secondWeaponValue;
+
+        const char = document.querySelector(`select[name='char']`);
+        const weapon1 = document.querySelector(`select[name='weapon1']`);
+        const weapon1IASInput = document.querySelector(`input[name='weapon1IAS']`);
+        const gearIAS = document.querySelector(`input[name='gearIAS']`);
+        const submit = document.querySelector(`button[name='submit']`);
+
+        submit.addEventListener("click", (e) => {
+            e.preventDefault();
+
+            charValue = char.value; // "Amazon"
+            skillValue = 0; // "Standard"
+            weaponValue = weapon1.value; // "Axe"
+            IASValue = gearIAS.value; // input - non weapon ias
+            weapon1IAS = weapon1IASInput.value;
+            weapon2IAS = 0;
+
+            barbSwordValue = 1; // a toggle to pick 1h or 2h on swords
+            charFormValue = 0; // 1 would be werebear
+            secondWeaponValue = 0;
+
+            computeValues();
+            computeBreakpoints();
+        })
+
+    </script>
+</body>
+
+</html>

@@ -753,7 +753,7 @@ div.inventory-filter {
 .helm-filter {
   height: 40px;
   min-width: 40px;
-  background-image: url("/images/itemfilter/helm.jpg");
+  background-image: url("images/itemfilter/helm.jpg");
   background-size: 40px 40px;
   position: absolute;
   top: 0;
@@ -763,7 +763,7 @@ div.inventory-filter {
 .amulet-filter {
   height: 20px;
   min-width: 20px;
-  background-image: url("/images/itemfilter/amulet.jpg");
+  background-image: url("images/itemfilter/amulet.jpg");
   background-size: 20px 20px;
   position: absolute;
   top: 18px;
@@ -773,7 +773,7 @@ div.inventory-filter {
 .weapon-left-filter {
     height: 80px;
     min-width: 40px;
-    background-image: url("/images/itemfilter/weapon.jpg");
+    background-image: url("images/itemfilter/weapon.jpg");
     background-size: 41px 81px ;
     background-position: -1px 0;
     position: absolute;
@@ -784,7 +784,7 @@ div.inventory-filter {
 .weapon-right-filter {
   height: 80px;
   min-width: 40px;
-  background-image: url("/images/itemfilter/weapon.jpg");
+  background-image: url("images/itemfilter/weapon.jpg");
   background-size: 41px 81px ;
   background-position: -1px 0;
   position: absolute;
@@ -795,7 +795,7 @@ div.inventory-filter {
 .armor-filter {
   height: 60px;
   min-width: 40px;
-  background-image: url("/images/itemfilter/armor.jpg");
+  background-image: url("images/itemfilter/armor.jpg");
   background-size: 42px 62px;
   position: absolute;
   top: 42px;
@@ -806,7 +806,7 @@ div.inventory-filter {
 .belt-filter {
   height: 20px;
   min-width: 40px;
-  background-image: url("/images/itemfilter/belt.jpg");
+  background-image: url("images/itemfilter/belt.jpg");
   background-size: 40px 20px ;
   position: absolute;
   top: 104px;
@@ -816,7 +816,7 @@ div.inventory-filter {
 .gloves-filter {
   height: 40px;
   min-width: 40px;
-  background-image: url("/images/itemfilter/gloves.jpg");
+  background-image: url("images/itemfilter/gloves.jpg");
   background-size: 40px 40px ;
   position: absolute;
   left: 0px;
@@ -826,7 +826,7 @@ div.inventory-filter {
 .boots-filter {
   height: 40px;
   min-width: 40px;
-  background-image: url("/images/itemfilter/boots.jpg");
+  background-image: url("images/itemfilter/boots.jpg");
   background-size: 40px 40px ;
   position: absolute;
   top: 104px;
@@ -836,7 +836,7 @@ div.inventory-filter {
 .ring-left-filter {
   height: 20px;
   min-width: 20px;
-  background-image: url("/images/itemfilter/ring.jpg");
+  background-image: url("images/itemfilter/ring.jpg");
   background-size: 20px 20px ;
   position: absolute;
   top: 104px;
@@ -846,7 +846,7 @@ div.inventory-filter {
 .ring-right-filter {
   height: 20px;
   min-width: 20px;
-  background-image: url("/images/itemfilter/ring.jpg");
+  background-image: url("images/itemfilter/ring.jpg");
   background-size: 20px 20px ;
   position: absolute;
   top: 104px;

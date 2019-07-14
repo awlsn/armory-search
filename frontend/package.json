@@ -1,5 +1,6 @@
 {
   "name": "theo",
+  "homepage": "http://wlsn.org/armory-search",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

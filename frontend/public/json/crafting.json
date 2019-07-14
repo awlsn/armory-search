@@ -1,7 +1,7 @@
 [
     {
         "index": "weapon-Wrath",
-        "imageFile": "images/perfectruby.gif",
+        "imageFile": "/images/perfectruby.gif",
         "type": "weapon",
         "name": "Wrath",
         "props": [
@@ -12,7 +12,7 @@
     },
     {
         "index": "weapon-Agility",
-        "imageFile": "images/perfectemerald.gif",
+        "imageFile": "/images/perfectemerald.gif",
         "type": "weapon",
         "name": "Agility",
         "props": [
@@ -23,7 +23,7 @@
     },
     {
         "index": "weapon-Wisdom",
-        "imageFile": "images/perfectsaphire.gif",
+        "imageFile": "/images/perfectsaphire.gif",
         "type": "weapon",
         "name": "Wisdom",
         "props": [
@@ -34,7 +34,7 @@
     },
     {
         "index": "weapon-Vigor",
-        "imageFile": "images/perfectamethyst.gif",
+        "imageFile": "/images/perfectamethyst.gif",
         "type": "weapon",
         "name": "Vigor",
         "props": [
@@ -45,7 +45,7 @@
     },
     {
         "index": "weapon-Bliss",
-        "imageFile": "images/perfecttopaz.gif",
+        "imageFile": "/images/perfecttopaz.gif",
         "type": "weapon",
         "name": "Bliss",
         "props": [
@@ -56,7 +56,7 @@
     },
     {
         "index": "weapon-Unity",
-        "imageFile": "images/perfectdiamond.gif",
+        "imageFile": "/images/perfectdiamond.gif",
         "type": "weapon",
         "name": "Unity",
         "props": [
@@ -67,7 +67,7 @@
     },
     {
         "index": "weapon-Death",
-        "imageFile": "images/perfectskull.gif",
+        "imageFile": "/images/perfectskull.gif",
         "type": "weapon",
         "name": "Death",
         "props": [
@@ -78,7 +78,7 @@
     },
     {
         "index": "armor-Wrath",
-        "imageFile": "images/perfectruby.gif",
+        "imageFile": "/images/perfectruby.gif",
         "type": "armor",
         "name": "Wrath",
         "props": [
@@ -89,7 +89,7 @@
     },
     {
         "index": "armor-Agility",
-        "imageFile": "images/perfectemerald.gif",
+        "imageFile": "/images/perfectemerald.gif",
         "type": "armor",
         "name": "Agility",
         "props": [
@@ -100,7 +100,7 @@
     },
     {
         "index": "armor-Wisdom",
-        "imageFile": "images/perfectsaphire.gif",
+        "imageFile": "/images/perfectsaphire.gif",
         "type": "armor",
         "name": "Wisdom",
         "props": [
@@ -111,7 +111,7 @@
     },
     {
         "index": "armor-Vigor",
-        "imageFile": "images/perfectamethyst.gif",
+        "imageFile": "/images/perfectamethyst.gif",
         "type": "armor",
         "name": "Vigor",
         "props": [
@@ -122,7 +122,7 @@
     },
     {
         "index": "armor-Bliss",
-        "imageFile": "images/perfecttopaz.gif",
+        "imageFile": "/images/perfecttopaz.gif",
         "type": "armor",
         "name": "Bliss",
         "props": [
@@ -133,7 +133,7 @@
     },
     {
         "index": "armor-Unity",
-        "imageFile": "images/perfectdiamond.gif",
+        "imageFile": "/images/perfectdiamond.gif",
         "type": "armor",
         "name": "Unity",
         "props": [
@@ -144,7 +144,7 @@
     },
     {
         "index": "armor-Death",
-        "imageFile": "images/perfectskull.gif",
+        "imageFile": "/images/perfectskull.gif",
         "type": "armor",
         "name": "Death",
         "props": [
@@ -155,7 +155,7 @@
     },
     {
         "index": "helm-Wrath",
-        "imageFile": "images/perfectruby.gif",
+        "imageFile": "/images/perfectruby.gif",
         "type": "helm",
         "name": "Wrath",
         "props": [
@@ -166,7 +166,7 @@
     },
     {
         "index": "helm-Agility",
-        "imageFile": "images/perfectemerald.gif",
+        "imageFile": "/images/perfectemerald.gif",
         "type": "helm",
         "name": "Agility",
         "props": [
@@ -177,7 +177,7 @@
     },
     {
         "index": "helm-Wisdom",
-        "imageFile": "images/perfectsaphire.gif",
+        "imageFile": "/images/perfectsaphire.gif",
         "type": "helm",
         "name": "Wisdom",
         "props": [
@@ -188,7 +188,7 @@
     },
     {
         "index": "helm-Vigor",
-        "imageFile": "images/perfectamethyst.gif",
+        "imageFile": "/images/perfectamethyst.gif",
         "type": "helm",
         "name": "Vigor",
         "props": [
@@ -199,7 +199,7 @@
     },
     {
         "index": "helm-Bliss",
-        "imageFile": "images/perfecttopaz.gif",
+        "imageFile": "/images/perfecttopaz.gif",
         "type": "helm",
         "name": "Bliss",
         "props": [
@@ -210,7 +210,7 @@
     },
     {
         "index": "helm-Unity",
-        "imageFile": "images/perfectdiamond.gif",
+        "imageFile": "/images/perfectdiamond.gif",
         "type": "helm",
         "name": "Unity",
         "props": [
@@ -221,7 +221,7 @@
     },
     {
         "index": "helm-Death",
-        "imageFile": "images/perfectskull.gif",
+        "imageFile": "/images/perfectskull.gif",
         "type": "helm",
         "name": "Death",
         "props": [
@@ -232,7 +232,7 @@
     },
     {
         "index": "shield-Wrath",
-        "imageFile": "images/perfectruby.gif",
+        "imageFile": "/images/perfectruby.gif",
         "type": "shield",
         "name": "Wrath",
         "props": [
@@ -243,7 +243,7 @@
     },
     {
         "index": "shield-Agility",
-        "imageFile": "images/perfectemerald.gif",
+        "imageFile": "/images/perfectemerald.gif",
         "type": "shield",
         "name": "Agility",
         "props": [
@@ -254,7 +254,7 @@
     },
     {
         "index": "shield-Wisdom",
-        "imageFile": "images/perfectsaphire.gif",
+        "imageFile": "/images/perfectsaphire.gif",
         "type": "shield",
         "name": "Wisdom",
         "props": [
@@ -265,7 +265,7 @@
     },
     {
         "index": "shield-Vigor",
-        "imageFile": "images/perfectamethyst.gif",
+        "imageFile": "/images/perfectamethyst.gif",
         "type": "shield",
         "name": "Vigor",
         "props": [
@@ -276,7 +276,7 @@
     },
     {
         "index": "shield-Bliss",
-        "imageFile": "images/perfecttopaz.gif",
+        "imageFile": "/images/perfecttopaz.gif",
         "type": "shield",
         "name": "Bliss",
         "props": [
@@ -287,7 +287,7 @@
     },
     {
         "index": "shield-Unity",
-        "imageFile": "images/perfectdiamond.gif",
+        "imageFile": "/images/perfectdiamond.gif",
         "type": "shield",
         "name": "Unity",
         "props": [
@@ -298,7 +298,7 @@
     },
     {
         "index": "shield-Death",
-        "imageFile": "images/perfectskull.gif",
+        "imageFile": "/images/perfectskull.gif",
         "type": "shield",
         "name": "Death",
         "props": [
@@ -309,7 +309,7 @@
     },
     {
         "index": "belt-Wrath",
-        "imageFile": "images/perfectruby.gif",
+        "imageFile": "/images/perfectruby.gif",
         "type": "belt",
         "name": "Wrath",
         "props": [
@@ -320,7 +320,7 @@
     },
     {
         "index": "belt-Agility",
-        "imageFile": "images/perfectemerald.gif",
+        "imageFile": "/images/perfectemerald.gif",
         "type": "belt",
         "name": "Agility",
         "props": [
@@ -331,7 +331,7 @@
     },
     {
         "index": "belt-Wisdom",
-        "imageFile": "images/perfectsaphire.gif",
+        "imageFile": "/images/perfectsaphire.gif",
         "type": "belt",
         "name": "Wisdom",
         "props": [
@@ -342,7 +342,7 @@
     },
     {
         "index": "belt-Vigor",
-        "imageFile": "images/perfectamethyst.gif",
+        "imageFile": "/images/perfectamethyst.gif",
         "type": "belt",
         "name": "Vigor",
         "props": [
@@ -353,7 +353,7 @@
     },
     {
         "index": "belt-Bliss",
-        "imageFile": "images/perfecttopaz.gif",
+        "imageFile": "/images/perfecttopaz.gif",
         "type": "belt",
         "name": "Bliss",
         "props": [
@@ -364,7 +364,7 @@
     },
     {
         "index": "belt-Unity",
-        "imageFile": "images/perfectdiamond.gif",
+        "imageFile": "/images/perfectdiamond.gif",
         "type": "belt",
         "name": "Unity",
         "props": [
@@ -375,7 +375,7 @@
     },
     {
         "index": "belt-Death",
-        "imageFile": "images/perfectskull.gif",
+        "imageFile": "/images/perfectskull.gif",
         "type": "belt",
         "name": "Death",
         "props": [
@@ -386,7 +386,7 @@
     },
     {
         "index": "glove-Wrath",
-        "imageFile": "images/perfectruby.gif",
+        "imageFile": "/images/perfectruby.gif",
         "type": "glove",
         "name": "Wrath",
         "props": [
@@ -397,7 +397,7 @@
     },
     {
         "index": "glove-Agility",
-        "imageFile": "images/perfectemerald.gif",
+        "imageFile": "/images/perfectemerald.gif",
         "type": "glove",
         "name": "Agility",
         "props": [
@@ -408,7 +408,7 @@
     },
     {
         "index": "glove-Wisdom",
-        "imageFile": "images/perfectsaphire.gif",
+        "imageFile": "/images/perfectsaphire.gif",
         "type": "glove",
         "name": "Wisdom",
         "props": [
@@ -419,7 +419,7 @@
     },
     {
         "index": "glove-Vigor",
-        "imageFile": "images/perfectamethyst.gif",
+        "imageFile": "/images/perfectamethyst.gif",
         "type": "glove",
         "name": "Vigor",
         "props": [
@@ -430,7 +430,7 @@
     },
     {
         "index": "glove-Bliss",
-        "imageFile": "images/perfecttopaz.gif",
+        "imageFile": "/images/perfecttopaz.gif",
         "type": "glove",
         "name": "Bliss",
         "props": [
@@ -441,7 +441,7 @@
     },
     {
         "index": "glove-Unity",
-        "imageFile": "images/perfectdiamond.gif",
+        "imageFile": "/images/perfectdiamond.gif",
         "type": "glove",
         "name": "Unity",
         "props": [
@@ -452,7 +452,7 @@
     },
     {
         "index": "glove-Death",
-        "imageFile": "images/perfectskull.gif",
+        "imageFile": "/images/perfectskull.gif",
         "type": "glove",
         "name": "Death",
         "props": [
@@ -463,7 +463,7 @@
     },
     {
         "index": "boot-Wrath",
-        "imageFile": "images/perfectruby.gif",
+        "imageFile": "/images/perfectruby.gif",
         "type": "boot",
         "name": "Wrath",
         "props": [
@@ -474,7 +474,7 @@
     },
     {
         "index": "boot-Agility",
-        "imageFile": "images/perfectemerald.gif",
+        "imageFile": "/images/perfectemerald.gif",
         "type": "boot",
         "name": "Agility",
         "props": [
@@ -485,7 +485,7 @@
     },
     {
         "index": "boot-Wisdom",
-        "imageFile": "images/perfectsaphire.gif",
+        "imageFile": "/images/perfectsaphire.gif",
         "type": "boot",
         "name": "Wisdom",
         "props": [
@@ -496,7 +496,7 @@
     },
     {
         "index": "boot-Vigor",
-        "imageFile": "images/perfectamethyst.gif",
+        "imageFile": "/images/perfectamethyst.gif",
         "type": "boot",
         "name": "Vigor",
         "props": [
@@ -507,7 +507,7 @@
     },
     {
         "index": "boot-Bliss",
-        "imageFile": "images/perfecttopaz.gif",
+        "imageFile": "/images/perfecttopaz.gif",
         "type": "boot",
         "name": "Bliss",
         "props": [
@@ -518,7 +518,7 @@
     },
     {
         "index": "boot-Unity",
-        "imageFile": "images/perfectdiamond.gif",
+        "imageFile": "/images/perfectdiamond.gif",
         "type": "boot",
         "name": "Unity",
         "props": [
@@ -529,7 +529,7 @@
     },
     {
         "index": "boot-Death",
-        "imageFile": "images/perfectskull.gif",
+        "imageFile": "/images/perfectskull.gif",
         "type": "boot",
         "name": "Death",
         "props": [
@@ -540,7 +540,7 @@
     },
     {
         "index": "ring-Wrath",
-        "imageFile": "images/perfectruby.gif",
+        "imageFile": "/images/perfectruby.gif",
         "type": "ring",
         "name": "Wrath",
         "props": [
@@ -550,7 +550,7 @@
     },
     {
         "index": "ring-Agility",
-        "imageFile": "images/perfectemerald.gif",
+        "imageFile": "/images/perfectemerald.gif",
         "type": "ring",
         "name": "Agility",
         "props": [
@@ -560,7 +560,7 @@
     },
     {
         "index": "ring-Wisdom",
-        "imageFile": "images/perfectsaphire.gif",
+        "imageFile": "/images/perfectsaphire.gif",
         "type": "ring",
         "name": "Wisdom",
         "props": [
@@ -570,7 +570,7 @@
     },
     {
         "index": "ring-Vigor",
-        "imageFile": "images/perfectamethyst.gif",
+        "imageFile": "/images/perfectamethyst.gif",
         "type": "ring",
         "name": "Vigor",
         "props": [
@@ -580,7 +580,7 @@
     },
     {
         "index": "ring-Bliss",
-        "imageFile": "images/perfecttopaz.gif",
+        "imageFile": "/images/perfecttopaz.gif",
         "type": "ring",
         "name": "Bliss",
         "props": [
@@ -590,7 +590,7 @@
     },
     {
         "index": "ring-Unity",
-        "imageFile": "images/perfectdiamond.gif",
+        "imageFile": "/images/perfectdiamond.gif",
         "type": "ring",
         "name": "Unity",
         "props": [
@@ -600,7 +600,7 @@
     },
     {
         "index": "ring-Death",
-        "imageFile": "images/perfectskull.gif",
+        "imageFile": "/images/perfectskull.gif",
         "type": "ring",
         "name": "Death",
         "props": [
@@ -610,7 +610,7 @@
     },
     {
         "index": "amulet-Wrath",
-        "imageFile": "images/perfectruby.gif",
+        "imageFile": "/images/perfectruby.gif",
         "type": "amulet",
         "name": "Wrath",
         "props": [
@@ -620,7 +620,7 @@
     },
     {
         "index": "amulet-Agility",
-        "imageFile": "images/perfectemerald.gif",
+        "imageFile": "/images/perfectemerald.gif",
         "type": "amulet",
         "name": "Agility",
         "props": [
@@ -630,7 +630,7 @@
     },
     {
         "index": "amulet-Wisdom",
-        "imageFile": "images/perfectsaphire.gif",
+        "imageFile": "/images/perfectsaphire.gif",
         "type": "amulet",
         "name": "Wisdom",
         "props": [
@@ -640,7 +640,7 @@
     },
     {
         "index": "amulet-Vigor",
-        "imageFile": "images/perfectamethyst.gif",
+        "imageFile": "/images/perfectamethyst.gif",
         "type": "amulet",
         "name": "Vigor",
         "props": [
@@ -650,7 +650,7 @@
     },
     {
         "index": "amulet-Bliss",
-        "imageFile": "images/perfecttopaz.gif",
+        "imageFile": "/images/perfecttopaz.gif",
         "type": "amulet",
         "name": "Bliss",
         "props": [
@@ -660,7 +660,7 @@
     },
     {
         "index": "amulet-Unity",
-        "imageFile": "images/perfectdiamond.gif",
+        "imageFile": "/images/perfectdiamond.gif",
         "type": "amulet",
         "name": "Unity",
         "props": [
@@ -670,7 +670,7 @@
     },
     {
         "index": "amulet-Death",
-        "imageFile": "images/perfectskull.gif",
+        "imageFile": "/images/perfectskull.gif",
         "type": "amulet",
         "name": "Death",
         "props": [
@@ -680,7 +680,7 @@
     },
     {
         "index": "quiver-Wrath",
-        "imageFile": "images/perfectruby.gif",
+        "imageFile": "/images/perfectruby.gif",
         "type": "quiver",
         "name": "Wrath",
         "props": [
@@ -690,7 +690,7 @@
     },
     {
         "index": "quiver-Agility",
-        "imageFile": "images/perfectemerald.gif",
+        "imageFile": "/images/perfectemerald.gif",
         "type": "quiver",
         "name": "Agility",
         "props": [
@@ -700,7 +700,7 @@
     },
     {
         "index": "quiver-Wisdom",
-        "imageFile": "images/perfectsaphire.gif",
+        "imageFile": "/images/perfectsaphire.gif",
         "type": "quiver",
         "name": "Wisdom",
         "props": [
@@ -710,7 +710,7 @@
     },
     {
         "index": "quiver-Vigor",
-        "imageFile": "images/perfectamethyst.gif",
+        "imageFile": "/images/perfectamethyst.gif",
         "type": "quiver",
         "name": "Vigor",
         "props": [
@@ -720,7 +720,7 @@
     },
     {
         "index": "quiver-Bliss",
-        "imageFile": "images/perfecttopaz.gif",
+        "imageFile": "/images/perfecttopaz.gif",
         "type": "quiver",
         "name": "Bliss",
         "props": [
@@ -730,7 +730,7 @@
     },
     {
         "index": "quiver-Unity",
-        "imageFile": "images/perfectdiamond.gif",
+        "imageFile": "/images/perfectdiamond.gif",
         "type": "quiver",
         "name": "Unity",
         "props": [
@@ -740,7 +740,7 @@
     },
     {
         "index": "quiver-Death",
-        "imageFile": "images/perfectskull.gif",
+        "imageFile": "/images/perfectskull.gif",
         "type": "quiver",
         "name": "Death",
         "props": [

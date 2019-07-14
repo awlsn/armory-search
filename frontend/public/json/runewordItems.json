@@ -1,0 +1,5638 @@
+[
+    {
+        "index": "Humility",
+        "name": "Humility",
+        "runes": [
+            "El",
+            "El",
+            "El"
+        ],
+        "items": [
+            "Paladin Item"
+        ],
+        "eItems": [],
+        "lvlreq": "11",
+        "highestRune": {
+            "code": "r01",
+            "name": "El"
+        },
+        "props": [
+            [
+                "blue",
+                "+30% Faster Block Rate"
+            ],
+            [
+                "blue",
+                "+1 to Energy Shield"
+            ],
+            [
+                "blue",
+                "+(20 - 30) to Energy"
+            ],
+            [
+                "blue",
+                "+5 Mana gained on kill"
+            ]
+        ],
+        "weaponProps": [
+            "+100 to Attack Rating",
+            "+100 to Attack Rating",
+            "+100 to Attack Rating"
+        ],
+        "armorHelmProps": [
+            "+50 Defense",
+            "+50 Defense",
+            "+50 Defense"
+        ],
+        "shieldProps": [
+            "+50 Defense",
+            "+50 Defense",
+            "+50 Defense"
+        ],
+        "slot": ""
+    },
+    {
+        "index": "Steel",
+        "name": "Steel",
+        "runes": [
+            "Tir",
+            "El"
+        ],
+        "items": [
+            "Sword",
+            "Axe",
+            "Mace"
+        ],
+        "eItems": [],
+        "lvlreq": "13",
+        "highestRune": {
+            "code": "r03",
+            "name": "Tir"
+        },
+        "props": [
+            [
+                "blue",
+                "+25% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "+(80 - 120)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "Adds 20-40 Damage"
+            ],
+            [
+                "blue",
+                "50% Chance of Open Wounds"
+            ]
+        ],
+        "weaponProps": [
+            "+20% Enhanced Damage",
+            "+100 to Attack Rating"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Nadir",
+        "name": "Nadir",
+        "runes": [
+            "Nef",
+            "Tir"
+        ],
+        "items": [
+            "Helm"
+        ],
+        "eItems": [],
+        "lvlreq": "13",
+        "highestRune": {
+            "code": "r04",
+            "name": "Nef"
+        },
+        "props": [
+            [
+                "blue",
+                "+(100 - 150)% Enhanced Defense"
+            ],
+            [
+                "blue",
+                "+(20 - 40) Defense"
+            ],
+            [
+                "blue",
+                "+10 to Strength"
+            ],
+            [
+                "blue",
+                "-3 to Light Radius"
+            ],
+            [
+                "blue",
+                "+(25 - 40)% Magic Find"
+            ],
+            [
+                "blue",
+                "Level 13 Cloak of Shadows (9 Charges)"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "+100 Defense vs. Missile",
+            "+100 Defense vs. Melee"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Authority",
+        "name": "Authority",
+        "runes": [
+            "El",
+            "Eth",
+            "Ith"
+        ],
+        "items": [
+            "Melee Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "15",
+        "highestRune": {
+            "code": "r06",
+            "name": "Ith"
+        },
+        "props": [
+            [
+                "blue",
+                "+20% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "+(30 - 60)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "Adds 25-50 Damage"
+            ],
+            [
+                "blue",
+                "4% Life Leech"
+            ],
+            [
+                "blue",
+                "(10 - 15)% Chance of Open Wounds"
+            ]
+        ],
+        "weaponProps": [
+            "+100 to Attack Rating",
+            "+10% Magic Find",
+            "+25% Gold Find"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Malice",
+        "name": "Malice",
+        "runes": [
+            "Ith",
+            "El",
+            "Eth"
+        ],
+        "items": [
+            "Melee Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "15",
+        "highestRune": {
+            "code": "r06",
+            "name": "Ith"
+        },
+        "props": [
+            [
+                "blue",
+                "+(100 - 135)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "100% Chance of Open Wounds"
+            ],
+            [
+                "blue",
+                "Prevent Monster Heal"
+            ],
+            [
+                "blue",
+                "-100 to Monster Defense Per Hit"
+            ],
+            [
+                "blue",
+                "Drain Life -5"
+            ],
+            [
+                "blue",
+                "-1 to Light Radius"
+            ]
+        ],
+        "weaponProps": [
+            "+25% Gold Find",
+            "+100 to Attack Rating",
+            "+10% Magic Find"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Terror",
+        "name": "Terror",
+        "runes": [
+            "Ith",
+            "Eth"
+        ],
+        "items": [
+            "Orb",
+            "Wand"
+        ],
+        "eItems": [],
+        "lvlreq": "15",
+        "highestRune": {
+            "code": "r06",
+            "name": "Ith"
+        },
+        "props": [
+            [
+                "blue",
+                "1% Chance to cast level 1 Howl when struck"
+            ],
+            [
+                "blue",
+                "+1 to All Skills"
+            ],
+            [
+                "blue",
+                "+10% Faster Cast Rate"
+            ],
+            [
+                "blue",
+                "+1 to Terror"
+            ],
+            [
+                "blue",
+                "+(10 - 30) to Mana"
+            ],
+            [
+                "blue",
+                "+3 Physical Damage reduction"
+            ]
+        ],
+        "weaponProps": [
+            "+25% Gold Find",
+            "+10% Magic Find"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Stealth",
+        "name": "Stealth",
+        "runes": [
+            "Tal",
+            "Eth"
+        ],
+        "items": [
+            "Armor"
+        ],
+        "eItems": [],
+        "lvlreq": "17",
+        "highestRune": {
+            "code": "r07",
+            "name": "Tal"
+        },
+        "props": [
+            [
+                "blue",
+                "+(30 - 35)% Faster Run/Walk"
+            ],
+            [
+                "blue",
+                "+(30 - 35)% Faster Cast Rate"
+            ],
+            [
+                "blue",
+                "+(30 - 35)% Faster Hit Recovery"
+            ],
+            [
+                "blue",
+                "+(10 - 15) to Dexterity"
+            ],
+            [
+                "blue",
+                "+15 Maximum Stamina"
+            ],
+            [
+                "blue",
+                "+(5 - 10) Magic and Elemental Damage reduction"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "+25% Poison Resistance",
+            "+10% Magic Find"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Leaf",
+        "name": "Leaf",
+        "runes": [
+            "Tir",
+            "Ral"
+        ],
+        "items": [
+            "Staff"
+        ],
+        "eItems": [],
+        "lvlreq": "19",
+        "highestRune": {
+            "code": "r08",
+            "name": "Ral"
+        },
+        "props": [
+            [
+                "blue",
+                "+3 to Fire Skills"
+            ],
+            [
+                "blue",
+                "Damage pierces (6 - 8)% Fire Resistance"
+            ],
+            [
+                "blue",
+                "+3 to Fire Ball (Sorceress Only)"
+            ],
+            [
+                "blue",
+                "+3 to Immolate (Sorceress Only)"
+            ],
+            [
+                "blue",
+                "+2 Defense (Based on Character Level)"
+            ],
+            [
+                "blue",
+                "+33% Cold Resistance"
+            ]
+        ],
+        "weaponProps": [
+            "+20% Enhanced Damage",
+            "Adds 40-60 Fire Damage"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Ancients Pledge",
+        "name": "Ancients' Pledge",
+        "runes": [
+            "Ral",
+            "Ort",
+            "Tal"
+        ],
+        "items": [
+            "Shield"
+        ],
+        "eItems": [],
+        "lvlreq": "21",
+        "highestRune": {
+            "code": "r09",
+            "name": "Ort"
+        },
+        "props": [
+            [
+                "blue",
+                "+50% Enhanced Defense"
+            ],
+            [
+                "blue",
+                "+20% Magic Resistance"
+            ],
+            [
+                "blue",
+                "10% Damage Taken Goes To Mana"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [],
+        "shieldProps": [
+            "+40% Fire Resistance",
+            "+40% Lightning Resistance",
+            "+40% Poison Resistance"
+        ],
+        "slot": ""
+    },
+    {
+        "index": "Holy Thunder",
+        "name": "Holy Thunder",
+        "runes": [
+            "Eth",
+            "Ral",
+            "Ort",
+            "Tal"
+        ],
+        "items": [
+            "Scepter"
+        ],
+        "eItems": [],
+        "lvlreq": "21",
+        "highestRune": {
+            "code": "r09",
+            "name": "Ort"
+        },
+        "props": [
+            [
+                "blue",
+                "+(100 - 140)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "Adds 1-250 Lightning Damage"
+            ],
+            [
+                "blue",
+                "(10 - 15)% Increased Lightning Damage"
+            ],
+            [
+                "blue",
+                "+3 to Meditation (Paladin Only)"
+            ],
+            [
+                "blue",
+                "+5% Maximum Lightning Resistance"
+            ],
+            [
+                "blue",
+                "+60% Lightning Resistance"
+            ],
+            [
+                "blue",
+                "Level 7 Chain Lightning (60 Charges)"
+            ]
+        ],
+        "weaponProps": [
+            "+10% Magic Find",
+            "Adds 40-60 Fire Damage",
+            "Adds 1-100 Lightning Damage",
+            "+58 Poison Damage over 3 Seconds"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Madness",
+        "name": "Madness",
+        "runes": [
+            "El",
+            "Ort",
+            "El"
+        ],
+        "items": [
+            "Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "21",
+        "highestRune": {
+            "code": "r09",
+            "name": "Ort"
+        },
+        "props": [
+            [
+                "blue",
+                "25% Chance to cast level 25 Teleport on melee attack"
+            ],
+            [
+                "blue",
+                "+(1 - 40)% Faster Run/Walk"
+            ],
+            [
+                "blue",
+                "+(1 - 40)% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "+(1 - 40)% Faster Cast Rate"
+            ],
+            [
+                "blue",
+                "+(1 - 300)% Enhanced Damage"
+            ]
+        ],
+        "weaponProps": [
+            "+100 to Attack Rating",
+            "Adds 1-100 Lightning Damage",
+            "+100 to Attack Rating"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Patter",
+        "name": "Patter",
+        "runes": [
+            "Tal",
+            "Ort",
+            "Tir"
+        ],
+        "items": [
+            "Hand to Hand"
+        ],
+        "eItems": [],
+        "lvlreq": "21",
+        "highestRune": {
+            "code": "r09",
+            "name": "Ort"
+        },
+        "props": [
+            [
+                "blue",
+                "+30% Faster Block Rate"
+            ],
+            [
+                "blue",
+                "+(40 - 80)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "10% Bonus to Attack Rating"
+            ],
+            [
+                "blue",
+                "Adds 12-32 Fire Damage"
+            ],
+            [
+                "blue",
+                "+6 to Strength"
+            ],
+            [
+                "blue",
+                "+6 to Dexterity"
+            ],
+            [
+                "blue",
+                "+15% Elemental Resistances"
+            ]
+        ],
+        "weaponProps": [
+            "+58 Poison Damage over 3 Seconds",
+            "Adds 1-100 Lightning Damage",
+            "+20% Enhanced Damage"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Zephyr",
+        "name": "Zephyr",
+        "runes": [
+            "Ort",
+            "Eth"
+        ],
+        "items": [
+            "Missile Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "21",
+        "highestRune": {
+            "code": "r09",
+            "name": "Ort"
+        },
+        "props": [
+            [
+                "blue",
+                "100% Chance to cast level 3 Twister on striking"
+            ],
+            [
+                "blue",
+                "+25% Faster Run/Walk"
+            ],
+            [
+                "blue",
+                "+(30 - 40)% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "+(150 - 180)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "+66 to Attack Rating"
+            ],
+            [
+                "blue",
+                "+(50 - 75) Defense"
+            ],
+            [
+                "gray",
+                "Level 3 Twister (",
+                "white",
+                "207-236",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [
+            "Adds 1-100 Lightning Damage",
+            "+10% Magic Find"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Beauty",
+        "name": "Beauty",
+        "runes": [
+            "Nef",
+            "Thul",
+            "Amn"
+        ],
+        "items": [
+            "Missile Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "25",
+        "highestRune": {
+            "code": "r11",
+            "name": "Amn"
+        },
+        "props": [
+            [
+                "blue",
+                "+25% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "+35% Faster Hit Recovery"
+            ],
+            [
+                "blue",
+                "Damage +(30 - 40)"
+            ],
+            [
+                "blue",
+                "Adds 60-90 Cold Damage"
+            ],
+            [
+                "blue",
+                "+1 to Attract"
+            ],
+            [
+                "blue",
+                "+4 Mana gained on kill"
+            ]
+        ],
+        "weaponProps": [
+            "Knockback",
+            "Adds 35-50 Cold Damage",
+            "-30% Target Defense",
+            "+5 to Light Radius"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Edge",
+        "name": "Edge",
+        "runes": [
+            "Tir",
+            "Tal",
+            "Amn"
+        ],
+        "items": [
+            "Missile Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "25",
+        "highestRune": {
+            "code": "r11",
+            "name": "Amn"
+        },
+        "props": [
+            [
+                "blue",
+                "Grants Level 15 Thorns Aura"
+            ],
+            [
+                "blue",
+                "+35% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "+(175 - 225)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "Prevent Monster Heal"
+            ],
+            [
+                "blue",
+                "+(5 - 10) to all Attributes"
+            ],
+            [
+                "blue",
+                "Reduces all Vendor Prices 15%"
+            ]
+        ],
+        "weaponProps": [
+            "+20% Enhanced Damage",
+            "+58 Poison Damage over 3 Seconds",
+            "-30% Target Defense",
+            "+5 to Light Radius"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Envy",
+        "name": "Envy",
+        "runes": [
+            "Ort",
+            "Amn",
+            "Ral"
+        ],
+        "items": [
+            "Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "25",
+        "highestRune": {
+            "code": "r11",
+            "name": "Amn"
+        },
+        "props": [
+            [
+                "blue",
+                "+(8 - 15)% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "+(50 - 80)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "(3 - 5)% Mana Leech"
+            ],
+            [
+                "blue",
+                "15% Chance of Crushing Blow"
+            ],
+            [
+                "blue",
+                "+(1 - 5) Mana gained on kill"
+            ]
+        ],
+        "weaponProps": [
+            "Adds 1-100 Lightning Damage",
+            "-30% Target Defense",
+            "+5 to Light Radius",
+            "Adds 40-60 Fire Damage"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Kings Grace",
+        "name": "King's Grace",
+        "runes": [
+            "Amn",
+            "Ral",
+            "Thul"
+        ],
+        "items": [
+            "Sword",
+            "Scepter",
+            "Melee Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "25",
+        "highestRune": {
+            "code": "r11",
+            "name": "Amn"
+        },
+        "props": [
+            [
+                "blue",
+                "+(140 - 160)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "(25 - 40)% Bonus to Attack Rating"
+            ],
+            [
+                "blue",
+                "+100% Damage to Demons"
+            ],
+            [
+                "blue",
+                "+250 to Attack Rating against Demons"
+            ],
+            [
+                "blue",
+                "+100% Damage to Undead"
+            ],
+            [
+                "blue",
+                "+250 to Attack Rating against Undead"
+            ]
+        ],
+        "weaponProps": [
+            "-30% Target Defense",
+            "+5 to Light Radius",
+            "Adds 40-60 Fire Damage",
+            "Adds 35-50 Cold Damage"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Spirit",
+        "name": "Spirit",
+        "runes": [
+            "Tal",
+            "Thul",
+            "Ort",
+            "Amn"
+        ],
+        "items": [
+            "Sword",
+            "Shield"
+        ],
+        "eItems": [],
+        "lvlreq": "25",
+        "highestRune": {
+            "code": "r11",
+            "name": "Amn"
+        },
+        "props": [
+            [
+                "blue",
+                "+1 to All Skills"
+            ],
+            [
+                "blue",
+                "+(15 - 25)% Faster Cast Rate"
+            ],
+            [
+                "blue",
+                "+(20 - 30)% Faster Hit Recovery"
+            ],
+            [
+                "blue",
+                "+250 Defense vs. Missile"
+            ],
+            [
+                "blue",
+                "+(50 - 70) to Mana"
+            ],
+            [
+                "blue",
+                "+(5 - 10)% Magic Absorb"
+            ]
+        ],
+        "weaponProps": [
+            "+58 Poison Damage over 3 Seconds",
+            "Adds 35-50 Cold Damage",
+            "Adds 1-100 Lightning Damage",
+            "-30% Target Defense",
+            "+5 to Light Radius"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [
+            "+40% Poison Resistance",
+            "+30% Cold Resistance",
+            "+40% Lightning Resistance",
+            "+5 to Light Radius",
+            "30% Slower Stamina Drain"
+        ],
+        "slot": ""
+    },
+    {
+        "index": "Strength",
+        "name": "Strength",
+        "runes": [
+            "Amn",
+            "Tir"
+        ],
+        "items": [
+            "Melee Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "25",
+        "highestRune": {
+            "code": "r11",
+            "name": "Amn"
+        },
+        "props": [
+            [
+                "blue",
+                "+(140 - 180)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "25% Chance of Crushing Blow"
+            ],
+            [
+                "blue",
+                "20% Increased Strength"
+            ]
+        ],
+        "weaponProps": [
+            "-30% Target Defense",
+            "+5 to Light Radius",
+            "+20% Enhanced Damage"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Honor",
+        "name": "Honor",
+        "runes": [
+            "Amn",
+            "El",
+            "Ith",
+            "Tir",
+            "Sol"
+        ],
+        "items": [
+            "Melee Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "27",
+        "highestRune": {
+            "code": "r12",
+            "name": "Sol"
+        },
+        "props": [
+            [
+                "blue",
+                "+1 to All Skills"
+            ],
+            [
+                "blue",
+                "+(180 - 220)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "+200 to Attack Rating"
+            ],
+            [
+                "blue",
+                "25% Deadly Strike"
+            ],
+            [
+                "blue",
+                "+10 to Strength"
+            ],
+            [
+                "blue",
+                "2% Life regenerated per second"
+            ]
+        ],
+        "weaponProps": [
+            "-30% Target Defense",
+            "+5 to Light Radius",
+            "+100 to Attack Rating",
+            "+25% Gold Find",
+            "+20% Enhanced Damage",
+            "10% Projectile Pierce Chance"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Insight",
+        "name": "Insight",
+        "runes": [
+            "Ral",
+            "Tir",
+            "Tal",
+            "Sol"
+        ],
+        "items": [
+            "Polearm",
+            "Staff",
+            "2H Sword",
+            "Bow"
+        ],
+        "eItems": [],
+        "lvlreq": "27",
+        "highestRune": {
+            "code": "r12",
+            "name": "Sol"
+        },
+        "props": [
+            [
+                "blue",
+                "Grants Level 4 Meditation Aura"
+            ],
+            [
+                "blue",
+                "+35% Faster Cast Rate"
+            ],
+            [
+                "blue",
+                "+(100 - 160)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "(180 - 250)% Bonus to Attack Rating"
+            ],
+            [
+                "blue",
+                "+(1 - 6) to Critical Strike"
+            ],
+            [
+                "blue",
+                "+23% Magic Find"
+            ]
+        ],
+        "weaponProps": [
+            "Adds 40-60 Fire Damage",
+            "+20% Enhanced Damage",
+            "+58 Poison Damage over 3 Seconds",
+            "10% Projectile Pierce Chance"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Lore",
+        "name": "Lore",
+        "runes": [
+            "Ort",
+            "Sol"
+        ],
+        "items": [
+            "Helm"
+        ],
+        "eItems": [],
+        "lvlreq": "27",
+        "highestRune": {
+            "code": "r12",
+            "name": "Sol"
+        },
+        "props": [
+            [
+                "blue",
+                "+2 to All Skills"
+            ],
+            [
+                "blue",
+                "+15 to Energy"
+            ],
+            [
+                "blue",
+                "-20% Magic Resistance"
+            ],
+            [
+                "blue",
+                "+4 Mana gained on kill"
+            ],
+            [
+                "blue",
+                "+2 to Light Radius"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "+25% Lightning Resistance",
+            "Half Freeze Duration"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Radiance",
+        "name": "Radiance",
+        "runes": [
+            "Nef",
+            "Sol",
+            "Ith"
+        ],
+        "items": [
+            "Helm"
+        ],
+        "eItems": [],
+        "lvlreq": "27",
+        "highestRune": {
+            "code": "r12",
+            "name": "Sol"
+        },
+        "props": [
+            [
+                "blue",
+                "+1 to All Skills"
+            ],
+            [
+                "blue",
+                "+(75 - 100)% Enhanced Defense"
+            ],
+            [
+                "blue",
+                "+25 to Vitality"
+            ],
+            [
+                "blue",
+                "+25 to Energy"
+            ],
+            [
+                "blue",
+                "+(35 - 50) to Mana"
+            ],
+            [
+                "blue",
+                "+(5 - 10) Magic and Elemental Damage reduction"
+            ],
+            [
+                "blue",
+                "+5 to Light Radius"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "+100 Defense vs. Missile",
+            "Half Freeze Duration",
+            "+25% Gold Find"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Peace",
+        "name": "Peace",
+        "runes": [
+            "Shael",
+            "Thul",
+            "Amn"
+        ],
+        "items": [
+            "Armor"
+        ],
+        "eItems": [],
+        "lvlreq": "29",
+        "highestRune": {
+            "code": "r13",
+            "name": "Shael"
+        },
+        "props": [
+            [
+                "blue",
+                "2% Chance to cast level 15 Valkyrie on striking"
+            ],
+            [
+                "blue",
+                "4% Chance to cast level 5 Slow Missiles when struck"
+            ],
+            [
+                "blue",
+                "+2 to Amazon Skill Levels"
+            ],
+            [
+                "blue",
+                "+2 to Critical Strike"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "+20% Faster Hit Recovery",
+            "+25% Cold Resistance",
+            "+5 to Light Radius",
+            "20% Slower Stamina Drain"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Rhyme",
+        "name": "Rhyme",
+        "runes": [
+            "Shael",
+            "Eth"
+        ],
+        "items": [
+            "Shield"
+        ],
+        "eItems": [],
+        "lvlreq": "29",
+        "highestRune": {
+            "code": "r13",
+            "name": "Shael"
+        },
+        "props": [
+            [
+                "blue",
+                "+20% Faster Block Rate"
+            ],
+            [
+                "blue",
+                "+10% Chance to Block"
+            ],
+            [
+                "blue",
+                "+25% Elemental Resistances"
+            ],
+            [
+                "blue",
+                "Cannot Be Frozen"
+            ],
+            [
+                "blue",
+                "+(50 - 75)% Gold Find"
+            ],
+            [
+                "blue",
+                "+(30 - 40)% Magic Find"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [],
+        "shieldProps": [
+            "+20% Faster Block Rate",
+            "+10% Magic Find"
+        ],
+        "slot": ""
+    },
+    {
+        "index": "Red",
+        "name": "Red",
+        "runes": [
+            "Ral",
+            "Eld",
+            "Dol"
+        ],
+        "items": [
+            "Armor"
+        ],
+        "eItems": [],
+        "lvlreq": "31",
+        "highestRune": {
+            "code": "r14",
+            "name": "Dol"
+        },
+        "props": [
+            [
+                "blue",
+                "Grants Level 1 Resist Fire Aura"
+            ],
+            [
+                "blue",
+                "+5% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "Adds 80-120 Fire Damage"
+            ],
+            [
+                "blue",
+                "+75 Defense"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "+25% Fire Resistance",
+            "Attacker Takes Damage of 10",
+            "25% Damage Taken Goes To Mana"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Myth",
+        "name": "Myth",
+        "runes": [
+            "Hel",
+            "Amn",
+            "Nef"
+        ],
+        "items": [
+            "Armor"
+        ],
+        "eItems": [],
+        "lvlreq": "25",
+        "highestRune": {
+            "code": "r15",
+            "name": "Hel"
+        },
+        "props": [
+            [
+                "blue",
+                "10% Chance to cast level 1 Taunt on striking"
+            ],
+            [
+                "blue",
+                "3% Chance to cast level 1 Howl when struck"
+            ],
+            [
+                "blue",
+                "+2 to Barbarian Skill Levels"
+            ],
+            [
+                "blue",
+                "1% Life regenerated per second"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "Item attribute requirements -20%",
+            "+5 to Light Radius",
+            "20% Slower Stamina Drain",
+            "+100 Defense vs. Missile"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Resurgence",
+        "name": "Resurgence",
+        "runes": [
+            "Shael",
+            "Hel",
+            "Sol"
+        ],
+        "items": [
+            "Helm"
+        ],
+        "eItems": [],
+        "lvlreq": "29",
+        "highestRune": {
+            "code": "r15",
+            "name": "Hel"
+        },
+        "props": [
+            [
+                "blue",
+                "8% Chance to gain 6 seconds of Resurgence when Struck"
+            ],
+            [
+                "blue",
+                "+(5 - 8)% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "+(10 - 15)% Faster Cast Rate"
+            ],
+            [
+                "blue",
+                "-(3 - 5)% Enemy Elemental Resistances"
+            ],
+            [
+                "blue",
+                "+(100 - 120)% Enhanced Defense"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "+20% Faster Hit Recovery",
+            "Item attribute requirements -20%",
+            "Half Freeze Duration"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Resurgence",
+        "name": "Resurgence",
+        "runes": [
+            "Shael",
+            "Hel",
+            "Sol"
+        ],
+        "items": [
+            "Armor",
+            "Shield"
+        ],
+        "eItems": [],
+        "lvlreq": "29",
+        "highestRune": {
+            "code": "r15",
+            "name": "Hel"
+        },
+        "props": [
+            [
+                "blue",
+                "4% Chance to gain 6 seconds of Resurgence on kill"
+            ],
+            [
+                "blue",
+                "+(100 - 120)% Enhanced Defense"
+            ],
+            [
+                "blue",
+                "+(20 - 25)% Elemental Resistances"
+            ],
+            [
+                "blue",
+                "1% Life regenerated per second"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "+20% Faster Hit Recovery",
+            "Item attribute requirements -20%",
+            "Half Freeze Duration"
+        ],
+        "shieldProps": [
+            "+20% Faster Block Rate",
+            "Item attribute requirements -20%",
+            "Half Freeze Duration"
+        ],
+        "slot": ""
+    },
+    {
+        "index": "Resurgence",
+        "name": "Resurgence",
+        "runes": [
+            "Shael",
+            "Hel",
+            "Sol"
+        ],
+        "items": [
+            "Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "29",
+        "highestRune": {
+            "code": "r15",
+            "name": "Hel"
+        },
+        "props": [
+            [
+                "blue",
+                "4% Chance to gain 6 seconds of Resurgence on Striking"
+            ],
+            [
+                "blue",
+                "+(140 - 180)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "+(10 - 15) Life gained on striking"
+            ],
+            [
+                "blue",
+                "+(3 - 5) Mana gained on striking"
+            ]
+        ],
+        "weaponProps": [
+            "+20% Increased Attack Speed",
+            "Item attribute requirements -20%",
+            "10% Projectile Pierce Chance"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Black",
+        "name": "Black",
+        "runes": [
+            "Thul",
+            "Io",
+            "Nef"
+        ],
+        "items": [
+            "Club",
+            "Hammer",
+            "Mace",
+            "Melee Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "35",
+        "highestRune": {
+            "code": "r16",
+            "name": "Io"
+        },
+        "props": [
+            [
+                "blue",
+                "+15% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "+(140 - 180)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "+(200 - 300) to Attack Rating"
+            ],
+            [
+                "blue",
+                "25% Chance of Crushing Blow"
+            ],
+            [
+                "blue",
+                "+(5 - 10) Magic and Elemental Damage reduction"
+            ],
+            [
+                "blue",
+                "Level 4 Corpse Explosion (12 Charges)"
+            ]
+        ],
+        "weaponProps": [
+            "Adds 35-50 Cold Damage",
+            "5% Increased Vitality",
+            "Knockback"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Knights Vigil",
+        "name": "Knight's Vigil",
+        "runes": [
+            "Io",
+            "Shael"
+        ],
+        "items": [
+            "Helm"
+        ],
+        "eItems": [],
+        "lvlreq": "35",
+        "highestRune": {
+            "code": "r16",
+            "name": "Io"
+        },
+        "props": [
+            [
+                "blue",
+                "+1 to Zeal"
+            ],
+            [
+                "blue",
+                "+1 to Bash"
+            ],
+            [
+                "blue",
+                "+(15 - 30)% Enhanced Defense"
+            ],
+            [
+                "blue",
+                "+(3 - 5) Physical Damage reduction"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "5% Increased Vitality",
+            "+20% Faster Hit Recovery"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Night",
+        "name": "Night",
+        "runes": [
+            "Tir",
+            "Io"
+        ],
+        "items": [
+            "Hand to Hand",
+            "Knife",
+            "Staff"
+        ],
+        "eItems": [],
+        "lvlreq": "35",
+        "highestRune": {
+            "code": "r16",
+            "name": "Io"
+        },
+        "props": [
+            [
+                "blue",
+                "5% Chance to cast level 3 Fade on striking"
+            ],
+            [
+                "blue",
+                "+40% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "+80% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "(40 - 60)% Deadly Strike"
+            ],
+            [
+                "blue",
+                "Repairs 20 durability per second"
+            ]
+        ],
+        "weaponProps": [
+            "+20% Enhanced Damage",
+            "5% Increased Vitality"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "White",
+        "name": "White",
+        "runes": [
+            "Dol",
+            "Io"
+        ],
+        "items": [
+            "Wand"
+        ],
+        "eItems": [],
+        "lvlreq": "35",
+        "highestRune": {
+            "code": "r16",
+            "name": "Io"
+        },
+        "props": [
+            [
+                "blue",
+                "+3 to Poison and Bone Skills (Necromancer Only)"
+            ],
+            [
+                "blue",
+                "+(20 - 25)% Faster Cast Rate"
+            ],
+            [
+                "blue",
+                "+3 to Bone Armor (Necromancer Only)"
+            ],
+            [
+                "blue",
+                "+2 to Bone Spear (Necromancer Only)"
+            ],
+            [
+                "blue",
+                "+4 to Minion Mastery (Necromancer Only)"
+            ],
+            [
+                "blue",
+                "+(20 - 40) to Mana"
+            ],
+            [
+                "blue",
+                "+4 Magic and Elemental Damage reduction"
+            ]
+        ],
+        "weaponProps": [
+            "+5 to all Attributes",
+            "5% Increased Vitality"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Memory",
+        "name": "Memory",
+        "runes": [
+            "Lum",
+            "Io",
+            "Sol",
+            "Eth"
+        ],
+        "items": [
+            "Staff"
+        ],
+        "eItems": [],
+        "lvlreq": "37",
+        "highestRune": {
+            "code": "r17",
+            "name": "Lum"
+        },
+        "props": [
+            [
+                "blue",
+                "+3 to Sorceress Skill Levels"
+            ],
+            [
+                "blue",
+                "+50% Faster Cast Rate"
+            ],
+            [
+                "blue",
+                "+3 to Energy Shield (Sorceress Only)"
+            ],
+            [
+                "blue",
+                "+2 to Molten Armor (Sorceress Only)"
+            ],
+            [
+                "blue",
+                "+50% Enhanced Defense"
+            ],
+            [
+                "blue",
+                "+(60 - 100) to Mana"
+            ],
+            [
+                "blue",
+                "+(10 - 15) Magic and Elemental Damage reduction"
+            ]
+        ],
+        "weaponProps": [
+            "5% Increased Energy",
+            "5% Increased Vitality",
+            "10% Projectile Pierce Chance",
+            "+10% Magic Find"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Smoke",
+        "name": "Smoke",
+        "runes": [
+            "Nef",
+            "Lum"
+        ],
+        "items": [
+            "Armor"
+        ],
+        "eItems": [],
+        "lvlreq": "37",
+        "highestRune": {
+            "code": "r17",
+            "name": "Lum"
+        },
+        "props": [
+            [
+                "blue",
+                "+20% Faster Hit Recovery"
+            ],
+            [
+                "blue",
+                "+(100 - 125)% Enhanced Defense"
+            ],
+            [
+                "blue",
+                "+250 Defense vs. Missile"
+            ],
+            [
+                "blue",
+                "+50% Elemental Resistances"
+            ],
+            [
+                "blue",
+                "-1 to Light Radius"
+            ],
+            [
+                "blue",
+                "Level 6 Weaken (18 Charges)"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "+100 Defense vs. Missile",
+            "5% Increased Energy"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Splendor",
+        "name": "Splendor",
+        "runes": [
+            "Eth",
+            "Lum"
+        ],
+        "items": [
+            "Shield"
+        ],
+        "eItems": [],
+        "lvlreq": "37",
+        "highestRune": {
+            "code": "r17",
+            "name": "Lum"
+        },
+        "props": [
+            [
+                "blue",
+                "+1 to All Skills"
+            ],
+            [
+                "blue",
+                "+10% Faster Cast Rate"
+            ],
+            [
+                "blue",
+                "+20% Faster Block Rate"
+            ],
+            [
+                "blue",
+                "+(60 - 100)% Enhanced Defense"
+            ],
+            [
+                "blue",
+                "+50% Gold Find"
+            ],
+            [
+                "blue",
+                "+3 to Light Radius"
+            ],
+            [
+                "blue",
+                "+20% Magic Find"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [],
+        "shieldProps": [
+            "+10% Magic Find",
+            "5% Increased Energy"
+        ],
+        "slot": ""
+    },
+    {
+        "index": "Harmony",
+        "name": "Harmony",
+        "runes": [
+            "Tir",
+            "Ith",
+            "Sol",
+            "Ko"
+        ],
+        "items": [
+            "Missile Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "39",
+        "highestRune": {
+            "code": "r18",
+            "name": "Ko"
+        },
+        "props": [
+            [
+                "blue",
+                "Grants Level 10 Vigor Aura"
+            ],
+            [
+                "blue",
+                "+(200 - 275)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "+(55 - 160) to Minimum Fire Damage"
+            ],
+            [
+                "blue",
+                "+(55 - 160) to Maximum Fire Damage"
+            ],
+            [
+                "blue",
+                "+(55 - 160) to Minimum Lightning Damage"
+            ],
+            [
+                "blue",
+                "+(55 - 160) to Maximum Lightning Damage"
+            ],
+            [
+                "blue",
+                "+(55 - 160) to Minimum Cold Damage"
+            ],
+            [
+                "blue",
+                "+(55 - 160) to Maximum Cold Damage"
+            ],
+            [
+                "blue",
+                "+(2 - 6) to Valkyrie"
+            ],
+            [
+                "blue",
+                "20% Increased Mana Regeneration"
+            ],
+            [
+                "blue",
+                "Level 20 Revive (25 Charges)"
+            ]
+        ],
+        "weaponProps": [
+            "+20% Enhanced Damage",
+            "+25% Gold Find",
+            "10% Projectile Pierce Chance",
+            "5% Increased Dexterity"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Melody",
+        "name": "Melody",
+        "runes": [
+            "Shael",
+            "Ko",
+            "Nef"
+        ],
+        "items": [
+            "Missile Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "39",
+        "highestRune": {
+            "code": "r18",
+            "name": "Ko"
+        },
+        "props": [
+            [
+                "blue",
+                "+3 to Bow and Crossbow Skills (Amazon Only)"
+            ],
+            [
+                "blue",
+                "+(130 - 180)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "+300% Damage to Undead"
+            ],
+            [
+                "blue",
+                "+3 to Critical Strike (Amazon Only)"
+            ],
+            [
+                "blue",
+                "+3 to Dodge (Amazon Only)"
+            ],
+            [
+                "blue",
+                "+3 to Slow Missiles (Amazon Only)"
+            ]
+        ],
+        "weaponProps": [
+            "+20% Increased Attack Speed",
+            "5% Increased Dexterity",
+            "Knockback"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Woe",
+        "name": "Woe",
+        "runes": [
+            "Ko",
+            "Eth"
+        ],
+        "items": [
+            "Melee Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "39",
+        "highestRune": {
+            "code": "r18",
+            "name": "Ko"
+        },
+        "props": [
+            [
+                "blue",
+                "Melee attacks deal splash damage"
+            ],
+            [
+                "blue",
+                "+(100 - 200)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "+4 to Attack Rating (Based on Character Level)"
+            ],
+            [
+                "blue",
+                "+10% Elemental Resistances"
+            ],
+            [
+                "blue",
+                "+(50 - 60)% Gold Find"
+            ],
+            [
+                "blue",
+                "+(30 - 40)% Magic Find"
+            ]
+        ],
+        "weaponProps": [
+            "5% Increased Dexterity",
+            "+10% Magic Find"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Lionheart",
+        "name": "Lionheart",
+        "runes": [
+            "Hel",
+            "Lum",
+            "Fal"
+        ],
+        "items": [
+            "Armor"
+        ],
+        "eItems": [],
+        "lvlreq": "41",
+        "highestRune": {
+            "code": "r19",
+            "name": "Fal"
+        },
+        "props": [
+            [
+                "blue",
+                "+(40 - 60)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "+(400 - 500) to Attack Rating"
+            ],
+            [
+                "blue",
+                "+(100 - 120)% Enhanced Defense"
+            ],
+            [
+                "blue",
+                "+(20 - 30) to Life"
+            ],
+            [
+                "blue",
+                "Cannot Be Frozen"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "Item attribute requirements -20%",
+            "5% Increased Energy",
+            "5% Increased Strength"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Obedience",
+        "name": "Obedience",
+        "runes": [
+            "Hel",
+            "Ko",
+            "Thul",
+            "Eth",
+            "Fal"
+        ],
+        "items": [
+            "Polearm",
+            "2H Sword",
+            "Bow"
+        ],
+        "eItems": [],
+        "lvlreq": "41",
+        "highestRune": {
+            "code": "r19",
+            "name": "Fal"
+        },
+        "props": [
+            [
+                "blue",
+                "10% Chance to cast level 21 Enchant on kills with attacks"
+            ],
+            [
+                "blue",
+                "+40% Faster Hit Recovery"
+            ],
+            [
+                "blue",
+                "+(250 - 300)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "10% Chance of Crushing Blow"
+            ],
+            [
+                "blue",
+                "+(20 - 30)% Elemental Resistances"
+            ],
+            [
+                "blue",
+                "Nearby allies have +50% Enhanced Damage "
+            ],
+            [
+                "gray",
+                "Level 21 Enchant (",
+                "red",
+                "256-396",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [
+            "Item attribute requirements -20%",
+            "5% Increased Dexterity",
+            "Adds 35-50 Cold Damage",
+            "+10% Magic Find",
+            "5% Increased Strength"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Lawbringer",
+        "name": "Lawbringer",
+        "runes": [
+            "Amn",
+            "Lem",
+            "Ko"
+        ],
+        "items": [
+            "Sword",
+            "Hammer",
+            "Scepter"
+        ],
+        "eItems": [],
+        "lvlreq": "43",
+        "highestRune": {
+            "code": "r20",
+            "name": "Lem"
+        },
+        "props": [
+            [
+                "blue",
+                "20% Chance to cast level 15 Decrepify on striking"
+            ],
+            [
+                "blue",
+                "Grants Level 12 Sanctuary Aura"
+            ],
+            [
+                "blue",
+                "-50% Target Defense"
+            ],
+            [
+                "blue",
+                "Adds 150-210 Fire Damage"
+            ],
+            [
+                "blue",
+                "Adds 130-180 Cold Damage"
+            ],
+            [
+                "blue",
+                "Slain Monsters Rest in Peace"
+            ]
+        ],
+        "weaponProps": [
+            "-30% Target Defense",
+            "+5 to Light Radius",
+            "2% of Mana replenished on kill",
+            "5% Increased Dexterity"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Passion",
+        "name": "Passion",
+        "runes": [
+            "Dol",
+            "Ort",
+            "Lem"
+        ],
+        "items": [
+            "Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "43",
+        "highestRune": {
+            "code": "r20",
+            "name": "Lem"
+        },
+        "props": [
+            [
+                "blue",
+                "+25% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "+(160 - 210)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "(50 - 80)% Bonus to Attack Rating"
+            ],
+            [
+                "blue",
+                "+5 to Zeal"
+            ],
+            [
+                "blue",
+                "+1 to Berserk"
+            ],
+            [
+                "blue",
+                "Hit Blinds Target +10"
+            ],
+            [
+                "blue",
+                "Level 3 Heart of Wolverine (12 Charges)"
+            ]
+        ],
+        "weaponProps": [
+            "+5 to all Attributes",
+            "Adds 1-100 Lightning Damage",
+            "2% of Mana replenished on kill"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Treachery",
+        "name": "Treachery",
+        "runes": [
+            "Shael",
+            "Thul",
+            "Lem"
+        ],
+        "items": [
+            "Armor"
+        ],
+        "eItems": [],
+        "lvlreq": "43",
+        "highestRune": {
+            "code": "r20",
+            "name": "Lem"
+        },
+        "props": [
+            [
+                "blue",
+                "3% Chance to cast level 8 Venom on striking"
+            ],
+            [
+                "blue",
+                "2% Chance to cast level 6 Fade when struck"
+            ],
+            [
+                "blue",
+                "+2 to Assassin Skill Levels"
+            ],
+            [
+                "blue",
+                "+15% Increased Attack Speed"
+            ],
+            [
+                "gray",
+                "Level 8 Venom (",
+                "green",
+                "825-925 per Sec",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "+20% Faster Hit Recovery",
+            "+25% Cold Resistance",
+            "+5 Mana gained on kill"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Valor",
+        "name": "Valor",
+        "runes": [
+            "Lem",
+            "Fal"
+        ],
+        "items": [
+            "Sword",
+            "Hand to Hand"
+        ],
+        "eItems": [],
+        "lvlreq": "43",
+        "highestRune": {
+            "code": "r20",
+            "name": "Lem"
+        },
+        "props": [
+            [
+                "blue",
+                "+1 to All Skills"
+            ],
+            [
+                "blue",
+                "+(50 - 60)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "+(100 - 120)% Enhanced Defense"
+            ],
+            [
+                "blue",
+                "+10% Elemental Resistances"
+            ],
+            [
+                "blue",
+                "2% Life regenerated per second"
+            ]
+        ],
+        "weaponProps": [
+            "2% of Mana replenished on kill",
+            "5% Increased Strength"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Voice of Reason",
+        "name": "Voice of Reason",
+        "runes": [
+            "Lem",
+            "Ko",
+            "El",
+            "Eld"
+        ],
+        "items": [
+            "Sword",
+            "Mace"
+        ],
+        "eItems": [],
+        "lvlreq": "43",
+        "highestRune": {
+            "code": "r20",
+            "name": "Lem"
+        },
+        "props": [
+            [
+                "blue",
+                "18% Chance to cast level 20 Ice Blast on striking"
+            ],
+            [
+                "blue",
+                "15% Chance to cast level 13 Frozen Orb on striking"
+            ],
+            [
+                "blue",
+                "+(220 - 350)% Damage to Demons"
+            ],
+            [
+                "blue",
+                "+(280 - 300)% Damage to Undead"
+            ],
+            [
+                "blue",
+                "Adds 100-220 Cold Damage"
+            ],
+            [
+                "blue",
+                "Damage pierces (10 - 15)% Cold Resistance"
+            ],
+            [
+                "blue",
+                "Cannot Be Frozen"
+            ],
+            [
+                "gray",
+                "Level 20 Ice Blast (",
+                "blue",
+                "749-1043",
+                "gray",
+                ")"
+            ],
+            [
+                "gray",
+                "Level 13 Frozen Orb (",
+                "blue",
+                "405-444",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [
+            "2% of Mana replenished on kill",
+            "5% Increased Dexterity",
+            "+100 to Attack Rating",
+            "Hit Blinds Target +2"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Wealth",
+        "name": "Wealth",
+        "runes": [
+            "Lem",
+            "Ko",
+            "Tir"
+        ],
+        "items": [
+            "Armor"
+        ],
+        "eItems": [],
+        "lvlreq": "43",
+        "highestRune": {
+            "code": "r20",
+            "name": "Lem"
+        },
+        "props": [
+            [
+                "blue",
+                "+(250 - 300)% Gold Find"
+            ],
+            [
+                "blue",
+                "+(100 - 125)% Magic Find"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "+5 Mana gained on kill",
+            "5% Increased Dexterity",
+            "+100 Defense vs. Melee"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Enlightenment",
+        "name": "Enlightenment",
+        "runes": [
+            "Pul",
+            "Ral",
+            "Sol"
+        ],
+        "items": [
+            "Armor"
+        ],
+        "eItems": [],
+        "lvlreq": "45",
+        "highestRune": {
+            "code": "r21",
+            "name": "Pul"
+        },
+        "props": [
+            [
+                "blue",
+                "5% Chance to cast level 15 Fire Ball on striking"
+            ],
+            [
+                "blue",
+                "5% Chance to cast level 15 Blaze when struck"
+            ],
+            [
+                "blue",
+                "+2 to Sorceress Skill Levels"
+            ],
+            [
+                "blue",
+                "+1 to Warmth"
+            ],
+            [
+                "gray",
+                "Level 15 Fire Ball (",
+                "red",
+                "1631-3507",
+                "gray",
+                ")"
+            ],
+            [
+                "gray",
+                "Level 15 Blaze (",
+                "red",
+                "243-268 per Sec",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "+5 Life gained on kill",
+            "+25% Fire Resistance",
+            "Half Freeze Duration"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Bone",
+        "name": "Bone",
+        "runes": [
+            "Sol",
+            "Um",
+            "Um"
+        ],
+        "items": [
+            "Armor"
+        ],
+        "eItems": [],
+        "lvlreq": "47",
+        "highestRune": {
+            "code": "r22",
+            "name": "Um"
+        },
+        "props": [
+            [
+                "blue",
+                "15% Chance to cast level 10 Bone Spear on striking"
+            ],
+            [
+                "blue",
+                "15% Chance to cast level 10 Bone Armor when struck"
+            ],
+            [
+                "blue",
+                "+2 to Necromancer Skill Levels"
+            ],
+            [
+                "blue",
+                "+(100 - 150) to Mana"
+            ],
+            [
+                "gray",
+                "Level 10 Bone Spear (",
+                "orange",
+                "1467-2022",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "Half Freeze Duration",
+            "+15% Elemental Resistances",
+            "+15% Elemental Resistances"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Crescent Moon",
+        "name": "Crescent Moon",
+        "runes": [
+            "Shael",
+            "Um",
+            "Tir"
+        ],
+        "items": [
+            "Axe",
+            "Sword",
+            "Polearm"
+        ],
+        "eItems": [],
+        "lvlreq": "47",
+        "highestRune": {
+            "code": "r22",
+            "name": "Um"
+        },
+        "props": [
+            [
+                "blue",
+                "7% Chance to cast level 13 Static Field on striking"
+            ],
+            [
+                "blue",
+                "10% Chance to cast level 17 Chain Lightning on striking"
+            ],
+            [
+                "blue",
+                "+(180 - 220)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "Attacks ignore Defense rating"
+            ],
+            [
+                "blue",
+                "Damage pierces (10 - 15)% Lightning Resistance"
+            ],
+            [
+                "blue",
+                "+(9 - 11) Magic Absorption"
+            ],
+            [
+                "blue",
+                "Level 18 Summon Spirit Wolf (30 Charges)"
+            ],
+            [
+                "gray",
+                "Level 17 Chain Lightning (",
+                "yellow",
+                "3-3423",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [
+            "+20% Increased Attack Speed",
+            "25% Chance of Open Wounds",
+            "+20% Enhanced Damage"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Duress",
+        "name": "Duress",
+        "runes": [
+            "Shael",
+            "Um",
+            "Thul"
+        ],
+        "items": [
+            "Armor"
+        ],
+        "eItems": [],
+        "lvlreq": "47",
+        "highestRune": {
+            "code": "r22",
+            "name": "Um"
+        },
+        "props": [
+            [
+                "blue",
+                "+20% Faster Hit Recovery"
+            ],
+            [
+                "blue",
+                "+(10 - 20)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "Adds 37-133 Cold Damage"
+            ],
+            [
+                "blue",
+                "10% Chance of Crushing Blow"
+            ],
+            [
+                "blue",
+                "33% Chance of Open Wounds"
+            ],
+            [
+                "blue",
+                "+(150 - 200)% Enhanced Defense"
+            ],
+            [
+                "blue",
+                "-20% Slower Stamina Drain"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "+20% Faster Hit Recovery",
+            "+15% Elemental Resistances",
+            "+25% Cold Resistance"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Gloom",
+        "name": "Gloom",
+        "runes": [
+            "Fal",
+            "Um",
+            "Pul"
+        ],
+        "items": [
+            "Armor"
+        ],
+        "eItems": [],
+        "lvlreq": "47",
+        "highestRune": {
+            "code": "r22",
+            "name": "Um"
+        },
+        "props": [
+            [
+                "blue",
+                "15% Chance to cast level 3 Dim Vision when struck"
+            ],
+            [
+                "blue",
+                "+10% Faster Hit Recovery"
+            ],
+            [
+                "blue",
+                "+(170 - 230)% Enhanced Defense"
+            ],
+            [
+                "blue",
+                "+30% Elemental Resistances"
+            ],
+            [
+                "blue",
+                "Half Freeze Duration"
+            ],
+            [
+                "blue",
+                "5% Damage Taken Goes To Mana"
+            ],
+            [
+                "blue",
+                "-3 to Light Radius"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "5% Increased Strength",
+            "+15% Elemental Resistances",
+            "+5 Life gained on kill"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Stone",
+        "name": "Stone",
+        "runes": [
+            "Shael",
+            "Um",
+            "Pul",
+            "Lum"
+        ],
+        "items": [
+            "Armor"
+        ],
+        "eItems": [],
+        "lvlreq": "47",
+        "highestRune": {
+            "code": "r22",
+            "name": "Um"
+        },
+        "props": [
+            [
+                "blue",
+                "+40% Faster Hit Recovery"
+            ],
+            [
+                "blue",
+                "+(220 - 260)% Enhanced Defense"
+            ],
+            [
+                "blue",
+                "+300 Defense vs. Missile"
+            ],
+            [
+                "blue",
+                "+60 to Life"
+            ],
+            [
+                "blue",
+                "+(4 - 6)% Physical Resistance"
+            ],
+            [
+                "blue",
+                "Level 16 Clay Golem (16 Charges)"
+            ],
+            [
+                "blue",
+                "Level 16 Molten Boulder (80 Charges)"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "+20% Faster Hit Recovery",
+            "+15% Elemental Resistances",
+            "+5 Life gained on kill",
+            "5% Increased Energy"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Blood",
+        "name": "Blood",
+        "runes": [
+            "Tal",
+            "Mal",
+            "Ral",
+            "Mal"
+        ],
+        "items": [
+            "Armor"
+        ],
+        "eItems": [],
+        "lvlreq": "49",
+        "highestRune": {
+            "code": "r23",
+            "name": "Mal"
+        },
+        "props": [
+            [
+                "blue",
+                "3% Chance to cast level 4 Life Tap when struck"
+            ],
+            [
+                "blue",
+                "+25% Faster Hit Recovery"
+            ],
+            [
+                "blue",
+                "+(30 - 40)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "(10 - 14)% Life Leech"
+            ],
+            [
+                "blue",
+                "+(120 - 160)% Enhanced Defense"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "+25% Poison Resistance",
+            "5% Increased Maximum Life",
+            "+25% Fire Resistance",
+            "5% Increased Maximum Life"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Oath",
+        "name": "Oath",
+        "runes": [
+            "Shael",
+            "Pul",
+            "Mal",
+            "Lum"
+        ],
+        "items": [
+            "Sword",
+            "Axe",
+            "Mace"
+        ],
+        "eItems": [],
+        "lvlreq": "49",
+        "highestRune": {
+            "code": "r23",
+            "name": "Mal"
+        },
+        "props": [
+            [
+                "blue",
+                "30% Chance to cast level 20 Bone Spirit on melee attack"
+            ],
+            [
+                "blue",
+                "+30% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "+(200 - 250)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "+(10 - 15)% Magic Absorb"
+            ],
+            [
+                "blue",
+                "Level 17 Iron Golem (14 Charges)"
+            ],
+            [
+                "blue",
+                "Level 16 Heart of Wolverine (20 Charges)"
+            ],
+            [
+                "gray",
+                "Level 20 Bone Spirit (",
+                "orange",
+                "4910-5097",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [
+            "+20% Increased Attack Speed",
+            "2% of Life replenished on kill",
+            "4% Life Leech",
+            "5% Increased Energy"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Prudence",
+        "name": "Prudence",
+        "runes": [
+            "Mal",
+            "Tir"
+        ],
+        "items": [
+            "Armor"
+        ],
+        "eItems": [],
+        "lvlreq": "49",
+        "highestRune": {
+            "code": "r23",
+            "name": "Mal"
+        },
+        "props": [
+            [
+                "blue",
+                "+25% Faster Hit Recovery"
+            ],
+            [
+                "blue",
+                "+(140 - 170)% Enhanced Defense"
+            ],
+            [
+                "blue",
+                "+(25 - 35)% Elemental Resistances"
+            ],
+            [
+                "blue",
+                "+3 Physical Damage reduction"
+            ],
+            [
+                "blue",
+                "+10 Magic and Elemental Damage reduction"
+            ],
+            [
+                "blue",
+                "+1 to Light Radius"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "5% Increased Maximum Life",
+            "+100 Defense vs. Melee"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Rain",
+        "name": "Rain",
+        "runes": [
+            "Ort",
+            "Mal",
+            "Ith"
+        ],
+        "items": [
+            "Armor"
+        ],
+        "eItems": [],
+        "lvlreq": "49",
+        "highestRune": {
+            "code": "r23",
+            "name": "Mal"
+        },
+        "props": [
+            [
+                "blue",
+                "5% Chance to cast level 15 Twister on striking"
+            ],
+            [
+                "blue",
+                "5% Chance to cast level 15 Cyclone Armor when struck"
+            ],
+            [
+                "blue",
+                "+2 to Druid Skill Levels"
+            ],
+            [
+                "blue",
+                "+(100 - 150) to Mana"
+            ],
+            [
+                "gray",
+                "Level 15 Twister (",
+                "white",
+                "1020-1049",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "+25% Lightning Resistance",
+            "5% Increased Maximum Life",
+            "+25% Gold Find"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Sanctuary",
+        "name": "Sanctuary",
+        "runes": [
+            "Ko",
+            "Ko",
+            "Mal"
+        ],
+        "items": [
+            "Shield"
+        ],
+        "eItems": [],
+        "lvlreq": "49",
+        "highestRune": {
+            "code": "r23",
+            "name": "Mal"
+        },
+        "props": [
+            [
+                "blue",
+                "+20% Faster Hit Recovery"
+            ],
+            [
+                "blue",
+                "+20% Faster Block Rate"
+            ],
+            [
+                "blue",
+                "+8% Chance to Block"
+            ],
+            [
+                "blue",
+                "+(130 - 160)% Enhanced Defense"
+            ],
+            [
+                "blue",
+                "+250 Defense vs. Missile"
+            ],
+            [
+                "blue",
+                "+(40 - 50)% Elemental Resistances"
+            ],
+            [
+                "blue",
+                "Level 12 Slow Missiles (60 Charges)"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [],
+        "shieldProps": [
+            "5% Increased Dexterity",
+            "5% Increased Dexterity",
+            "1% Life regenerated per second"
+        ],
+        "slot": ""
+    },
+    {
+        "index": "Venom",
+        "name": "Venom",
+        "runes": [
+            "Tal",
+            "Dol",
+            "Mal"
+        ],
+        "items": [
+            "Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "49",
+        "highestRune": {
+            "code": "r23",
+            "name": "Mal"
+        },
+        "props": [
+            [
+                "blue",
+                "Attacks ignore Defense rating"
+            ],
+            [
+                "blue",
+                "+213 Poison Damage over 7 Seconds"
+            ],
+            [
+                "blue",
+                "7% Mana Leech"
+            ],
+            [
+                "blue",
+                "Level 15 Poison Explosion (27 Charges)"
+            ],
+            [
+                "blue",
+                "Level 13 Poison Nova (11 Charges)"
+            ]
+        ],
+        "weaponProps": [
+            "+58 Poison Damage over 3 Seconds",
+            "+5 to all Attributes",
+            "4% Life Leech"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Delirium",
+        "name": "Delirium",
+        "runes": [
+            "Lem",
+            "Ist",
+            "Io"
+        ],
+        "items": [
+            "Helm"
+        ],
+        "eItems": [],
+        "lvlreq": "51",
+        "highestRune": {
+            "code": "r24",
+            "name": "Ist"
+        },
+        "props": [
+            [
+                "blue",
+                "11% Chance to cast level 18 Confuse on striking"
+            ],
+            [
+                "blue",
+                "14% Chance to cast level 13 Terror when struck"
+            ],
+            [
+                "blue",
+                "6% Chance to cast level 14 Mind Blast when struck"
+            ],
+            [
+                "blue",
+                "1% Chance to cast level 50 Delirium when struck"
+            ],
+            [
+                "blue",
+                "+3 to All Skills"
+            ],
+            [
+                "blue",
+                "+261 Defense"
+            ],
+            [
+                "blue",
+                "Level 17 Attract (60 Charges)"
+            ],
+            [
+                "gray",
+                "Level 14 Mind Blast (",
+                "white",
+                "54-64",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "+5 Mana gained on kill",
+            "5% Increased Maximum Mana",
+            "5% Increased Vitality"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Kingslayer",
+        "name": "Kingslayer",
+        "runes": [
+            "Mal",
+            "Um",
+            "Gul",
+            "Fal"
+        ],
+        "items": [
+            "Sword",
+            "Axe"
+        ],
+        "eItems": [],
+        "lvlreq": "53",
+        "highestRune": {
+            "code": "r25",
+            "name": "Gul"
+        },
+        "props": [
+            [
+                "blue",
+                "+30% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "+(230 - 270)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "-25% Target Defense"
+            ],
+            [
+                "blue",
+                "30% Chance of Crushing Blow"
+            ],
+            [
+                "blue",
+                "25% Chance of Open Wounds"
+            ],
+            [
+                "blue",
+                "+1 to Elemental Hit"
+            ],
+            [
+                "blue",
+                "+40% Gold Find"
+            ]
+        ],
+        "weaponProps": [
+            "4% Life Leech",
+            "25% Chance of Open Wounds",
+            "Damage pierces 5% Poison Resistance",
+            "5% Increased Strength"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Loyalty",
+        "name": "Loyalty",
+        "runes": [
+            "Ko",
+            "Ist",
+            "Nef",
+            "Gul"
+        ],
+        "items": [
+            "Armor",
+            "Shield"
+        ],
+        "eItems": [],
+        "lvlreq": "53",
+        "highestRune": {
+            "code": "r25",
+            "name": "Gul"
+        },
+        "props": [
+            [
+                "blue",
+                "(7 - 10)% Life Leech"
+            ],
+            [
+                "blue",
+                "+(100 - 150)% Enhanced Defense"
+            ],
+            [
+                "blue",
+                "+(60 - 90) to Life"
+            ],
+            [
+                "blue",
+                "+(20 - 30)% Elemental Resistances"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "5% Increased Dexterity",
+            "5% Increased Maximum Mana",
+            "+100 Defense vs. Missile",
+            "10% Increased Poison Damage"
+        ],
+        "shieldProps": [
+            "5% Increased Dexterity",
+            "35% Increased Mana Regeneration",
+            "+100 Defense vs. Missile",
+            "+3% Maximum Poison Resistance"
+        ],
+        "slot": ""
+    },
+    {
+        "index": "Principle",
+        "name": "Principle",
+        "runes": [
+            "Ral",
+            "Gul",
+            "Eld"
+        ],
+        "items": [
+            "Armor"
+        ],
+        "eItems": [],
+        "lvlreq": "53",
+        "highestRune": {
+            "code": "r25",
+            "name": "Gul"
+        },
+        "props": [
+            [
+                "blue",
+                "100% Chance to cast level 5 Holy Bolt on striking"
+            ],
+            [
+                "blue",
+                "+2 to Paladin Skill Levels"
+            ],
+            [
+                "blue",
+                "+50% Damage to Undead"
+            ],
+            [
+                "blue",
+                "+(100 - 150) to Life"
+            ],
+            [
+                "gray",
+                "Level 5 Holy Bolt (",
+                "orange",
+                "600-720",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "+25% Fire Resistance",
+            "10% Increased Poison Damage",
+            "Attacker Takes Damage of 10"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Rift",
+        "name": "Rift",
+        "runes": [
+            "Hel",
+            "Ko",
+            "Lem",
+            "Gul"
+        ],
+        "items": [
+            "Polearm",
+            "Scepter"
+        ],
+        "eItems": [],
+        "lvlreq": "53",
+        "highestRune": {
+            "code": "r25",
+            "name": "Gul"
+        },
+        "props": [
+            [
+                "blue",
+                "12% Chance to cast level 30 Frozen Orb on melee attack"
+            ],
+            [
+                "blue",
+                "6% Chance to cast level 22 Tornado on striking"
+            ],
+            [
+                "blue",
+                "Adds 160-250 Magic Damage"
+            ],
+            [
+                "blue",
+                "Adds 60-180 Fire Damage"
+            ],
+            [
+                "blue",
+                "+(5 - 10) to all Attributes"
+            ],
+            [
+                "blue",
+                "38% Damage Taken Goes To Mana"
+            ],
+            [
+                "blue",
+                "Level 15 Iron Maiden (40 Charges)"
+            ],
+            [
+                "gray",
+                "Level 22 Tornado (",
+                "white",
+                "3440-3945",
+                "gray",
+                ")"
+            ],
+            [
+                "gray",
+                "Level 30 Frozen Orb (",
+                "blue",
+                "1001-1063",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [
+            "Item attribute requirements -20%",
+            "5% Increased Dexterity",
+            "2% of Mana replenished on kill",
+            "Damage pierces 5% Poison Resistance"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Shadow",
+        "name": "Shadow",
+        "runes": [
+            "Gul",
+            "Mal",
+            "Gul"
+        ],
+        "items": [
+            "Knife",
+            "Hand to Hand"
+        ],
+        "eItems": [],
+        "lvlreq": "53",
+        "highestRune": {
+            "code": "r25",
+            "name": "Gul"
+        },
+        "props": [
+            [
+                "blue",
+                "20% Chance to cast level 28 Poison Nova on kills with attacks"
+            ],
+            [
+                "blue",
+                "+20% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "+(215 - 275)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "Attacks ignore Defense rating"
+            ],
+            [
+                "blue",
+                "(5 - 10)% Increased Poison Damage"
+            ],
+            [
+                "blue",
+                "+(15 - 20) Life gained on kill"
+            ],
+            [
+                "gray",
+                "Level 28 Poison Nova (",
+                "green",
+                "1720-2695 per Sec for 4 Secs",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [
+            "Damage pierces 5% Poison Resistance",
+            "4% Life Leech",
+            "Damage pierces 5% Poison Resistance"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Death",
+        "name": "Death",
+        "runes": [
+            "Hel",
+            "El",
+            "Vex",
+            "Ort",
+            "Gul"
+        ],
+        "items": [
+            "Sword",
+            "Axe"
+        ],
+        "eItems": [],
+        "lvlreq": "55",
+        "highestRune": {
+            "code": "r26",
+            "name": "Vex"
+        },
+        "props": [
+            [
+                "blue",
+                "15% Chance to cast level 18 Glacial Spike on melee attack"
+            ],
+            [
+                "blue",
+                "100% Chance to cast level 44 Chain Lightning when you Die"
+            ],
+            [
+                "blue",
+                "+(300 - 340)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "15% Chance of Crushing Blow"
+            ],
+            [
+                "blue",
+                "0.25% Deadly Strike (Based on Character Level)"
+            ],
+            [
+                "blue",
+                "Level 22 Blood Golem (15 Charges)"
+            ],
+            [
+                "gray",
+                "Level 18 Glacial Spike (",
+                "blue",
+                "850-1093",
+                "gray",
+                ")"
+            ],
+            [
+                "gray",
+                "Level 44 Chain Lightning (",
+                "yellow",
+                "3-10524",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [
+            "Item attribute requirements -20%",
+            "+100 to Attack Rating",
+            "Damage pierces 5% Fire Resistance",
+            "Adds 1-100 Lightning Damage",
+            "Damage pierces 5% Poison Resistance"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Heart of the Oak",
+        "name": "Heart of the Oak",
+        "runes": [
+            "Ko",
+            "Vex",
+            "Pul",
+            "Thul"
+        ],
+        "items": [
+            "Staff",
+            "Mace"
+        ],
+        "eItems": [],
+        "lvlreq": "55",
+        "highestRune": {
+            "code": "r26",
+            "name": "Vex"
+        },
+        "props": [
+            [
+                "blue",
+                "+3 to All Skills"
+            ],
+            [
+                "blue",
+                "+40% Faster Cast Rate"
+            ],
+            [
+                "blue",
+                "+(30 - 40)% Elemental Resistances"
+            ],
+            [
+                "blue",
+                "Level 4 Oak Sage (25 Charges)"
+            ],
+            [
+                "blue",
+                "Level 14 Raven (60 Charges)"
+            ]
+        ],
+        "weaponProps": [
+            "5% Increased Dexterity",
+            "Damage pierces 5% Fire Resistance",
+            "2% of Life replenished on kill",
+            "Adds 35-50 Cold Damage"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Silence",
+        "name": "Silence",
+        "runes": [
+            "Dol",
+            "Eld",
+            "Hel",
+            "Ist",
+            "Tir",
+            "Vex"
+        ],
+        "items": [
+            "Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "55",
+        "highestRune": {
+            "code": "r26",
+            "name": "Vex"
+        },
+        "props": [
+            [
+                "blue",
+                "+3 to All Skills"
+            ],
+            [
+                "blue",
+                "+(30 - 40)% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "+(30 - 45)% Faster Hit Recovery"
+            ],
+            [
+                "blue",
+                "+(240 - 260)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "10% Mana Leech"
+            ],
+            [
+                "blue",
+                "Hit Blinds Target +33"
+            ],
+            [
+                "blue",
+                "+75% Elemental Resistances"
+            ]
+        ],
+        "weaponProps": [
+            "+5 to all Attributes",
+            "Hit Blinds Target +2",
+            "Item attribute requirements -20%",
+            "4% Mana Leech",
+            "+20% Enhanced Damage",
+            "Damage pierces 5% Fire Resistance"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Chaos",
+        "name": "Chaos",
+        "runes": [
+            "Fal",
+            "Ohm",
+            "Um"
+        ],
+        "items": [
+            "Hand to Hand"
+        ],
+        "eItems": [],
+        "lvlreq": "57",
+        "highestRune": {
+            "code": "r27",
+            "name": "Ohm"
+        },
+        "props": [
+            [
+                "blue",
+                "9% Chance to cast level 18 Frozen Orb on striking"
+            ],
+            [
+                "blue",
+                "4% Chance to cast level 20 Charged Bolt on striking"
+            ],
+            [
+                "blue",
+                "+35% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "+(240 - 290)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "Adds 216-471 Magic Damage"
+            ],
+            [
+                "blue",
+                "+1 to Whirlwind"
+            ],
+            [
+                "blue",
+                "+15 Life gained on killing a Demon"
+            ],
+            [
+                "gray",
+                "Level 18 Frozen Orb (",
+                "blue",
+                "564-608",
+                "gray",
+                ")"
+            ],
+            [
+                "gray",
+                "Level 20 Charged Bolt (",
+                "yellow",
+                "144-237",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [
+            "5% Increased Strength",
+            "Damage pierces 5% Cold Resistance",
+            "25% Chance of Open Wounds"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Exile",
+        "name": "Exile",
+        "runes": [
+            "Vex",
+            "Ohm",
+            "Ist",
+            "Dol"
+        ],
+        "items": [
+            "Paladin Item"
+        ],
+        "eItems": [],
+        "lvlreq": "57",
+        "highestRune": {
+            "code": "r27",
+            "name": "Ohm"
+        },
+        "props": [
+            [
+                "blue",
+                "15% Chance to cast level 5 Life Tap on striking"
+            ],
+            [
+                "blue",
+                "Grants Level 15 Defiance Aura"
+            ],
+            [
+                "blue",
+                "+2 to Offensive Auras (Paladin Only)"
+            ],
+            [
+                "blue",
+                "+30% Faster Block Rate"
+            ],
+            [
+                "blue",
+                "+(220 - 260)% Enhanced Defense"
+            ]
+        ],
+        "weaponProps": [
+            "Damage pierces 5% Fire Resistance",
+            "Damage pierces 5% Cold Resistance",
+            "4% Mana Leech",
+            "+5 to all Attributes"
+        ],
+        "armorHelmProps": [
+            "10% Increased Fire Damage",
+            "10% Increased Cold Damage",
+            "5% Increased Maximum Mana",
+            "25% Damage Taken Goes To Mana"
+        ],
+        "shieldProps": [
+            "+3% Maximum Fire Resistance",
+            "+3% Maximum Cold Resistance",
+            "35% Increased Mana Regeneration",
+            "+2% Chance to Block"
+        ],
+        "slot": ""
+    },
+    {
+        "index": "Solitude",
+        "name": "Solitude",
+        "runes": [
+            "Sol",
+            "Ohm",
+            "Ohm",
+            "Pul"
+        ],
+        "items": [
+            "Armor"
+        ],
+        "eItems": [],
+        "lvlreq": "57",
+        "highestRune": {
+            "code": "r27",
+            "name": "Ohm"
+        },
+        "props": [
+            [
+                "blue",
+                "20% Chance to cast level 15 Shiver Armor when struck"
+            ],
+            [
+                "blue",
+                "Grants Level 18 Meditation Aura"
+            ],
+            [
+                "blue",
+                "+25% Faster Hit Recovery"
+            ],
+            [
+                "blue",
+                "+200% Enhanced Defense"
+            ],
+            [
+                "blue",
+                "+1 to Mana (Based on Character Level)"
+            ],
+            [
+                "blue",
+                "+(25 - 30)% Elemental Resistances"
+            ],
+            [
+                "gray",
+                "Level 15 Shiver Armor (",
+                "blue",
+                "200-400",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "Half Freeze Duration",
+            "10% Increased Cold Damage",
+            "10% Increased Cold Damage",
+            "+5 Life gained on kill"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Fortitude",
+        "name": "Fortitude",
+        "runes": [
+            "El",
+            "Sol",
+            "Dol",
+            "Lo"
+        ],
+        "items": [
+            "Weapon",
+            "Armor"
+        ],
+        "eItems": [],
+        "lvlreq": "59",
+        "highestRune": {
+            "code": "r28",
+            "name": "Lo"
+        },
+        "props": [
+            [
+                "blue",
+                "20% Chance to cast level 15 Shiver Armor when struck"
+            ],
+            [
+                "blue",
+                "+25% Faster Cast Rate"
+            ],
+            [
+                "blue",
+                "+(150 - 200)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "+200% Enhanced Defense"
+            ],
+            [
+                "blue",
+                "+1 to Life (Based on Character Level)"
+            ],
+            [
+                "blue",
+                "+(25 - 30)% Elemental Resistances"
+            ],
+            [
+                "blue",
+                "12% Damage Taken Goes To Mana"
+            ],
+            [
+                "gray",
+                "Level 15 Shiver Armor (",
+                "blue",
+                "200-400",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [
+            "+100 to Attack Rating",
+            "10% Projectile Pierce Chance",
+            "+5 to all Attributes",
+            "Damage pierces 5% Lightning Resistance"
+        ],
+        "armorHelmProps": [
+            "+50 Defense",
+            "Half Freeze Duration",
+            "25% Damage Taken Goes To Mana",
+            "10% Increased Lightning Damage"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Grief",
+        "name": "Grief",
+        "runes": [
+            "Eth",
+            "Tir",
+            "Lo",
+            "Mal",
+            "Ral"
+        ],
+        "items": [
+            "Sword",
+            "Axe"
+        ],
+        "eItems": [],
+        "lvlreq": "59",
+        "highestRune": {
+            "code": "r28",
+            "name": "Lo"
+        },
+        "props": [
+            [
+                "blue",
+                "35% Chance to cast level 15 Venom on striking"
+            ],
+            [
+                "blue",
+                "+(30 - 40)% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "Damage +(350 - 400)"
+            ],
+            [
+                "blue",
+                "Attacks ignore Defense rating"
+            ],
+            [
+                "blue",
+                "+1.875% Damage to Demons (Based on Character Level)"
+            ],
+            [
+                "blue",
+                "Damage pierces (10 - 15)% Poison Resistance"
+            ],
+            [
+                "blue",
+                "+(10 - 15) Life gained on kill"
+            ],
+            [
+                "gray",
+                "Level 15 Venom (",
+                "green",
+                "1525-1625 per Sec",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [
+            "+10% Magic Find",
+            "+20% Enhanced Damage",
+            "Damage pierces 5% Lightning Resistance",
+            "4% Life Leech",
+            "Adds 40-60 Fire Damage"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Bramble",
+        "name": "Bramble",
+        "runes": [
+            "Ral",
+            "Ohm",
+            "Sur",
+            "Eth"
+        ],
+        "items": [
+            "Armor"
+        ],
+        "eItems": [],
+        "lvlreq": "61",
+        "highestRune": {
+            "code": "r29",
+            "name": "Sur"
+        },
+        "props": [
+            [
+                "blue",
+                "Grants Level 18 Thorns Aura"
+            ],
+            [
+                "blue",
+                "+50% Faster Hit Recovery"
+            ],
+            [
+                "blue",
+                "(30 - 50)% Increased Poison Damage"
+            ],
+            [
+                "blue",
+                "+300 Defense"
+            ],
+            [
+                "blue",
+                "+100% Poison Resistance"
+            ],
+            [
+                "blue",
+                "+13 Life gained on kill"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "+25% Fire Resistance",
+            "10% Increased Cold Damage",
+            "-5% Reduced Skill cooldown",
+            "+10% Magic Find"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Dragon",
+        "name": "Dragon",
+        "runes": [
+            "Sur",
+            "Lo",
+            "Sol"
+        ],
+        "items": [
+            "Armor",
+            "Shield"
+        ],
+        "eItems": [],
+        "lvlreq": "61",
+        "highestRune": {
+            "code": "r29",
+            "name": "Sur"
+        },
+        "props": [
+            [
+                "blue",
+                "12% Chance to cast level 15 Hydra on striking"
+            ],
+            [
+                "blue",
+                "8% Chance to cast level 5 Venom when struck"
+            ],
+            [
+                "blue",
+                "Grants Level 10 Enchantment of Fire Aura"
+            ],
+            [
+                "blue",
+                "+360 Defense"
+            ],
+            [
+                "blue",
+                "+230 Defense vs. Missile"
+            ],
+            [
+                "blue",
+                "+(40 - 50) to Strength"
+            ],
+            [
+                "gray",
+                "Level 15 Hydra (",
+                "red",
+                "460-640",
+                "gray",
+                ")"
+            ],
+            [
+                "gray",
+                "Level 5 Venom (",
+                "green",
+                "600-700 per Sec",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "-5% Reduced Skill cooldown",
+            "10% Increased Lightning Damage",
+            "Half Freeze Duration"
+        ],
+        "shieldProps": [
+            "-5% Reduced Skill cooldown",
+            "+3% Maximum Lightning Resistance",
+            "Half Freeze Duration"
+        ],
+        "slot": ""
+    },
+    {
+        "index": "Wind",
+        "name": "Wind",
+        "runes": [
+            "Sur",
+            "El"
+        ],
+        "items": [
+            "Melee Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "61",
+        "highestRune": {
+            "code": "r29",
+            "name": "Sur"
+        },
+        "props": [
+            [
+                "blue",
+                "100% Chance to cast level 22 Tornado on melee attack"
+            ],
+            [
+                "blue",
+                "+20% Faster Run/Walk"
+            ],
+            [
+                "blue",
+                "+40% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "+15% Faster Hit Recovery"
+            ],
+            [
+                "blue",
+                "+(120 - 160)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "-50% Target Defense"
+            ],
+            [
+                "blue",
+                "Level 13 Twister (127 Charges)"
+            ],
+            [
+                "gray",
+                "Level 22 Tornado (",
+                "white",
+                "3440-3945",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [
+            "+20% Faster Cast Rate",
+            "+100 to Attack Rating"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Beast",
+        "name": "Beast",
+        "runes": [
+            "Ber",
+            "Tir",
+            "Um",
+            "Mal",
+            "Lum"
+        ],
+        "items": [
+            "Axe",
+            "Scepter",
+            "Sword"
+        ],
+        "eItems": [],
+        "lvlreq": "63",
+        "highestRune": {
+            "code": "r30",
+            "name": "Ber"
+        },
+        "props": [
+            [
+                "blue",
+                "Grants Level 9 Fanaticism Aura"
+            ],
+            [
+                "blue",
+                "+40% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "+(240 - 270)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "Werebear"
+            ]
+        ],
+        "weaponProps": [
+            "Damage pierces 5% Physical Resistance",
+            "+20% Enhanced Damage",
+            "25% Chance of Open Wounds",
+            "4% Life Leech",
+            "5% Increased Energy"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Chains of Honor",
+        "name": "Chains of Honor",
+        "runes": [
+            "Dol",
+            "Um",
+            "Ber",
+            "Ist"
+        ],
+        "items": [
+            "Armor"
+        ],
+        "eItems": [],
+        "lvlreq": "63",
+        "highestRune": {
+            "code": "r30",
+            "name": "Ber"
+        },
+        "props": [
+            [
+                "blue",
+                "+2 to All Skills"
+            ],
+            [
+                "blue",
+                "+200% Damage to Demons"
+            ],
+            [
+                "blue",
+                "+200% Damage to Undead"
+            ],
+            [
+                "blue",
+                "8% Life Leech"
+            ],
+            [
+                "blue",
+                "+70% Enhanced Defense"
+            ],
+            [
+                "blue",
+                "+(25 - 50) to Strength"
+            ],
+            [
+                "blue",
+                "+50% Elemental Resistances"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "25% Damage Taken Goes To Mana",
+            "+15% Elemental Resistances",
+            "+5% Physical Resistance",
+            "5% Increased Maximum Mana"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Eternity",
+        "name": "Eternity",
+        "runes": [
+            "Amn",
+            "Ber",
+            "Ist",
+            "Sol",
+            "Sur"
+        ],
+        "items": [
+            "Melee Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "63",
+        "highestRune": {
+            "code": "r30",
+            "name": "Ber"
+        },
+        "props": [
+            [
+                "blue",
+                "+(300 - 350)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "+(10 - 15) to Revive"
+            ],
+            [
+                "blue",
+                "Attacks slow enemies by 33%"
+            ],
+            [
+                "blue",
+                "5% Life regenerated per second"
+            ],
+            [
+                "blue",
+                "Cannot Be Frozen"
+            ]
+        ],
+        "weaponProps": [
+            "-30% Target Defense",
+            "+5 to Light Radius",
+            "Damage pierces 5% Physical Resistance",
+            "4% Mana Leech",
+            "10% Projectile Pierce Chance",
+            "+20% Faster Cast Rate"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Glory",
+        "name": "Glory",
+        "runes": [
+            "Lem",
+            "Pul",
+            "Ber"
+        ],
+        "items": [
+            "Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "63",
+        "highestRune": {
+            "code": "r30",
+            "name": "Ber"
+        },
+        "props": [
+            [
+                "blue",
+                "Grants Level 20 Enchantment of Lightning Aura"
+            ],
+            [
+                "blue",
+                "+(60 - 80)% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "+8 to Attack Rating (Based on Character Level)"
+            ],
+            [
+                "blue",
+                "Prevent Monster Heal"
+            ],
+            [
+                "blue",
+                "-10% Maximum Lightning Resistance"
+            ],
+            [
+                "blue",
+                "+(10 - 15) Mana gained on striking"
+            ]
+        ],
+        "weaponProps": [
+            "2% of Mana replenished on kill",
+            "2% of Life replenished on kill",
+            "Damage pierces 5% Physical Resistance"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Infinity",
+        "name": "Infinity",
+        "runes": [
+            "Ber",
+            "Mal",
+            "Ber",
+            "Ist"
+        ],
+        "items": [
+            "Polearm",
+            "2H Sword",
+            "Bow"
+        ],
+        "eItems": [],
+        "lvlreq": "63",
+        "highestRune": {
+            "code": "r30",
+            "name": "Ber"
+        },
+        "props": [
+            [
+                "blue",
+                "50% Chance to cast level 20 Chain Lightning on kills with attacks"
+            ],
+            [
+                "blue",
+                "Grants Level 12 Conviction Aura"
+            ],
+            [
+                "blue",
+                "+35% Faster Run/Walk"
+            ],
+            [
+                "blue",
+                "+(140 - 180)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "Damage pierces (20 - 25)% Lightning Resistance"
+            ],
+            [
+                "blue",
+                "+(20 - 30) to Vitality"
+            ],
+            [
+                "gray",
+                "Level 20 Chain Lightning (",
+                "yellow",
+                "3-4080",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [
+            "Damage pierces 5% Physical Resistance",
+            "4% Life Leech",
+            "Damage pierces 5% Physical Resistance",
+            "4% Mana Leech"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Wrath",
+        "name": "Wrath",
+        "runes": [
+            "Pul",
+            "Lum",
+            "Ber",
+            "Mal"
+        ],
+        "items": [
+            "Missile Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "63",
+        "highestRune": {
+            "code": "r30",
+            "name": "Ber"
+        },
+        "props": [
+            [
+                "blue",
+                "5% Chance to cast level 10 Life Tap on striking"
+            ],
+            [
+                "blue",
+                "30% Chance to cast level 1 Decrepify on striking"
+            ],
+            [
+                "blue",
+                "+300% Damage to Demons"
+            ],
+            [
+                "blue",
+                "+(250 - 300)% Damage to Undead"
+            ],
+            [
+                "blue",
+                "Adds 85-120 Magic Damage"
+            ],
+            [
+                "blue",
+                "Adds 41-240 Lightning Damage"
+            ],
+            [
+                "blue",
+                "Cannot Be Frozen"
+            ]
+        ],
+        "weaponProps": [
+            "2% of Life replenished on kill",
+            "5% Increased Energy",
+            "Damage pierces 5% Physical Resistance",
+            "4% Life Leech"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Brand",
+        "name": "Brand",
+        "runes": [
+            "Jah",
+            "Lo",
+            "Mal",
+            "Gul"
+        ],
+        "items": [
+            "Missile Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "65",
+        "highestRune": {
+            "code": "r31",
+            "name": "Jah"
+        },
+        "props": [
+            [
+                "blue",
+                "25% Chance to cast level 22 Bone Spear on striking"
+            ],
+            [
+                "blue",
+                "35% Chance to cast level 14 Amplify Damage when struck"
+            ],
+            [
+                "blue",
+                "Fires Explosive Arrows or Bolts"
+            ],
+            [
+                "blue",
+                "+(260 - 340)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "+(280 - 330)% Damage to Demons"
+            ],
+            [
+                "blue",
+                "Prevent Monster Heal"
+            ],
+            [
+                "blue",
+                "Knockback"
+            ],
+            [
+                "gray",
+                "Level 22 Bone Spear (",
+                "orange",
+                "3933-5262",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [
+            "Damage pierces 5% Magic Resistance",
+            "Damage pierces 5% Lightning Resistance",
+            "4% Life Leech",
+            "Damage pierces 5% Poison Resistance"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Destruction",
+        "name": "Destruction",
+        "runes": [
+            "Vex",
+            "Lo",
+            "Ber",
+            "Jah",
+            "Ko"
+        ],
+        "items": [
+            "Polearm",
+            "Sword"
+        ],
+        "eItems": [],
+        "lvlreq": "65",
+        "highestRune": {
+            "code": "r31",
+            "name": "Jah"
+        },
+        "props": [
+            [
+                "blue",
+                "6% Chance to cast level 30 Nova on melee attack"
+            ],
+            [
+                "blue",
+                "100% Chance to cast level 45 Meteor when you Die"
+            ],
+            [
+                "blue",
+                "4% Chance to cast level 32 Molten Boulder on striking"
+            ],
+            [
+                "blue",
+                "3% Chance to cast level 35 Volcano on striking"
+            ],
+            [
+                "blue",
+                "+350% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "Adds 100-180 Magic Damage"
+            ],
+            [
+                "blue",
+                "Prevent Monster Heal"
+            ],
+            [
+                "gray",
+                "Level 32 Molten Boulder (",
+                "white",
+                "1392-1664",
+                "gray",
+                ",",
+                "red",
+                "3524-4322",
+                "gray",
+                ")"
+            ],
+            [
+                "gray",
+                "Level 45 Meteor (",
+                "red",
+                "11375-14336",
+                "gray",
+                ")"
+            ],
+            [
+                "gray",
+                "Level 30 Nova (",
+                "yellow",
+                "836-5170",
+                "gray",
+                ")"
+            ],
+            [
+                "gray",
+                "Level 35 Volcano (",
+                "white",
+                "785-989",
+                "gray",
+                ",",
+                "red",
+                "1474-2227",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [
+            "Damage pierces 5% Fire Resistance",
+            "Damage pierces 5% Lightning Resistance",
+            "Damage pierces 5% Physical Resistance",
+            "Damage pierces 5% Magic Resistance",
+            "5% Increased Dexterity"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Dream",
+        "name": "Dream",
+        "runes": [
+            "Io",
+            "Jah",
+            "Pul"
+        ],
+        "items": [
+            "Helm",
+            "Shield"
+        ],
+        "eItems": [],
+        "lvlreq": "65",
+        "highestRune": {
+            "code": "r31",
+            "name": "Jah"
+        },
+        "props": [
+            [
+                "blue",
+                "Grants Level 10 Enchantment of Lightning Aura"
+            ],
+            [
+                "blue",
+                "+(20 - 30)% Faster Hit Recovery"
+            ],
+            [
+                "blue",
+                "+(150 - 220) Defense"
+            ],
+            [
+                "blue",
+                "+0.625 to Mana (Based on Character Level)"
+            ],
+            [
+                "blue",
+                "+(5 - 20)% Elemental Resistances"
+            ],
+            [
+                "blue",
+                "+(12 - 25)% Magic Find"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "5% Increased Vitality",
+            "+7% Magic Resistance",
+            "+5 Life gained on kill"
+        ],
+        "shieldProps": [
+            "5% Increased Vitality",
+            "+10% Magic Resistance",
+            "+15 Physical Damage reduction"
+        ],
+        "slot": ""
+    },
+    {
+        "index": "Faith",
+        "name": "Faith",
+        "runes": [
+            "Ohm",
+            "Jah",
+            "Lem",
+            "Eld"
+        ],
+        "items": [
+            "Missile Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "65",
+        "highestRune": {
+            "code": "r31",
+            "name": "Jah"
+        },
+        "props": [
+            [
+                "blue",
+                "Grants Level 16 Fanaticism Aura"
+            ],
+            [
+                "blue",
+                "+(1 - 2) to All Skills"
+            ],
+            [
+                "blue",
+                "+280% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "300% Bonus to Attack Rating"
+            ],
+            [
+                "blue",
+                "Adds 120 Fire Damage"
+            ],
+            [
+                "blue",
+                "10% Chance to reanimate slain enemies as Returned"
+            ]
+        ],
+        "weaponProps": [
+            "Damage pierces 5% Cold Resistance",
+            "Damage pierces 5% Magic Resistance",
+            "2% of Mana replenished on kill",
+            "Hit Blinds Target +2"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Famine",
+        "name": "Famine",
+        "runes": [
+            "Fal",
+            "Ohm",
+            "Ort",
+            "Jah"
+        ],
+        "items": [
+            "Axe",
+            "Hammer"
+        ],
+        "eItems": [],
+        "lvlreq": "65",
+        "highestRune": {
+            "code": "r31",
+            "name": "Jah"
+        },
+        "props": [
+            [
+                "blue",
+                "+30% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "+(270 - 320)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "Adds 180-200 Magic Damage"
+            ],
+            [
+                "blue",
+                "+(50 - 200) to Minimum Fire Damage"
+            ],
+            [
+                "blue",
+                "+(50 - 200) to Maximum Fire Damage"
+            ],
+            [
+                "blue",
+                "+(50 - 200) to Minimum Lightning Damage"
+            ],
+            [
+                "blue",
+                "+(50 - 200) to Maximum Lightning Damage"
+            ],
+            [
+                "blue",
+                "+(50 - 200) to Minimum Cold Damage"
+            ],
+            [
+                "blue",
+                "+(50 - 200) to Maximum Cold Damage"
+            ],
+            [
+                "blue",
+                "12% Life Leech"
+            ],
+            [
+                "blue",
+                "Prevent Monster Heal"
+            ]
+        ],
+        "weaponProps": [
+            "5% Increased Strength",
+            "Damage pierces 5% Cold Resistance",
+            "Adds 1-100 Lightning Damage",
+            "Damage pierces 5% Magic Resistance"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Fury",
+        "name": "Fury",
+        "runes": [
+            "Jah",
+            "Gul",
+            "Eth"
+        ],
+        "items": [
+            "Melee Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "65",
+        "highestRune": {
+            "code": "r31",
+            "name": "Jah"
+        },
+        "props": [
+            [
+                "blue",
+                "+40% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "+(250 - 300)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "6% Life Leech"
+            ],
+            [
+                "blue",
+                "33% Deadly Strike"
+            ],
+            [
+                "blue",
+                "66% Chance of Open Wounds"
+            ],
+            [
+                "blue",
+                "+5 to Frenzy (Barbarian Only)"
+            ],
+            [
+                "blue",
+                "Prevent Monster Heal"
+            ]
+        ],
+        "weaponProps": [
+            "Damage pierces 5% Magic Resistance",
+            "Damage pierces 5% Poison Resistance",
+            "+10% Magic Find"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Ice",
+        "name": "Ice",
+        "runes": [
+            "Amn",
+            "Shael",
+            "Jah",
+            "Lo"
+        ],
+        "items": [
+            "Missile Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "65",
+        "highestRune": {
+            "code": "r31",
+            "name": "Jah"
+        },
+        "props": [
+            [
+                "blue",
+                "15% Chance to cast level 36 Frost Nova on striking"
+            ],
+            [
+                "blue",
+                "Grants Level 15 Enchantment of Cold Aura"
+            ],
+            [
+                "blue",
+                "+(160 - 200)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "(25 - 30)% Increased Cold Damage"
+            ],
+            [
+                "blue",
+                "Damage pierces 15% Cold Resistance"
+            ],
+            [
+                "blue",
+                "3.13% Extra Gold from Monsters (Based on Character Level)"
+            ],
+            [
+                "gray",
+                "Level 36 Frost Nova (",
+                "blue",
+                "3738-4543",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [
+            "-30% Target Defense",
+            "+5 to Light Radius",
+            "+20% Increased Attack Speed",
+            "Damage pierces 5% Magic Resistance",
+            "Damage pierces 5% Lightning Resistance"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Last Wish",
+        "name": "Last Wish",
+        "runes": [
+            "Jah",
+            "Mal",
+            "Jah",
+            "Sur",
+            "Jah",
+            "Ber"
+        ],
+        "items": [
+            "Sword",
+            "Hammer",
+            "Axe"
+        ],
+        "eItems": [],
+        "lvlreq": "65",
+        "highestRune": {
+            "code": "r31",
+            "name": "Jah"
+        },
+        "props": [
+            [
+                "blue",
+                "10% Chance to cast level 18 Life Tap on striking"
+            ],
+            [
+                "blue",
+                "6% Chance to cast level 11 Fade when struck"
+            ],
+            [
+                "blue",
+                "Grants Level 25 Might Aura"
+            ],
+            [
+                "blue",
+                "+(350 - 400)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "(40 - 50)% Chance of Crushing Blow"
+            ],
+            [
+                "blue",
+                "2% Better Chance of Getting Magic Items (Based on Character Level)"
+            ]
+        ],
+        "weaponProps": [
+            "Damage pierces 5% Magic Resistance",
+            "4% Life Leech",
+            "Damage pierces 5% Magic Resistance",
+            "+20% Faster Cast Rate",
+            "Damage pierces 5% Magic Resistance",
+            "Damage pierces 5% Physical Resistance"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Phoenix",
+        "name": "Phoenix",
+        "runes": [
+            "Vex",
+            "Vex",
+            "Lo",
+            "Jah"
+        ],
+        "items": [
+            "Weapon",
+            "Shield"
+        ],
+        "eItems": [],
+        "lvlreq": "65",
+        "highestRune": {
+            "code": "r31",
+            "name": "Jah"
+        },
+        "props": [
+            [
+                "blue",
+                "10% Chance to cast level 25 Firestorm on striking"
+            ],
+            [
+                "blue",
+                "Grants Level 18 Redemption Aura"
+            ],
+            [
+                "blue",
+                "+(350 - 400)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "Damage pierces (12 - 16)% Fire Resistance"
+            ],
+            [
+                "blue",
+                "+(350 - 400) Defense vs. Missile"
+            ],
+            [
+                "blue",
+                "+(15 - 21) Fire Absorption"
+            ],
+            [
+                "gray",
+                "Level 25 Firestorm (",
+                "red",
+                "816-902 per Sec",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [
+            "Damage pierces 5% Fire Resistance",
+            "Damage pierces 5% Fire Resistance",
+            "Damage pierces 5% Lightning Resistance",
+            "Damage pierces 5% Magic Resistance"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [
+            "+3% Maximum Fire Resistance",
+            "+3% Maximum Fire Resistance",
+            "+3% Maximum Lightning Resistance",
+            "+10% Magic Resistance"
+        ],
+        "slot": ""
+    },
+    {
+        "index": "Doom",
+        "name": "Doom",
+        "runes": [
+            "Hel",
+            "Ohm",
+            "Um",
+            "Lo",
+            "Cham"
+        ],
+        "items": [
+            "Axe",
+            "Polearm",
+            "Hammer"
+        ],
+        "eItems": [],
+        "lvlreq": "67",
+        "highestRune": {
+            "code": "r32",
+            "name": "Cham"
+        },
+        "props": [
+            [
+                "blue",
+                "5% Chance to cast level 30 Volcano on striking"
+            ],
+            [
+                "blue",
+                "Grants Level 20 Enchantment of Cold Aura"
+            ],
+            [
+                "blue",
+                "+2 to All Skills"
+            ],
+            [
+                "blue",
+                "+45% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "+(280 - 320)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "Damage pierces (20 - 25)% Cold Resistance"
+            ],
+            [
+                "gray",
+                "Level 30 Volcano (",
+                "white",
+                "570-724",
+                "gray",
+                ",",
+                "red",
+                "1069-1707",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [
+            "Item attribute requirements -20%",
+            "Damage pierces 5% Cold Resistance",
+            "25% Chance of Open Wounds",
+            "Damage pierces 5% Lightning Resistance",
+            "-5% Enemy Elemental Resistances"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Hand of Justice",
+        "name": "Hand of Justice",
+        "runes": [
+            "Sur",
+            "Cham",
+            "Amn",
+            "Lo"
+        ],
+        "items": [
+            "Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "67",
+        "highestRune": {
+            "code": "r32",
+            "name": "Cham"
+        },
+        "props": [
+            [
+                "blue",
+                "100% Chance to cast level 48 Meteor when you Die"
+            ],
+            [
+                "blue",
+                "Grants Level 8 Enchantment of Fire Aura"
+            ],
+            [
+                "blue",
+                "+33% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "+(280 - 330)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "Attacks ignore Defense rating"
+            ],
+            [
+                "blue",
+                "Damage pierces 15% Fire Resistance"
+            ],
+            [
+                "gray",
+                "Level 48 Meteor (",
+                "red",
+                "12428-15623",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [
+            "+20% Faster Cast Rate",
+            "-5% Enemy Elemental Resistances",
+            "-30% Target Defense",
+            "+5 to Light Radius",
+            "Damage pierces 5% Lightning Resistance"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Idioglossia",
+        "name": "Idioglossia",
+        "runes": [
+            "Cham",
+            "Shael",
+            "Ohm"
+        ],
+        "items": [
+            "Shield"
+        ],
+        "eItems": [],
+        "lvlreq": "67",
+        "highestRune": {
+            "code": "r32",
+            "name": "Cham"
+        },
+        "props": [
+            [
+                "blue",
+                "+(20 - 25)% Faster Run/Walk"
+            ],
+            [
+                "blue",
+                "+(20 - 25)% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "+(20 - 25)% Faster Cast Rate"
+            ],
+            [
+                "blue",
+                "+(20 - 25)% Faster Block Rate"
+            ],
+            [
+                "blue",
+                "+(180 - 200)% Enhanced Defense"
+            ],
+            [
+                "blue",
+                "+(20 - 25)% increased Curse effect"
+            ],
+            [
+                "blue",
+                "(60 - 80)% Reduced duration of Curses on you"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [],
+        "shieldProps": [
+            "+3% Maximum Elemental Resistances",
+            "+20% Faster Block Rate",
+            "+3% Maximum Cold Resistance"
+        ],
+        "slot": ""
+    },
+    {
+        "index": "Plague",
+        "name": "Plague",
+        "runes": [
+            "Cham",
+            "Fal",
+            "Um"
+        ],
+        "items": [
+            "Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "67",
+        "highestRune": {
+            "code": "r32",
+            "name": "Cham"
+        },
+        "props": [
+            [
+                "blue",
+                "8% Chance to cast level 18 Poison Nova on striking"
+            ],
+            [
+                "blue",
+                "20% Chance to cast level 12 Lower Resist when struck"
+            ],
+            [
+                "blue",
+                "Grants Level 15 Cleansing Aura"
+            ],
+            [
+                "blue",
+                "+2 to All Skills"
+            ],
+            [
+                "blue",
+                "Damage pierces (10 - 15)% Poison Resistance"
+            ],
+            [
+                "blue",
+                "0.38% Deadly Strike (Based on Character Level)"
+            ],
+            [
+                "gray",
+                "Level 18 Poison Nova (",
+                "green",
+                "842-1482 per Sec for 4 Secs",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [
+            "-5% Enemy Elemental Resistances",
+            "5% Increased Strength",
+            "25% Chance of Open Wounds"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Pride",
+        "name": "Pride",
+        "runes": [
+            "Cham",
+            "Sur",
+            "Io",
+            "Lo"
+        ],
+        "items": [
+            "Polearm",
+            "2H Sword",
+            "Bow"
+        ],
+        "eItems": [],
+        "lvlreq": "67",
+        "highestRune": {
+            "code": "r32",
+            "name": "Cham"
+        },
+        "props": [
+            [
+                "blue",
+                "20% Chance to cast level 38 Fire Wall when struck"
+            ],
+            [
+                "blue",
+                "Grants Level 16 Concentration Aura"
+            ],
+            [
+                "blue",
+                "(260 - 300)% Bonus to Attack Rating"
+            ],
+            [
+                "blue",
+                "+1% Damage to Demons (Based on Character Level)"
+            ],
+            [
+                "blue",
+                "Adds 1-1000 Lightning Damage"
+            ],
+            [
+                "blue",
+                "1.88% Extra Gold from Monsters (Based on Character Level)"
+            ],
+            [
+                "gray",
+                "Level 38 Fire Wall (",
+                "red",
+                "212-213",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [
+            "-5% Enemy Elemental Resistances",
+            "+20% Faster Cast Rate",
+            "5% Increased Vitality",
+            "Damage pierces 5% Lightning Resistance"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Question",
+        "name": "Question",
+        "runes": [
+            "Cham",
+            "Vex"
+        ],
+        "items": [
+            "Helm"
+        ],
+        "eItems": [],
+        "lvlreq": "67",
+        "highestRune": {
+            "code": "r32",
+            "name": "Cham"
+        },
+        "props": [
+            [
+                "blue",
+                "+2 to All Skills"
+            ],
+            [
+                "blue",
+                "+(20 - 30)% Faster Cast Rate"
+            ],
+            [
+                "blue",
+                "+(15 - 20)% Faster Hit Recovery"
+            ],
+            [
+                "blue",
+                "+(10 - 15)% Elemental Resistances"
+            ],
+            [
+                "blue",
+                "+(10 - 15) Magic and Elemental Damage reduction"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "+10% Increased Elemental Damage",
+            "10% Increased Fire Damage"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Breath of the Dying",
+        "name": "Breath of the Dying",
+        "runes": [
+            "Vex",
+            "Hel",
+            "El",
+            "Eld",
+            "Zod",
+            "Eth"
+        ],
+        "items": [
+            "Weapon"
+        ],
+        "eItems": [],
+        "lvlreq": "69",
+        "highestRune": {
+            "code": "r33",
+            "name": "Zod"
+        },
+        "props": [
+            [
+                "blue",
+                "20% Chance to cast level 32 Poison Nova on kills with attacks"
+            ],
+            [
+                "blue",
+                "+60% Increased Attack Speed"
+            ],
+            [
+                "blue",
+                "+(300 - 350)% Enhanced Damage"
+            ],
+            [
+                "blue",
+                "+125% Damage to Undead"
+            ],
+            [
+                "blue",
+                "(12 - 15)% Life Leech"
+            ],
+            [
+                "blue",
+                "Prevent Monster Heal"
+            ],
+            [
+                "blue",
+                "+30 to all Attributes"
+            ],
+            [
+                "gray",
+                "Level 32 Poison Nova (",
+                "green",
+                "2257-3370 per Sec for 4 Secs",
+                "gray",
+                ")"
+            ]
+        ],
+        "weaponProps": [
+            "Damage pierces 5% Fire Resistance",
+            "Item attribute requirements -20%",
+            "+100 to Attack Rating",
+            "Hit Blinds Target +2",
+            "+1 to All Skills",
+            "+10% Magic Find"
+        ],
+        "armorHelmProps": [],
+        "shieldProps": [],
+        "slot": ""
+    },
+    {
+        "index": "Immortality",
+        "name": "Immortality",
+        "runes": [
+            "Eth",
+            "Zod",
+            "Pul",
+            "Zod"
+        ],
+        "items": [
+            "Armor"
+        ],
+        "eItems": [],
+        "lvlreq": "69",
+        "highestRune": {
+            "code": "r33",
+            "name": "Zod"
+        },
+        "props": [
+            [
+                "blue",
+                "15% Chance to gain 4 seconds of Resurgence when Struck"
+            ],
+            [
+                "blue",
+                "+(200 - 300)% Enhanced Defense"
+            ],
+            [
+                "blue",
+                "(30 - 40)% Increased Maximum Life"
+            ],
+            [
+                "blue",
+                "+25% Magic Absorb"
+            ],
+            [
+                "blue",
+                "Cannot Be Frozen"
+            ]
+        ],
+        "weaponProps": [],
+        "armorHelmProps": [
+            "+10% Magic Find",
+            "+1 to All Skills",
+            "+5 Life gained on kill",
+            "+1 to All Skills"
+        ],
+        "shieldProps": [],
+        "slot": ""
+    }
+]

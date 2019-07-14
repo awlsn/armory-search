@@ -17,6 +17,9 @@ function FilterList(props) {
 
             return <FilterInventorySlot toggleCheckboxState={toggleCheckboxState} filters={filters} toggleWeaponClick={toggleWeaponClick} />
         }
+        if (type === "subcategory") {
+            return <div className="filter three columns"><h5 className="item-name diablo_unique">Sub Categories </h5>{checkBoxList}</div>
+        }
         else return <div className="filter three columns">{checkBoxList}</div>
     }
 

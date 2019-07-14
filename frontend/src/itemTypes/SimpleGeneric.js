@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SimpleProperties from './SimpleProperties'
+import ItemProperties from './ItemProperties'
 class Generic extends Component {
 
     render() {
@@ -17,8 +17,8 @@ class Generic extends Component {
                     </div>
 
                     <div className="item-right eight columns">
-                        <SimpleProperties key="generic-baseProps" color="white" itemProps={item.baseProps} />
-                        <SimpleProperties key="generic-props" color="blue" itemProps={item.props} />
+                        <ItemProperties key="generic-baseProps" color="white" itemProps={item.baseProps} />
+                        <ItemProperties key="generic-props" color="blue" itemProps={item.props} />
 
 
                     </div>
